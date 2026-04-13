@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "packet_type": "task",
+  "packet_id": "fa03cbb5-00e9-4d4b-8817-4069b3565387",
+  "trace_id": "ccbdb0d1-18f2-4723-9fe9-a1a109ae7727",
+  "parent_packet_id": null,
+  "created_at": "2026-04-13T19:51:32Z",
+  "from_agent": "tower",
+  "to_agent": "builder",
+  "task_type": "implementation",
+  "priority": "high",
+  "project_id": "atlas-corl-2026",
+  "session_id": "019d87bf-6dad-7233-addd-de3fb099e0ae",
+  "title": "Rename schedule section to program",
+  "objective": "Update the homepage navigation and section labeling so the generic agenda appears under Program rather than Schedule.",
+  "instructions": [
+    "Edit index.html to rename the Schedule navigation label and section heading to Program.",
+    "Update the in-page anchor target consistently if needed so navigation still works cleanly.",
+    "Preserve the generic agenda content already drafted for that section."
+  ],
+  "constraints": [
+    "Do not perform any git operations.",
+    "Limit scope to the Program rename and any minimal anchor consistency updates only."
+  ],
+  "inputs": {
+    "files": [
+      "/Users/yashturkar/Workspace/atlas-corl-2026/index.html"
+    ],
+    "artifacts": [],
+    "references": []
+  },
+  "expected_outputs": [
+    "Homepage uses Program instead of Schedule for the agenda section."
+  ],
+  "definition_of_done": [
+    "Navigation label reads Program.",
+    "Section heading reads Program and in-page navigation still works.",
+    "ResultPacket lists changed artifacts and doc implications."
+  ],
+  "memory_context_refs": [],
+  "doc_context_refs": [
+    "/Users/yashturkar/Workspace/atlas-corl-2026/docs/product-specs/workshop-website.md"
+  ],
+  "time_budget": {
+    "soft_seconds": 900,
+    "hard_seconds": 3600
+  },
+  "requires_review": true,
+  "allow_partial": false,
+  "metadata": {}
+}

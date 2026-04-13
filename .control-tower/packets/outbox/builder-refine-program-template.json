@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0.0",
+  "packet_type": "task",
+  "packet_id": "db62cbba-382b-422a-a509-681e4a8bd29a",
+  "trace_id": "3c849b0e-8996-4cc3-a70f-802a36423642",
+  "parent_packet_id": null,
+  "created_at": "2026-04-13T20:04:43Z",
+  "from_agent": "tower",
+  "to_agent": "builder",
+  "task_type": "implementation",
+  "priority": "high",
+  "project_id": "atlas-corl-2026",
+  "session_id": "019d87bf-6dad-7233-addd-de3fb099e0ae",
+  "title": "Refine Program section to invited-talks template",
+  "objective": "Update the homepage Program section so it describes a full-day workshop template built around invited talks, poster sessions, and coffee/lunch breaks only.",
+  "instructions": [
+    "Edit the Program section in index.html.",
+    "Replace the current generic agenda copy with a concise full-day workshop template that mentions only invited talks, poster sessions, coffee breaks, and a lunch break.",
+    "Do not mention lightning talks, panel discussions, tutorials, or named speakers.",
+    "Keep the section labeled Program and preserve the existing single-page structure."
+  ],
+  "constraints": [
+    "Do not perform any git operations.",
+    "Limit scope to the Program section content unless a minimal formatting tweak is required for readability."
+  ],
+  "inputs": {
+    "files": [
+      "/Users/yashturkar/Workspace/atlas-corl-2026/index.html"
+    ],
+    "artifacts": [],
+    "references": []
+  },
+  "expected_outputs": [
+    "Homepage Program section describes the invited-talks and posters template agenda."
+  ],
+  "definition_of_done": [
+    "Program copy mentions only invited talks, poster sessions, coffee breaks, and a lunch break.",
+    "No disallowed session types remain in the Program section.",
+    "ResultPacket lists changed artifacts and doc implications."
+  ],
+  "memory_context_refs": [],
+  "doc_context_refs": [
+    "/Users/yashturkar/Workspace/atlas-corl-2026/docs/product-specs/workshop-website.md"
+  ],
+  "time_budget": {
+    "soft_seconds": 900,
+    "hard_seconds": 3600
+  },
+  "requires_review": true,
+  "allow_partial": false,
+  "metadata": {}
+}

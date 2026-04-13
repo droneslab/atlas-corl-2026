@@ -19,6 +19,12 @@ The website is intentionally lightweight:
 - `index.html`: landing page and all current content sections
 - `assets/main.css`: typography, layout, responsive behavior, and visual theme
 
+## Banner Implementation
+
+- The homepage hero remains text-first HTML, with styling applied directly to `.banner-panel`.
+- `assets/main.css` uses a layered gradient fill for `.banner-panel`, so the title and logistics text stay legible without depending on a repository image asset.
+- Small-screen behavior keeps the full-width banner treatment while reducing typography and padding so the text remains readable on narrow viewports.
+
 ## Editing Guidance
 
 - Prefer editing content directly in `index.html` while the site remains single-page.

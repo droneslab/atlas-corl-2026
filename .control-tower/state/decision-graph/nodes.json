@@ -613,6 +613,1220 @@
         "originator": "codex_exec",
         "transcript_path": ".control-tower/memory/l2/transcripts/019d87c6-99c4-7252-9371-22a7cb62c5dc.md"
       }
+    },
+    "session:019d87c8-5828-7d43-a7b2-55e334d1bd86": {
+      "id": "session:019d87c8-5828-7d43-a7b2-55e334d1bd86",
+      "type": "session",
+      "session_id": "019d87c8-5828-7d43-a7b2-55e334d1bd86",
+      "timestamp": "2026-04-13T16:59:07.178Z",
+      "source": "exec",
+      "originator": "codex_exec",
+      "transcript_path": ".control-tower/memory/l2/transcripts/019d87c8-5828-7d43-a7b2-55e334d1bd86.md",
+      "session_path": ".control-tower/memory/l2/sessions/019d87c8-5828-7d43-a7b2-55e334d1bd86.jsonl"
+    },
+    "packet:0615beef-ed54-4d1a-b0b5-dccac69cc565": {
+      "id": "packet:0615beef-ed54-4d1a-b0b5-dccac69cc565",
+      "type": "packet",
+      "packet_id": "0615beef-ed54-4d1a-b0b5-dccac69cc565",
+      "packet_type": "result",
+      "title": "Committed all current worktree changes on `main` as `566753e` with message `Add ATLAS workshop homepage, docs, and control-tower state`, then pushed `main` to `origin` without rewriting history. Worktree is now clean and local `main` matches `origin/main`.",
+      "status": "success",
+      "trace_id": "e2f5fa48-90bc-4198-8271-1140df7677a4",
+      "from_agent": "git-master",
+      "to_agent": "tower",
+      "path": ".control-tower/packets/inbox/git-master-a21abc18-4c37-4af0-b3ef-7d0aa4410340-result.json",
+      "created_at": "2026-04-13T16:59:44Z"
+    },
+    "artifact:.control-tower/packets/inbox/git-master-a21abc18-4c37-4af0-b3ef-7d0aa4410340-result.json": {
+      "id": "artifact:.control-tower/packets/inbox/git-master-a21abc18-4c37-4af0-b3ef-7d0aa4410340-result.json",
+      "type": "artifact",
+      "ref": ".control-tower/packets/inbox/git-master-a21abc18-4c37-4af0-b3ef-7d0aa4410340-result.json",
+      "title": ".control-tower/packets/inbox/git-master-a21abc18-4c37-4af0-b3ef-7d0aa4410340-result.json",
+      "created_at": "2026-04-13T16:59:44Z"
+    },
+    "dec_inferred_0615beef-ed54-4d1a-b0b5-dccac69cc565_0_commit-566753e-on-main-captures-the-current-atlas-workshop-homepage-docs-agents-instructions-and-control-tower-state-and-is-pushed-to-origin-main": {
+      "id": "dec_inferred_0615beef-ed54-4d1a-b0b5-dccac69cc565_0_commit-566753e-on-main-captures-the-current-atlas-workshop-homepage-docs-agents-instructions-and-control-tower-state-and-is-pushed-to-origin-main",
+      "type": "decision",
+      "topic": "commit-566753e-on-main-captures-the-current-atlas-workshop-homepage-docs-agents-instructions-and-control-tower-state-and-is-pushed-to-origin-main",
+      "title": "Commit `566753e` on `main` captures the current ATLAS workshop homepage, docs, AGENTS instructions, and `.control-tower/` state and is pushed to `origin/main`.",
+      "status": "proposed",
+      "importance": "normal",
+      "summary": "Inferred from ResultPacket memory_worthy entry: Commit `566753e` on `main` captures the current ATLAS workshop homepage, docs, AGENTS instructions, and `.control-tower/` state and is pushed to `origin/main`.",
+      "rationale": [
+        "Captured from a ResultPacket memory_worthy entry pending curation."
+      ],
+      "source_refs": [
+        ".control-tower/packets/inbox/git-master-a21abc18-4c37-4af0-b3ef-7d0aa4410340-result.json"
+      ],
+      "inferred": true,
+      "created_at": "2026-04-13T16:59:58Z",
+      "created_by": "git-master"
+    },
+    "packet:a21abc18-4c37-4af0-b3ef-7d0aa4410340": {
+      "id": "packet:a21abc18-4c37-4af0-b3ef-7d0aa4410340",
+      "type": "packet",
+      "packet_id": "a21abc18-4c37-4af0-b3ef-7d0aa4410340",
+      "packet_type": "task",
+      "title": "Commit And Push Current Worktree",
+      "status": null,
+      "trace_id": "e2f5fa48-90bc-4198-8271-1140df7677a4",
+      "from_agent": "tower",
+      "to_agent": "git-master",
+      "path": ".control-tower/packets/outbox/git-master-commit-push-everything.json",
+      "created_at": "2026-04-13T16:59:04Z"
+    },
+    "artifact:.control-tower/packets/outbox/git-master-commit-push-everything.json": {
+      "id": "artifact:.control-tower/packets/outbox/git-master-commit-push-everything.json",
+      "type": "artifact",
+      "ref": ".control-tower/packets/outbox/git-master-commit-push-everything.json",
+      "title": ".control-tower/packets/outbox/git-master-commit-push-everything.json",
+      "created_at": "2026-04-13T16:59:04Z"
+    },
+    "packet:96fb46c5-609f-4533-ba09-062c62281b2e": {
+      "id": "packet:96fb46c5-609f-4533-ba09-062c62281b2e",
+      "type": "packet",
+      "packet_id": "96fb46c5-609f-4533-ba09-062c62281b2e",
+      "packet_type": "task",
+      "title": "Update repo docs after Builder work",
+      "status": null,
+      "trace_id": "2c07575f-0bb0-48c0-a037-9b01bca17416",
+      "from_agent": "tower",
+      "to_agent": "scribe",
+      "path": ".control-tower/packets/outbox/scribe-docs-followup-builder-20260413T165743Z.json",
+      "created_at": "2026-04-13T16:57:43Z"
+    },
+    "artifact:.control-tower/packets/outbox/scribe-docs-followup-builder-20260413T165743Z.json": {
+      "id": "artifact:.control-tower/packets/outbox/scribe-docs-followup-builder-20260413T165743Z.json",
+      "type": "artifact",
+      "ref": ".control-tower/packets/outbox/scribe-docs-followup-builder-20260413T165743Z.json",
+      "title": ".control-tower/packets/outbox/scribe-docs-followup-builder-20260413T165743Z.json",
+      "created_at": "2026-04-13T16:57:43Z"
+    },
+    "event:black-box:11": {
+      "id": "event:black-box:11",
+      "type": "event",
+      "event_type": "codex_session_imported",
+      "timestamp": "2026-04-13T16:59:07.178Z",
+      "payload": {
+        "event_type": "codex_session_imported",
+        "session_id": "019d87c8-5828-7d43-a7b2-55e334d1bd86",
+        "timestamp": "2026-04-13T16:59:07.178Z",
+        "source": "exec",
+        "originator": "codex_exec",
+        "transcript_path": ".control-tower/memory/l2/transcripts/019d87c8-5828-7d43-a7b2-55e334d1bd86.md"
+      }
+    },
+    "commit:566753ee7e616e1ad13d2d8dfb0357fdab59dc87": {
+      "id": "commit:566753ee7e616e1ad13d2d8dfb0357fdab59dc87",
+      "type": "commit",
+      "sha": "566753ee7e616e1ad13d2d8dfb0357fdab59dc87",
+      "parents": [
+        "a6c84ed3d2b1e1094d1fc8fb173f886fe1c07c27"
+      ],
+      "authored_at": "2026-04-13T09:59:25-07:00",
+      "subject": "Add ATLAS workshop homepage, docs, and control-tower state",
+      "files": []
+    },
+    "packet:849778a5-0b38-4864-9da3-650b552621e1": {
+      "id": "packet:849778a5-0b38-4864-9da3-650b552621e1",
+      "type": "packet",
+      "packet_id": "849778a5-0b38-4864-9da3-650b552621e1",
+      "packet_type": "task",
+      "title": "Update repo docs after Git-Master work",
+      "status": null,
+      "trace_id": "e2f5fa48-90bc-4198-8271-1140df7677a4",
+      "from_agent": "tower",
+      "to_agent": "scribe",
+      "path": ".control-tower/packets/outbox/scribe-docs-followup-git-master-20260413T165958Z.json",
+      "created_at": "2026-04-13T16:59:58Z"
+    },
+    "artifact:.control-tower/packets/outbox/scribe-docs-followup-git-master-20260413T165958Z.json": {
+      "id": "artifact:.control-tower/packets/outbox/scribe-docs-followup-git-master-20260413T165958Z.json",
+      "type": "artifact",
+      "ref": ".control-tower/packets/outbox/scribe-docs-followup-git-master-20260413T165958Z.json",
+      "title": ".control-tower/packets/outbox/scribe-docs-followup-git-master-20260413T165958Z.json",
+      "created_at": "2026-04-13T16:59:58Z"
+    },
+    "session:019d87d4-31a5-74e1-8b85-c79b39951f59": {
+      "id": "session:019d87d4-31a5-74e1-8b85-c79b39951f59",
+      "type": "session",
+      "session_id": "019d87d4-31a5-74e1-8b85-c79b39951f59",
+      "timestamp": "2026-04-13T17:12:03.751Z",
+      "source": "cli",
+      "originator": "codex-tui",
+      "transcript_path": ".control-tower/memory/l2/transcripts/019d87d4-31a5-74e1-8b85-c79b39951f59.md",
+      "session_path": ".control-tower/memory/l2/sessions/019d87d4-31a5-74e1-8b85-c79b39951f59.jsonl"
+    },
+    "session:019d87d6-bba2-7d81-9035-29bae17447e2": {
+      "id": "session:019d87d6-bba2-7d81-9035-29bae17447e2",
+      "type": "session",
+      "session_id": "019d87d6-bba2-7d81-9035-29bae17447e2",
+      "timestamp": "2026-04-13T17:14:50.149Z",
+      "source": "exec",
+      "originator": "codex_exec",
+      "transcript_path": ".control-tower/memory/l2/transcripts/019d87d6-bba2-7d81-9035-29bae17447e2.md",
+      "session_path": ".control-tower/memory/l2/sessions/019d87d6-bba2-7d81-9035-29bae17447e2.jsonl"
+    },
+    "packet:503b02da-cc3e-49b0-a6a5-b3b53b5cda17": {
+      "id": "packet:503b02da-cc3e-49b0-a6a5-b3b53b5cda17",
+      "type": "packet",
+      "packet_id": "503b02da-cc3e-49b0-a6a5-b3b53b5cda17",
+      "packet_type": "result",
+      "title": "Updated the homepage Contact section in index.html to replace the placeholder copy with organizer contacts for Yash Turkar and Karthik Dantu.",
+      "status": "success",
+      "trace_id": "d1586c2c-44d4-4e52-8b81-977b81be97af",
+      "from_agent": "builder",
+      "to_agent": "tower",
+      "path": ".control-tower/packets/inbox/builder-add-organizer-contacts-result.json",
+      "created_at": "2026-04-13T17:15:31Z"
+    },
+    "artifact:.control-tower/packets/inbox/builder-add-organizer-contacts-result.json": {
+      "id": "artifact:.control-tower/packets/inbox/builder-add-organizer-contacts-result.json",
+      "type": "artifact",
+      "ref": ".control-tower/packets/inbox/builder-add-organizer-contacts-result.json",
+      "title": ".control-tower/packets/inbox/builder-add-organizer-contacts-result.json",
+      "created_at": "2026-04-13T17:15:31Z"
+    },
+    "packet:73cc60e6-d961-4d49-b824-ef2d2f26e52e": {
+      "id": "packet:73cc60e6-d961-4d49-b824-ef2d2f26e52e",
+      "type": "packet",
+      "packet_id": "73cc60e6-d961-4d49-b824-ef2d2f26e52e",
+      "packet_type": "task",
+      "title": "Add organizer contacts",
+      "status": null,
+      "trace_id": "d1586c2c-44d4-4e52-8b81-977b81be97af",
+      "from_agent": "tower",
+      "to_agent": "builder",
+      "path": ".control-tower/packets/outbox/builder-add-organizer-contacts.json",
+      "created_at": "2026-04-13T17:14:41Z"
+    },
+    "artifact:.control-tower/packets/outbox/builder-add-organizer-contacts.json": {
+      "id": "artifact:.control-tower/packets/outbox/builder-add-organizer-contacts.json",
+      "type": "artifact",
+      "ref": ".control-tower/packets/outbox/builder-add-organizer-contacts.json",
+      "title": ".control-tower/packets/outbox/builder-add-organizer-contacts.json",
+      "created_at": "2026-04-13T17:14:41Z"
+    },
+    "event:black-box:12": {
+      "id": "event:black-box:12",
+      "type": "event",
+      "event_type": "codex_session_imported",
+      "timestamp": "2026-04-13T17:12:03.751Z",
+      "payload": {
+        "event_type": "codex_session_imported",
+        "session_id": "019d87d4-31a5-74e1-8b85-c79b39951f59",
+        "timestamp": "2026-04-13T17:12:03.751Z",
+        "source": "cli",
+        "originator": "codex-tui",
+        "transcript_path": ".control-tower/memory/l2/transcripts/019d87d4-31a5-74e1-8b85-c79b39951f59.md"
+      }
+    },
+    "event:black-box:13": {
+      "id": "event:black-box:13",
+      "type": "event",
+      "event_type": "codex_session_imported",
+      "timestamp": "2026-04-13T17:14:50.149Z",
+      "payload": {
+        "event_type": "codex_session_imported",
+        "session_id": "019d87d6-bba2-7d81-9035-29bae17447e2",
+        "timestamp": "2026-04-13T17:14:50.149Z",
+        "source": "exec",
+        "originator": "codex_exec",
+        "transcript_path": ".control-tower/memory/l2/transcripts/019d87d6-bba2-7d81-9035-29bae17447e2.md"
+      }
+    },
+    "session:019d87d7-a862-7140-bd44-691643415acc": {
+      "id": "session:019d87d7-a862-7140-bd44-691643415acc",
+      "type": "session",
+      "session_id": "019d87d7-a862-7140-bd44-691643415acc",
+      "timestamp": "2026-04-13T17:15:50.756Z",
+      "source": "exec",
+      "originator": "codex_exec",
+      "transcript_path": ".control-tower/memory/l2/transcripts/019d87d7-a862-7140-bd44-691643415acc.md",
+      "session_path": ".control-tower/memory/l2/sessions/019d87d7-a862-7140-bd44-691643415acc.jsonl"
+    },
+    "packet:9fe48148-c01f-4312-90ec-e9aea67f62b6": {
+      "id": "packet:9fe48148-c01f-4312-90ec-e9aea67f62b6",
+      "type": "packet",
+      "packet_id": "9fe48148-c01f-4312-90ec-e9aea67f62b6",
+      "packet_type": "result",
+      "title": "Updated the durable workshop website spec to match the homepage Contact section now that organizer names and email addresses are published.",
+      "status": "success",
+      "trace_id": "d1586c2c-44d4-4e52-8b81-977b81be97af",
+      "from_agent": "scribe",
+      "to_agent": "tower",
+      "path": ".control-tower/packets/inbox/scribe-docs-followup-builder-20260413T171542Z-result.json",
+      "created_at": "2026-04-13T17:16:32Z"
+    },
+    "artifact:.control-tower/packets/inbox/scribe-docs-followup-builder-20260413T171542Z-result.json": {
+      "id": "artifact:.control-tower/packets/inbox/scribe-docs-followup-builder-20260413T171542Z-result.json",
+      "type": "artifact",
+      "ref": ".control-tower/packets/inbox/scribe-docs-followup-builder-20260413T171542Z-result.json",
+      "title": ".control-tower/packets/inbox/scribe-docs-followup-builder-20260413T171542Z-result.json",
+      "created_at": "2026-04-13T17:16:32Z"
+    },
+    "packet:69e0458b-20e6-4da5-8dc4-7c10189dafcc": {
+      "id": "packet:69e0458b-20e6-4da5-8dc4-7c10189dafcc",
+      "type": "packet",
+      "packet_id": "69e0458b-20e6-4da5-8dc4-7c10189dafcc",
+      "packet_type": "task",
+      "title": "Update repo docs after Builder work",
+      "status": null,
+      "trace_id": "d1586c2c-44d4-4e52-8b81-977b81be97af",
+      "from_agent": "tower",
+      "to_agent": "scribe",
+      "path": ".control-tower/packets/outbox/scribe-docs-followup-builder-20260413T171542Z.json",
+      "created_at": "2026-04-13T17:15:42Z"
+    },
+    "artifact:.control-tower/packets/outbox/scribe-docs-followup-builder-20260413T171542Z.json": {
+      "id": "artifact:.control-tower/packets/outbox/scribe-docs-followup-builder-20260413T171542Z.json",
+      "type": "artifact",
+      "ref": ".control-tower/packets/outbox/scribe-docs-followup-builder-20260413T171542Z.json",
+      "title": ".control-tower/packets/outbox/scribe-docs-followup-builder-20260413T171542Z.json",
+      "created_at": "2026-04-13T17:15:42Z"
+    },
+    "event:black-box:14": {
+      "id": "event:black-box:14",
+      "type": "event",
+      "event_type": "codex_session_imported",
+      "timestamp": "2026-04-13T17:15:50.756Z",
+      "payload": {
+        "event_type": "codex_session_imported",
+        "session_id": "019d87d7-a862-7140-bd44-691643415acc",
+        "timestamp": "2026-04-13T17:15:50.756Z",
+        "source": "exec",
+        "originator": "codex_exec",
+        "transcript_path": ".control-tower/memory/l2/transcripts/019d87d7-a862-7140-bd44-691643415acc.md"
+      }
+    },
+    "session:019d8860-eb44-7412-9e1c-e4d68e8be754": {
+      "id": "session:019d8860-eb44-7412-9e1c-e4d68e8be754",
+      "type": "session",
+      "session_id": "019d8860-eb44-7412-9e1c-e4d68e8be754",
+      "timestamp": "2026-04-13T19:45:46.312Z",
+      "source": "exec",
+      "originator": "codex_exec",
+      "transcript_path": ".control-tower/memory/l2/transcripts/019d8860-eb44-7412-9e1c-e4d68e8be754.md",
+      "session_path": ".control-tower/memory/l2/sessions/019d8860-eb44-7412-9e1c-e4d68e8be754.jsonl"
+    },
+    "packet:8aa9e98a-58ec-4440-903d-126d4ed79aeb": {
+      "id": "packet:8aa9e98a-58ec-4440-903d-126d4ed79aeb",
+      "type": "packet",
+      "packet_id": "8aa9e98a-58ec-4440-903d-126d4ed79aeb",
+      "packet_type": "result",
+      "title": "Copied the provided banner image into `assets/atlas-banner.png` and updated homepage banner styling in `assets/main.css` so the existing ATLAS title/date overlay renders on top of the image with responsive darkening and mobile-safe positioning.",
+      "status": "success",
+      "trace_id": "d4022461-3afb-4518-8431-a178c247c005",
+      "from_agent": "builder",
+      "to_agent": "tower",
+      "path": ".control-tower/packets/inbox/builder-add-homepage-banner-image-result.json",
+      "created_at": "2026-04-13T19:47:30Z"
+    },
+    "artifact:.control-tower/packets/inbox/builder-add-homepage-banner-image-result.json": {
+      "id": "artifact:.control-tower/packets/inbox/builder-add-homepage-banner-image-result.json",
+      "type": "artifact",
+      "ref": ".control-tower/packets/inbox/builder-add-homepage-banner-image-result.json",
+      "title": ".control-tower/packets/inbox/builder-add-homepage-banner-image-result.json",
+      "created_at": "2026-04-13T19:47:30Z"
+    },
+    "packet:f54d6599-333f-4790-a63e-872205299be8": {
+      "id": "packet:f54d6599-333f-4790-a63e-872205299be8",
+      "type": "packet",
+      "packet_id": "f54d6599-333f-4790-a63e-872205299be8",
+      "packet_type": "task",
+      "title": "Add homepage banner image",
+      "status": null,
+      "trace_id": "d4022461-3afb-4518-8431-a178c247c005",
+      "from_agent": "tower",
+      "to_agent": "builder",
+      "path": ".control-tower/packets/outbox/builder-add-homepage-banner-image.json",
+      "created_at": "2026-04-13T19:44:59Z"
+    },
+    "artifact:.control-tower/packets/outbox/builder-add-homepage-banner-image.json": {
+      "id": "artifact:.control-tower/packets/outbox/builder-add-homepage-banner-image.json",
+      "type": "artifact",
+      "ref": ".control-tower/packets/outbox/builder-add-homepage-banner-image.json",
+      "title": ".control-tower/packets/outbox/builder-add-homepage-banner-image.json",
+      "created_at": "2026-04-13T19:44:59Z"
+    },
+    "event:black-box:15": {
+      "id": "event:black-box:15",
+      "type": "event",
+      "event_type": "codex_session_imported",
+      "timestamp": "2026-04-13T19:45:46.312Z",
+      "payload": {
+        "event_type": "codex_session_imported",
+        "session_id": "019d8860-eb44-7412-9e1c-e4d68e8be754",
+        "timestamp": "2026-04-13T19:45:46.312Z",
+        "source": "exec",
+        "originator": "codex_exec",
+        "transcript_path": ".control-tower/memory/l2/transcripts/019d8860-eb44-7412-9e1c-e4d68e8be754.md"
+      }
+    },
+    "session:019d8862-452c-7383-8ace-3b12e224334f": {
+      "id": "session:019d8862-452c-7383-8ace-3b12e224334f",
+      "type": "session",
+      "session_id": "019d8862-452c-7383-8ace-3b12e224334f",
+      "timestamp": "2026-04-13T19:47:14.862Z",
+      "source": "exec",
+      "originator": "codex_exec",
+      "transcript_path": ".control-tower/memory/l2/transcripts/019d8862-452c-7383-8ace-3b12e224334f.md",
+      "session_path": ".control-tower/memory/l2/sessions/019d8862-452c-7383-8ace-3b12e224334f.jsonl"
+    },
+    "session:019d8862-d4a5-7ae0-a316-1475df3ff0f4": {
+      "id": "session:019d8862-d4a5-7ae0-a316-1475df3ff0f4",
+      "type": "session",
+      "session_id": "019d8862-d4a5-7ae0-a316-1475df3ff0f4",
+      "timestamp": "2026-04-13T19:47:51.592Z",
+      "source": "exec",
+      "originator": "codex_exec",
+      "transcript_path": ".control-tower/memory/l2/transcripts/019d8862-d4a5-7ae0-a316-1475df3ff0f4.md",
+      "session_path": ".control-tower/memory/l2/sessions/019d8862-d4a5-7ae0-a316-1475df3ff0f4.jsonl"
+    },
+    "packet:a88bac98-2a8b-417a-8ff5-5514903ac2ee": {
+      "id": "packet:a88bac98-2a8b-417a-8ff5-5514903ac2ee",
+      "type": "packet",
+      "packet_id": "a88bac98-2a8b-417a-8ff5-5514903ac2ee",
+      "packet_type": "result",
+      "title": "Updated durable docs to reflect the homepage hero image implementation and current live workshop details, and refreshed operational status to remove bootstrap-only placeholder text.",
+      "status": "success",
+      "trace_id": "d4022461-3afb-4518-8431-a178c247c005",
+      "from_agent": "scribe",
+      "to_agent": "tower",
+      "path": ".control-tower/packets/inbox/scribe-docs-followup-builder-20260413T194700Z-result.json",
+      "created_at": "2026-04-13T19:47:51Z"
+    },
+    "artifact:.control-tower/packets/inbox/scribe-docs-followup-builder-20260413T194700Z-result.json": {
+      "id": "artifact:.control-tower/packets/inbox/scribe-docs-followup-builder-20260413T194700Z-result.json",
+      "type": "artifact",
+      "ref": ".control-tower/packets/inbox/scribe-docs-followup-builder-20260413T194700Z-result.json",
+      "title": ".control-tower/packets/inbox/scribe-docs-followup-builder-20260413T194700Z-result.json",
+      "created_at": "2026-04-13T19:47:51Z"
+    },
+    "dec_inferred_a88bac98-2a8b-417a-8ff5-5514903ac2ee_0_homepage-hero-now-depends-on-the-repository-asset-assets-atlas-banner-png-plus-gradient-overlays-in-assets-main-css-for-text-legibility-across-desktop-and-mobile-layouts": {
+      "id": "dec_inferred_a88bac98-2a8b-417a-8ff5-5514903ac2ee_0_homepage-hero-now-depends-on-the-repository-asset-assets-atlas-banner-png-plus-gradient-overlays-in-assets-main-css-for-text-legibility-across-desktop-and-mobile-layouts",
+      "type": "decision",
+      "topic": "homepage-hero-now-depends-on-the-repository-asset-assets-atlas-banner-png-plus-gradient-overlays-in-assets-main-css-for-text-legibility-across-desktop-and-mobile-layouts",
+      "title": "Homepage hero now depends on the repository asset `assets/atlas-banner.png` plus gradient overlays in `assets/main.css` for text legibility across desktop and mobile layouts.",
+      "status": "proposed",
+      "importance": "normal",
+      "summary": "Inferred from ResultPacket memory_worthy entry: Homepage hero now depends on the repository asset `assets/atlas-banner.png` plus gradient overlays in `assets/main.css` for text legibility across desktop and mobile layouts.",
+      "rationale": [
+        "Captured from a ResultPacket memory_worthy entry pending curation."
+      ],
+      "source_refs": [
+        ".control-tower/packets/inbox/scribe-docs-followup-builder-20260413T194700Z-result.json"
+      ],
+      "inferred": true,
+      "created_at": "2026-04-13T19:48:32Z",
+      "created_by": "scribe"
+    },
+    "dec_inferred_a88bac98-2a8b-417a-8ff5-5514903ac2ee_1_current-live-homepage-state-static-single-page-site-with-confirmed-hero-date-logistics-and-organizer-contacts-but-schedule-and-submissions-remain-placeholder-content": {
+      "id": "dec_inferred_a88bac98-2a8b-417a-8ff5-5514903ac2ee_1_current-live-homepage-state-static-single-page-site-with-confirmed-hero-date-logistics-and-organizer-contacts-but-schedule-and-submissions-remain-placeholder-content",
+      "type": "decision",
+      "topic": "current-live-homepage-state-static-single-page-site-with-confirmed-hero-date-logistics-and-organizer-contacts-but-schedule-and-submissions-remain-placeholder-content",
+      "title": "Current live homepage state: static single-page site with confirmed hero date/logistics and organizer contacts, but schedule and submissions remain placeholder content.",
+      "status": "proposed",
+      "importance": "normal",
+      "summary": "Inferred from ResultPacket memory_worthy entry: Current live homepage state: static single-page site with confirmed hero date/logistics and organizer contacts, but schedule and submissions remain placeholder content.",
+      "rationale": [
+        "Captured from a ResultPacket memory_worthy entry pending curation."
+      ],
+      "source_refs": [
+        ".control-tower/packets/inbox/scribe-docs-followup-builder-20260413T194700Z-result.json"
+      ],
+      "inferred": true,
+      "created_at": "2026-04-13T19:48:32Z",
+      "created_by": "scribe"
+    },
+    "packet:c97ecdb1-5e4e-47d5-ac01-9de511f58fa4": {
+      "id": "packet:c97ecdb1-5e4e-47d5-ac01-9de511f58fa4",
+      "type": "packet",
+      "packet_id": "c97ecdb1-5e4e-47d5-ac01-9de511f58fa4",
+      "packet_type": "task",
+      "title": "Replace schedule placeholder with generic agenda",
+      "status": null,
+      "trace_id": "1a48a635-88d5-4438-9ce2-dcb09c51c0a0",
+      "from_agent": "tower",
+      "to_agent": "builder",
+      "path": ".control-tower/packets/outbox/builder-generic-schedule-update.json",
+      "created_at": "2026-04-13T19:47:43Z"
+    },
+    "artifact:.control-tower/packets/outbox/builder-generic-schedule-update.json": {
+      "id": "artifact:.control-tower/packets/outbox/builder-generic-schedule-update.json",
+      "type": "artifact",
+      "ref": ".control-tower/packets/outbox/builder-generic-schedule-update.json",
+      "title": ".control-tower/packets/outbox/builder-generic-schedule-update.json",
+      "created_at": "2026-04-13T19:47:43Z"
+    },
+    "packet:17c05de0-3104-4e47-b02b-a3d6ac642987": {
+      "id": "packet:17c05de0-3104-4e47-b02b-a3d6ac642987",
+      "type": "packet",
+      "packet_id": "17c05de0-3104-4e47-b02b-a3d6ac642987",
+      "packet_type": "task",
+      "title": "Update repo docs after Builder work",
+      "status": null,
+      "trace_id": "d4022461-3afb-4518-8431-a178c247c005",
+      "from_agent": "tower",
+      "to_agent": "scribe",
+      "path": ".control-tower/packets/outbox/scribe-docs-followup-builder-20260413T194700Z.json",
+      "created_at": "2026-04-13T19:47:00Z"
+    },
+    "artifact:.control-tower/packets/outbox/scribe-docs-followup-builder-20260413T194700Z.json": {
+      "id": "artifact:.control-tower/packets/outbox/scribe-docs-followup-builder-20260413T194700Z.json",
+      "type": "artifact",
+      "ref": ".control-tower/packets/outbox/scribe-docs-followup-builder-20260413T194700Z.json",
+      "title": ".control-tower/packets/outbox/scribe-docs-followup-builder-20260413T194700Z.json",
+      "created_at": "2026-04-13T19:47:00Z"
+    },
+    "event:black-box:16": {
+      "id": "event:black-box:16",
+      "type": "event",
+      "event_type": "codex_session_imported",
+      "timestamp": "2026-04-13T19:47:14.862Z",
+      "payload": {
+        "event_type": "codex_session_imported",
+        "session_id": "019d8862-452c-7383-8ace-3b12e224334f",
+        "timestamp": "2026-04-13T19:47:14.862Z",
+        "source": "exec",
+        "originator": "codex_exec",
+        "transcript_path": ".control-tower/memory/l2/transcripts/019d8862-452c-7383-8ace-3b12e224334f.md"
+      }
+    },
+    "event:black-box:17": {
+      "id": "event:black-box:17",
+      "type": "event",
+      "event_type": "codex_session_imported",
+      "timestamp": "2026-04-13T19:47:51.592Z",
+      "payload": {
+        "event_type": "codex_session_imported",
+        "session_id": "019d8862-d4a5-7ae0-a316-1475df3ff0f4",
+        "timestamp": "2026-04-13T19:47:51.592Z",
+        "source": "exec",
+        "originator": "codex_exec",
+        "transcript_path": ".control-tower/memory/l2/transcripts/019d8862-d4a5-7ae0-a316-1475df3ff0f4.md"
+      }
+    },
+    "session:019d8863-cc37-7501-84b9-addc24f56223": {
+      "id": "session:019d8863-cc37-7501-84b9-addc24f56223",
+      "type": "session",
+      "session_id": "019d8863-cc37-7501-84b9-addc24f56223",
+      "timestamp": "2026-04-13T19:48:54.970Z",
+      "source": "exec",
+      "originator": "codex_exec",
+      "transcript_path": ".control-tower/memory/l2/transcripts/019d8863-cc37-7501-84b9-addc24f56223.md",
+      "session_path": ".control-tower/memory/l2/sessions/019d8863-cc37-7501-84b9-addc24f56223.jsonl"
+    },
+    "packet:f78388aa-b339-4d7a-9816-a7172e324510": {
+      "id": "packet:f78388aa-b339-4d7a-9816-a7172e324510",
+      "type": "packet",
+      "packet_id": "f78388aa-b339-4d7a-9816-a7172e324510",
+      "packet_type": "result",
+      "title": "Updated the homepage Schedule section in `index.html` to replace placeholder copy with a concise generic workshop agenda using session labels only and no speaker names or spotlight/tutorial wording.",
+      "status": "success",
+      "trace_id": "1a48a635-88d5-4438-9ce2-dcb09c51c0a0",
+      "from_agent": "builder",
+      "to_agent": "tower",
+      "path": ".control-tower/packets/inbox/builder-generic-schedule-update-result.json",
+      "created_at": "2026-04-13T20:02:00Z"
+    },
+    "artifact:.control-tower/packets/inbox/builder-generic-schedule-update-result.json": {
+      "id": "artifact:.control-tower/packets/inbox/builder-generic-schedule-update-result.json",
+      "type": "artifact",
+      "ref": ".control-tower/packets/inbox/builder-generic-schedule-update-result.json",
+      "title": ".control-tower/packets/inbox/builder-generic-schedule-update-result.json",
+      "created_at": "2026-04-13T20:02:00Z"
+    },
+    "packet:ce7d1d82-cb15-46d4-84e3-c900a5194388": {
+      "id": "packet:ce7d1d82-cb15-46d4-84e3-c900a5194388",
+      "type": "packet",
+      "packet_id": "ce7d1d82-cb15-46d4-84e3-c900a5194388",
+      "packet_type": "task",
+      "title": "Reduce banner image cropping",
+      "status": null,
+      "trace_id": "3b1c3d40-abf2-47f0-8c6a-07390d0559b2",
+      "from_agent": "tower",
+      "to_agent": "builder",
+      "path": ".control-tower/packets/outbox/builder-reduce-banner-cropping.json",
+      "created_at": "2026-04-13T19:48:46Z"
+    },
+    "artifact:.control-tower/packets/outbox/builder-reduce-banner-cropping.json": {
+      "id": "artifact:.control-tower/packets/outbox/builder-reduce-banner-cropping.json",
+      "type": "artifact",
+      "ref": ".control-tower/packets/outbox/builder-reduce-banner-cropping.json",
+      "title": ".control-tower/packets/outbox/builder-reduce-banner-cropping.json",
+      "created_at": "2026-04-13T19:48:46Z"
+    },
+    "event:black-box:18": {
+      "id": "event:black-box:18",
+      "type": "event",
+      "event_type": "codex_session_imported",
+      "timestamp": "2026-04-13T19:48:54.970Z",
+      "payload": {
+        "event_type": "codex_session_imported",
+        "session_id": "019d8863-cc37-7501-84b9-addc24f56223",
+        "timestamp": "2026-04-13T19:48:54.970Z",
+        "source": "exec",
+        "originator": "codex_exec",
+        "transcript_path": ".control-tower/memory/l2/transcripts/019d8863-cc37-7501-84b9-addc24f56223.md"
+      }
+    },
+    "packet:0de741ef-787f-4d9f-8b52-3faf52a7452d": {
+      "id": "packet:0de741ef-787f-4d9f-8b52-3faf52a7452d",
+      "type": "packet",
+      "packet_id": "0de741ef-787f-4d9f-8b52-3faf52a7452d",
+      "packet_type": "result",
+      "title": "Adjusted the homepage banner styling to stop aggressive image cropping by switching the hero to an aspect-ratio-based, contained background treatment with a taller minimum height and stronger overlay/text contrast for readability.",
+      "status": "success",
+      "trace_id": "3b1c3d40-abf2-47f0-8c6a-07390d0559b2",
+      "from_agent": "builder",
+      "to_agent": "tower",
+      "path": ".control-tower/packets/inbox/builder-reduce-banner-cropping-result.json",
+      "created_at": "2026-04-13T19:56:30Z"
+    },
+    "artifact:.control-tower/packets/inbox/builder-reduce-banner-cropping-result.json": {
+      "id": "artifact:.control-tower/packets/inbox/builder-reduce-banner-cropping-result.json",
+      "type": "artifact",
+      "ref": ".control-tower/packets/inbox/builder-reduce-banner-cropping-result.json",
+      "title": ".control-tower/packets/inbox/builder-reduce-banner-cropping-result.json",
+      "created_at": "2026-04-13T19:56:30Z"
+    },
+    "packet:c40c8744-ff60-4b12-a6dd-7e0eb1aa68e7": {
+      "id": "packet:c40c8744-ff60-4b12-a6dd-7e0eb1aa68e7",
+      "type": "packet",
+      "packet_id": "c40c8744-ff60-4b12-a6dd-7e0eb1aa68e7",
+      "packet_type": "task",
+      "title": "Update repo docs after Builder work",
+      "status": null,
+      "trace_id": "1a48a635-88d5-4438-9ce2-dcb09c51c0a0",
+      "from_agent": "tower",
+      "to_agent": "scribe",
+      "path": ".control-tower/packets/outbox/scribe-docs-followup-builder-20260413T194906Z.json",
+      "created_at": "2026-04-13T19:49:06Z"
+    },
+    "artifact:.control-tower/packets/outbox/scribe-docs-followup-builder-20260413T194906Z.json": {
+      "id": "artifact:.control-tower/packets/outbox/scribe-docs-followup-builder-20260413T194906Z.json",
+      "type": "artifact",
+      "ref": ".control-tower/packets/outbox/scribe-docs-followup-builder-20260413T194906Z.json",
+      "title": ".control-tower/packets/outbox/scribe-docs-followup-builder-20260413T194906Z.json",
+      "created_at": "2026-04-13T19:49:06Z"
+    },
+    "session:019d8866-0147-7af3-8455-1c5df175f04a": {
+      "id": "session:019d8866-0147-7af3-8455-1c5df175f04a",
+      "type": "session",
+      "session_id": "019d8866-0147-7af3-8455-1c5df175f04a",
+      "timestamp": "2026-04-13T19:51:19.628Z",
+      "source": "exec",
+      "originator": "codex_exec",
+      "transcript_path": ".control-tower/memory/l2/transcripts/019d8866-0147-7af3-8455-1c5df175f04a.md",
+      "session_path": ".control-tower/memory/l2/sessions/019d8866-0147-7af3-8455-1c5df175f04a.jsonl"
+    },
+    "session:019d886a-8422-7ff1-9486-0eae0c9a9707": {
+      "id": "session:019d886a-8422-7ff1-9486-0eae0c9a9707",
+      "type": "session",
+      "session_id": "019d886a-8422-7ff1-9486-0eae0c9a9707",
+      "timestamp": "2026-04-13T19:56:15.271Z",
+      "source": "exec",
+      "originator": "codex_exec",
+      "transcript_path": ".control-tower/memory/l2/transcripts/019d886a-8422-7ff1-9486-0eae0c9a9707.md",
+      "session_path": ".control-tower/memory/l2/sessions/019d886a-8422-7ff1-9486-0eae0c9a9707.jsonl"
+    },
+    "packet:46737c86-0d0f-4244-89ab-dab34677de84": {
+      "id": "packet:46737c86-0d0f-4244-89ab-dab34677de84",
+      "type": "packet",
+      "packet_id": "46737c86-0d0f-4244-89ab-dab34677de84",
+      "packet_type": "result",
+      "title": "Reverted the homepage banner from the image-backed hero to the prior CSS-only gradient panel in `assets/main.css` and removed the unused `assets/atlas-banner.png` asset. `index.html` did not require changes because the existing text-first banner markup already matches the CSS-only treatment.",
+      "status": "success",
+      "trace_id": "a62e4a29-45bf-47f5-9465-c154621071e7",
+      "from_agent": "builder",
+      "to_agent": "tower",
+      "path": ".control-tower/packets/inbox/builder-revert-banner-image-result.json",
+      "created_at": "2026-04-13T19:57:29Z"
+    },
+    "artifact:.control-tower/packets/inbox/builder-revert-banner-image-result.json": {
+      "id": "artifact:.control-tower/packets/inbox/builder-revert-banner-image-result.json",
+      "type": "artifact",
+      "ref": ".control-tower/packets/inbox/builder-revert-banner-image-result.json",
+      "title": ".control-tower/packets/inbox/builder-revert-banner-image-result.json",
+      "created_at": "2026-04-13T19:57:29Z"
+    },
+    "packet:fa03cbb5-00e9-4d4b-8817-4069b3565387": {
+      "id": "packet:fa03cbb5-00e9-4d4b-8817-4069b3565387",
+      "type": "packet",
+      "packet_id": "fa03cbb5-00e9-4d4b-8817-4069b3565387",
+      "packet_type": "task",
+      "title": "Rename schedule section to program",
+      "status": null,
+      "trace_id": "ccbdb0d1-18f2-4723-9fe9-a1a109ae7727",
+      "from_agent": "tower",
+      "to_agent": "builder",
+      "path": ".control-tower/packets/outbox/builder-rename-schedule-to-program.json",
+      "created_at": "2026-04-13T19:51:32Z"
+    },
+    "artifact:.control-tower/packets/outbox/builder-rename-schedule-to-program.json": {
+      "id": "artifact:.control-tower/packets/outbox/builder-rename-schedule-to-program.json",
+      "type": "artifact",
+      "ref": ".control-tower/packets/outbox/builder-rename-schedule-to-program.json",
+      "title": ".control-tower/packets/outbox/builder-rename-schedule-to-program.json",
+      "created_at": "2026-04-13T19:51:32Z"
+    },
+    "packet:1c267cd8-a521-4a54-bae3-1bf4c94c0fe2": {
+      "id": "packet:1c267cd8-a521-4a54-bae3-1bf4c94c0fe2",
+      "type": "packet",
+      "packet_id": "1c267cd8-a521-4a54-bae3-1bf4c94c0fe2",
+      "packet_type": "task",
+      "title": "Revert banner image integration",
+      "status": null,
+      "trace_id": "a62e4a29-45bf-47f5-9465-c154621071e7",
+      "from_agent": "tower",
+      "to_agent": "builder",
+      "path": ".control-tower/packets/outbox/builder-revert-banner-image.json",
+      "created_at": "2026-04-13T19:51:08Z"
+    },
+    "artifact:.control-tower/packets/outbox/builder-revert-banner-image.json": {
+      "id": "artifact:.control-tower/packets/outbox/builder-revert-banner-image.json",
+      "type": "artifact",
+      "ref": ".control-tower/packets/outbox/builder-revert-banner-image.json",
+      "title": ".control-tower/packets/outbox/builder-revert-banner-image.json",
+      "created_at": "2026-04-13T19:51:08Z"
+    },
+    "packet:c05e2bca-7b41-43a9-8d97-226d891d5273": {
+      "id": "packet:c05e2bca-7b41-43a9-8d97-226d891d5273",
+      "type": "packet",
+      "packet_id": "c05e2bca-7b41-43a9-8d97-226d891d5273",
+      "packet_type": "task",
+      "title": "Update repo docs after Builder work",
+      "status": null,
+      "trace_id": "3b1c3d40-abf2-47f0-8c6a-07390d0559b2",
+      "from_agent": "tower",
+      "to_agent": "scribe",
+      "path": ".control-tower/packets/outbox/scribe-docs-followup-builder-20260413T195050Z.json",
+      "created_at": "2026-04-13T19:50:50Z"
+    },
+    "artifact:.control-tower/packets/outbox/scribe-docs-followup-builder-20260413T195050Z.json": {
+      "id": "artifact:.control-tower/packets/outbox/scribe-docs-followup-builder-20260413T195050Z.json",
+      "type": "artifact",
+      "ref": ".control-tower/packets/outbox/scribe-docs-followup-builder-20260413T195050Z.json",
+      "title": ".control-tower/packets/outbox/scribe-docs-followup-builder-20260413T195050Z.json",
+      "created_at": "2026-04-13T19:50:50Z"
+    },
+    "event:black-box:19": {
+      "id": "event:black-box:19",
+      "type": "event",
+      "event_type": "codex_session_imported",
+      "timestamp": "2026-04-13T19:51:19.628Z",
+      "payload": {
+        "event_type": "codex_session_imported",
+        "session_id": "019d8866-0147-7af3-8455-1c5df175f04a",
+        "timestamp": "2026-04-13T19:51:19.628Z",
+        "source": "exec",
+        "originator": "codex_exec",
+        "transcript_path": ".control-tower/memory/l2/transcripts/019d8866-0147-7af3-8455-1c5df175f04a.md"
+      }
+    },
+    "event:black-box:20": {
+      "id": "event:black-box:20",
+      "type": "event",
+      "event_type": "codex_session_imported",
+      "timestamp": "2026-04-13T19:56:15.271Z",
+      "payload": {
+        "event_type": "codex_session_imported",
+        "session_id": "019d886a-8422-7ff1-9486-0eae0c9a9707",
+        "timestamp": "2026-04-13T19:56:15.271Z",
+        "source": "exec",
+        "originator": "codex_exec",
+        "transcript_path": ".control-tower/memory/l2/transcripts/019d886a-8422-7ff1-9486-0eae0c9a9707.md"
+      }
+    },
+    "session:019d886b-fbe3-7d11-866d-b4e752838433": {
+      "id": "session:019d886b-fbe3-7d11-866d-b4e752838433",
+      "type": "session",
+      "session_id": "019d886b-fbe3-7d11-866d-b4e752838433",
+      "timestamp": "2026-04-13T19:57:51.462Z",
+      "source": "exec",
+      "originator": "codex_exec",
+      "transcript_path": ".control-tower/memory/l2/transcripts/019d886b-fbe3-7d11-866d-b4e752838433.md",
+      "session_path": ".control-tower/memory/l2/sessions/019d886b-fbe3-7d11-866d-b4e752838433.jsonl"
+    },
+    "session:019d886c-9714-7d73-ac39-c2f6b590a7c8": {
+      "id": "session:019d886c-9714-7d73-ac39-c2f6b590a7c8",
+      "type": "session",
+      "session_id": "019d886c-9714-7d73-ac39-c2f6b590a7c8",
+      "timestamp": "2026-04-13T19:58:31.191Z",
+      "source": "exec",
+      "originator": "codex_exec",
+      "transcript_path": ".control-tower/memory/l2/transcripts/019d886c-9714-7d73-ac39-c2f6b590a7c8.md",
+      "session_path": ".control-tower/memory/l2/sessions/019d886c-9714-7d73-ac39-c2f6b590a7c8.jsonl"
+    },
+    "packet:6f281f3c-32c7-4882-8499-0279a69c807b": {
+      "id": "packet:6f281f3c-32c7-4882-8499-0279a69c807b",
+      "type": "packet",
+      "packet_id": "6f281f3c-32c7-4882-8499-0279a69c807b",
+      "packet_type": "result",
+      "title": "The requested banner-image rollback is already present in the working tree: `assets/main.css` uses the prior CSS-only banner panel treatment, `index.html` contains no image-backed hero markup, and `assets/atlas-banner.png` is no longer in the repo. No additional code changes were required in this turn.",
+      "status": "success",
+      "trace_id": "a62e4a29-45bf-47f5-9465-c154621071e7",
+      "from_agent": "builder",
+      "to_agent": "tower",
+      "path": ".control-tower/packets/inbox/builder-revert-banner-image-result.json",
+      "created_at": "2026-04-13T20:02:30Z"
+    },
+    "packet:8495ccbf-0d87-4296-b34c-96ff6e61f96b": {
+      "id": "packet:8495ccbf-0d87-4296-b34c-96ff6e61f96b",
+      "type": "packet",
+      "packet_id": "8495ccbf-0d87-4296-b34c-96ff6e61f96b",
+      "packet_type": "task",
+      "title": "Update repo docs after Builder work",
+      "status": null,
+      "trace_id": "a62e4a29-45bf-47f5-9465-c154621071e7",
+      "from_agent": "tower",
+      "to_agent": "scribe",
+      "path": ".control-tower/packets/outbox/scribe-docs-followup-builder-20260413T195743Z.json",
+      "created_at": "2026-04-13T19:57:43Z"
+    },
+    "artifact:.control-tower/packets/outbox/scribe-docs-followup-builder-20260413T195743Z.json": {
+      "id": "artifact:.control-tower/packets/outbox/scribe-docs-followup-builder-20260413T195743Z.json",
+      "type": "artifact",
+      "ref": ".control-tower/packets/outbox/scribe-docs-followup-builder-20260413T195743Z.json",
+      "title": ".control-tower/packets/outbox/scribe-docs-followup-builder-20260413T195743Z.json",
+      "created_at": "2026-04-13T19:57:43Z"
+    },
+    "event:black-box:21": {
+      "id": "event:black-box:21",
+      "type": "event",
+      "event_type": "codex_session_imported",
+      "timestamp": "2026-04-13T19:57:51.462Z",
+      "payload": {
+        "event_type": "codex_session_imported",
+        "session_id": "019d886b-fbe3-7d11-866d-b4e752838433",
+        "timestamp": "2026-04-13T19:57:51.462Z",
+        "source": "exec",
+        "originator": "codex_exec",
+        "transcript_path": ".control-tower/memory/l2/transcripts/019d886b-fbe3-7d11-866d-b4e752838433.md"
+      }
+    },
+    "event:black-box:22": {
+      "id": "event:black-box:22",
+      "type": "event",
+      "event_type": "codex_session_imported",
+      "timestamp": "2026-04-13T19:58:31.191Z",
+      "payload": {
+        "event_type": "codex_session_imported",
+        "session_id": "019d886c-9714-7d73-ac39-c2f6b590a7c8",
+        "timestamp": "2026-04-13T19:58:31.191Z",
+        "source": "exec",
+        "originator": "codex_exec",
+        "transcript_path": ".control-tower/memory/l2/transcripts/019d886c-9714-7d73-ac39-c2f6b590a7c8.md"
+      }
+    },
+    "packet:f8f90952-9964-401a-9951-b49da02c37c1": {
+      "id": "packet:f8f90952-9964-401a-9951-b49da02c37c1",
+      "type": "packet",
+      "packet_id": "f8f90952-9964-401a-9951-b49da02c37c1",
+      "packet_type": "result",
+      "title": "Renamed the homepage Schedule navigation item and section heading to Program, and updated the in-page anchor target so navigation remains consistent.",
+      "status": "success",
+      "trace_id": "ccbdb0d1-18f2-4723-9fe9-a1a109ae7727",
+      "from_agent": "builder",
+      "to_agent": "tower",
+      "path": ".control-tower/packets/inbox/builder-rename-schedule-to-program-result.json",
+      "created_at": "2026-04-13T19:58:57Z"
+    },
+    "artifact:.control-tower/packets/inbox/builder-rename-schedule-to-program-result.json": {
+      "id": "artifact:.control-tower/packets/inbox/builder-rename-schedule-to-program-result.json",
+      "type": "artifact",
+      "ref": ".control-tower/packets/inbox/builder-rename-schedule-to-program-result.json",
+      "title": ".control-tower/packets/inbox/builder-rename-schedule-to-program-result.json",
+      "created_at": "2026-04-13T19:58:57Z"
+    },
+    "packet:5559fac4-2cb8-428d-96d8-6a37ea81d96b": {
+      "id": "packet:5559fac4-2cb8-428d-96d8-6a37ea81d96b",
+      "type": "packet",
+      "packet_id": "5559fac4-2cb8-428d-96d8-6a37ea81d96b",
+      "packet_type": "task",
+      "title": "Update repo docs after Builder work",
+      "status": null,
+      "trace_id": "a62e4a29-45bf-47f5-9465-c154621071e7",
+      "from_agent": "tower",
+      "to_agent": "scribe",
+      "path": ".control-tower/packets/outbox/scribe-docs-followup-builder-20260413T195841Z.json",
+      "created_at": "2026-04-13T19:58:41Z"
+    },
+    "artifact:.control-tower/packets/outbox/scribe-docs-followup-builder-20260413T195841Z.json": {
+      "id": "artifact:.control-tower/packets/outbox/scribe-docs-followup-builder-20260413T195841Z.json",
+      "type": "artifact",
+      "ref": ".control-tower/packets/outbox/scribe-docs-followup-builder-20260413T195841Z.json",
+      "title": ".control-tower/packets/outbox/scribe-docs-followup-builder-20260413T195841Z.json",
+      "created_at": "2026-04-13T19:58:41Z"
+    },
+    "session:019d886d-9800-7860-9e39-5308e03747e4": {
+      "id": "session:019d886d-9800-7860-9e39-5308e03747e4",
+      "type": "session",
+      "session_id": "019d886d-9800-7860-9e39-5308e03747e4",
+      "timestamp": "2026-04-13T19:59:36.963Z",
+      "source": "exec",
+      "originator": "codex_exec",
+      "transcript_path": ".control-tower/memory/l2/transcripts/019d886d-9800-7860-9e39-5308e03747e4.md",
+      "session_path": ".control-tower/memory/l2/sessions/019d886d-9800-7860-9e39-5308e03747e4.jsonl"
+    },
+    "packet:FEF00BBA-3B77-4009-8429-0B285533A0F4": {
+      "id": "packet:FEF00BBA-3B77-4009-8429-0B285533A0F4",
+      "type": "packet",
+      "packet_id": "FEF00BBA-3B77-4009-8429-0B285533A0F4",
+      "packet_type": "result",
+      "title": "Reconciled durable docs and operational state with the current homepage: the banner is documented as a CSS-only gradient treatment, the Schedule section is now Program, and the homepage agenda is recorded as generic provisional content rather than placeholder schedule copy.",
+      "status": "success",
+      "trace_id": "8276fbcc-b22e-4b4b-a384-5850a99f2d31",
+      "from_agent": "scribe",
+      "to_agent": "tower",
+      "path": ".control-tower/packets/inbox/scribe-reconcile-program-and-banner-revert-result.json",
+      "created_at": "2026-04-13T20:01:35Z"
+    },
+    "artifact:.control-tower/packets/inbox/scribe-reconcile-program-and-banner-revert-result.json": {
+      "id": "artifact:.control-tower/packets/inbox/scribe-reconcile-program-and-banner-revert-result.json",
+      "type": "artifact",
+      "ref": ".control-tower/packets/inbox/scribe-reconcile-program-and-banner-revert-result.json",
+      "title": ".control-tower/packets/inbox/scribe-reconcile-program-and-banner-revert-result.json",
+      "created_at": "2026-04-13T20:01:35Z"
+    },
+    "dec_inferred_FEF00BBA-3B77-4009-8429-0B285533A0F4_0_homepage-hero-is-again-a-css-only-gradient-banner-panel-in-assets-main-css-and-no-longer-depends-on-a-repository-banner-image-asset": {
+      "id": "dec_inferred_FEF00BBA-3B77-4009-8429-0B285533A0F4_0_homepage-hero-is-again-a-css-only-gradient-banner-panel-in-assets-main-css-and-no-longer-depends-on-a-repository-banner-image-asset",
+      "type": "decision",
+      "topic": "homepage-hero-is-again-a-css-only-gradient-banner-panel-in-assets-main-css-and-no-longer-depends-on-a-repository-banner-image-asset",
+      "title": "Homepage hero is again a CSS-only gradient banner panel in `assets/main.css` and no longer depends on a repository banner image asset.",
+      "status": "proposed",
+      "importance": "normal",
+      "summary": "Inferred from ResultPacket memory_worthy entry: Homepage hero is again a CSS-only gradient banner panel in `assets/main.css` and no longer depends on a repository banner image asset.",
+      "rationale": [
+        "Captured from a ResultPacket memory_worthy entry pending curation."
+      ],
+      "source_refs": [
+        ".control-tower/packets/inbox/scribe-reconcile-program-and-banner-revert-result.json"
+      ],
+      "inferred": true,
+      "created_at": "2026-04-13T20:01:49Z",
+      "created_by": "scribe"
+    },
+    "dec_inferred_FEF00BBA-3B77-4009-8429-0B285533A0F4_1_homepage-ia-now-uses-program-instead-of-schedule-and-the-program-section-contains-a-generic-full-day-agenda-while-exact-timing-and-speakers-remain-unconfirmed": {
+      "id": "dec_inferred_FEF00BBA-3B77-4009-8429-0B285533A0F4_1_homepage-ia-now-uses-program-instead-of-schedule-and-the-program-section-contains-a-generic-full-day-agenda-while-exact-timing-and-speakers-remain-unconfirmed",
+      "type": "decision",
+      "topic": "homepage-ia-now-uses-program-instead-of-schedule-and-the-program-section-contains-a-generic-full-day-agenda-while-exact-timing-and-speakers-remain-unconfirmed",
+      "title": "Homepage IA now uses `Program` instead of `Schedule`, and the Program section contains a generic full-day agenda while exact timing and speakers remain unconfirmed.",
+      "status": "proposed",
+      "importance": "normal",
+      "summary": "Inferred from ResultPacket memory_worthy entry: Homepage IA now uses `Program` instead of `Schedule`, and the Program section contains a generic full-day agenda while exact timing and speakers remain unconfirmed.",
+      "rationale": [
+        "Captured from a ResultPacket memory_worthy entry pending curation."
+      ],
+      "source_refs": [
+        ".control-tower/packets/inbox/scribe-reconcile-program-and-banner-revert-result.json"
+      ],
+      "inferred": true,
+      "created_at": "2026-04-13T20:01:49Z",
+      "created_by": "scribe"
+    },
+    "packet:91c77263-cf82-4f77-85a1-048c8b0fef06": {
+      "id": "packet:91c77263-cf82-4f77-85a1-048c8b0fef06",
+      "type": "packet",
+      "packet_id": "91c77263-cf82-4f77-85a1-048c8b0fef06",
+      "packet_type": "task",
+      "title": "Update repo docs after Builder work",
+      "status": null,
+      "trace_id": "ccbdb0d1-18f2-4723-9fe9-a1a109ae7727",
+      "from_agent": "tower",
+      "to_agent": "scribe",
+      "path": ".control-tower/packets/outbox/scribe-docs-followup-builder-20260413T195907Z.json",
+      "created_at": "2026-04-13T19:59:07Z"
+    },
+    "artifact:.control-tower/packets/outbox/scribe-docs-followup-builder-20260413T195907Z.json": {
+      "id": "artifact:.control-tower/packets/outbox/scribe-docs-followup-builder-20260413T195907Z.json",
+      "type": "artifact",
+      "ref": ".control-tower/packets/outbox/scribe-docs-followup-builder-20260413T195907Z.json",
+      "title": ".control-tower/packets/outbox/scribe-docs-followup-builder-20260413T195907Z.json",
+      "created_at": "2026-04-13T19:59:07Z"
+    },
+    "packet:d553c18d-1f67-4a29-929a-89fedb2c550e": {
+      "id": "packet:d553c18d-1f67-4a29-929a-89fedb2c550e",
+      "type": "packet",
+      "packet_id": "d553c18d-1f67-4a29-929a-89fedb2c550e",
+      "packet_type": "task",
+      "title": "Reconcile docs after banner revert and Program rename",
+      "status": null,
+      "trace_id": "8276fbcc-b22e-4b4b-a384-5850a99f2d31",
+      "from_agent": "tower",
+      "to_agent": "scribe",
+      "path": ".control-tower/packets/outbox/scribe-reconcile-program-and-banner-revert.json",
+      "created_at": "2026-04-13T19:59:27Z"
+    },
+    "artifact:.control-tower/packets/outbox/scribe-reconcile-program-and-banner-revert.json": {
+      "id": "artifact:.control-tower/packets/outbox/scribe-reconcile-program-and-banner-revert.json",
+      "type": "artifact",
+      "ref": ".control-tower/packets/outbox/scribe-reconcile-program-and-banner-revert.json",
+      "title": ".control-tower/packets/outbox/scribe-reconcile-program-and-banner-revert.json",
+      "created_at": "2026-04-13T19:59:27Z"
+    },
+    "event:black-box:23": {
+      "id": "event:black-box:23",
+      "type": "event",
+      "event_type": "codex_session_imported",
+      "timestamp": "2026-04-13T19:59:36.963Z",
+      "payload": {
+        "event_type": "codex_session_imported",
+        "session_id": "019d886d-9800-7860-9e39-5308e03747e4",
+        "timestamp": "2026-04-13T19:59:36.963Z",
+        "source": "exec",
+        "originator": "codex_exec",
+        "transcript_path": ".control-tower/memory/l2/transcripts/019d886d-9800-7860-9e39-5308e03747e4.md"
+      }
+    },
+    "session:019d8872-712c-75d1-80ac-45c0702af688": {
+      "id": "session:019d8872-712c-75d1-80ac-45c0702af688",
+      "type": "session",
+      "session_id": "019d8872-712c-75d1-80ac-45c0702af688",
+      "timestamp": "2026-04-13T20:04:54.702Z",
+      "source": "exec",
+      "originator": "codex_exec",
+      "transcript_path": ".control-tower/memory/l2/transcripts/019d8872-712c-75d1-80ac-45c0702af688.md",
+      "session_path": ".control-tower/memory/l2/sessions/019d8872-712c-75d1-80ac-45c0702af688.jsonl"
+    },
+    "packet:a805b760-53cd-44da-95fc-0e847d599320": {
+      "id": "packet:a805b760-53cd-44da-95fc-0e847d599320",
+      "type": "packet",
+      "packet_id": "a805b760-53cd-44da-95fc-0e847d599320",
+      "packet_type": "result",
+      "title": "Updated the homepage Program section in index.html to a concise full-day workshop template that mentions only invited talks, poster sessions, coffee breaks, and a lunch break.",
+      "status": "success",
+      "trace_id": "3c849b0e-8996-4cc3-a70f-802a36423642",
+      "from_agent": "builder",
+      "to_agent": "tower",
+      "path": ".control-tower/packets/inbox/builder-refine-program-template-result.json",
+      "created_at": "2026-04-13T20:05:34Z"
+    },
+    "artifact:.control-tower/packets/inbox/builder-refine-program-template-result.json": {
+      "id": "artifact:.control-tower/packets/inbox/builder-refine-program-template-result.json",
+      "type": "artifact",
+      "ref": ".control-tower/packets/inbox/builder-refine-program-template-result.json",
+      "title": ".control-tower/packets/inbox/builder-refine-program-template-result.json",
+      "created_at": "2026-04-13T20:05:34Z"
+    },
+    "packet:db62cbba-382b-422a-a509-681e4a8bd29a": {
+      "id": "packet:db62cbba-382b-422a-a509-681e4a8bd29a",
+      "type": "packet",
+      "packet_id": "db62cbba-382b-422a-a509-681e4a8bd29a",
+      "packet_type": "task",
+      "title": "Refine Program section to invited-talks template",
+      "status": null,
+      "trace_id": "3c849b0e-8996-4cc3-a70f-802a36423642",
+      "from_agent": "tower",
+      "to_agent": "builder",
+      "path": ".control-tower/packets/outbox/builder-refine-program-template.json",
+      "created_at": "2026-04-13T20:04:43Z"
+    },
+    "artifact:.control-tower/packets/outbox/builder-refine-program-template.json": {
+      "id": "artifact:.control-tower/packets/outbox/builder-refine-program-template.json",
+      "type": "artifact",
+      "ref": ".control-tower/packets/outbox/builder-refine-program-template.json",
+      "title": ".control-tower/packets/outbox/builder-refine-program-template.json",
+      "created_at": "2026-04-13T20:04:43Z"
+    },
+    "event:black-box:24": {
+      "id": "event:black-box:24",
+      "type": "event",
+      "event_type": "codex_session_imported",
+      "timestamp": "2026-04-13T20:04:54.702Z",
+      "payload": {
+        "event_type": "codex_session_imported",
+        "session_id": "019d8872-712c-75d1-80ac-45c0702af688",
+        "timestamp": "2026-04-13T20:04:54.702Z",
+        "source": "exec",
+        "originator": "codex_exec",
+        "transcript_path": ".control-tower/memory/l2/transcripts/019d8872-712c-75d1-80ac-45c0702af688.md"
+      }
+    },
+    "session:019d8873-865e-7ab0-a54d-7abfe3d2c846": {
+      "id": "session:019d8873-865e-7ab0-a54d-7abfe3d2c846",
+      "type": "session",
+      "session_id": "019d8873-865e-7ab0-a54d-7abfe3d2c846",
+      "timestamp": "2026-04-13T20:06:05.665Z",
+      "source": "exec",
+      "originator": "codex_exec",
+      "transcript_path": ".control-tower/memory/l2/transcripts/019d8873-865e-7ab0-a54d-7abfe3d2c846.md",
+      "session_path": ".control-tower/memory/l2/sessions/019d8873-865e-7ab0-a54d-7abfe3d2c846.jsonl"
+    },
+    "packet:ECA141C2-7E41-41FE-B2B0-AAB75BC79DDF": {
+      "id": "packet:ECA141C2-7E41-41FE-B2B0-AAB75BC79DDF",
+      "type": "packet",
+      "packet_id": "ECA141C2-7E41-41FE-B2B0-AAB75BC79DDF",
+      "packet_type": "result",
+      "title": "Updated durable product docs and aligned operational state so the Program section is documented as an invited-talks and poster-sessions template with coffee breaks and a lunch break only, matching the current homepage.",
+      "status": "success",
+      "trace_id": "2f86b764-f2f2-4488-ab43-50170409af5a",
+      "from_agent": "scribe",
+      "to_agent": "tower",
+      "path": ".control-tower/packets/inbox/scribe-update-program-template-docs-result.json",
+      "created_at": "2026-04-13T20:07:22Z"
+    },
+    "artifact:.control-tower/packets/inbox/scribe-update-program-template-docs-result.json": {
+      "id": "artifact:.control-tower/packets/inbox/scribe-update-program-template-docs-result.json",
+      "type": "artifact",
+      "ref": ".control-tower/packets/inbox/scribe-update-program-template-docs-result.json",
+      "title": ".control-tower/packets/inbox/scribe-update-program-template-docs-result.json",
+      "created_at": "2026-04-13T20:07:22Z"
+    },
+    "dec_inferred_ECA141C2-7E41-41FE-B2B0-AAB75BC79DDF_0_homepage-program-copy-now-uses-a-constrained-invited-talks-posters-template-with-coffee-breaks-and-a-lunch-break-only": {
+      "id": "dec_inferred_ECA141C2-7E41-41FE-B2B0-AAB75BC79DDF_0_homepage-program-copy-now-uses-a-constrained-invited-talks-posters-template-with-coffee-breaks-and-a-lunch-break-only",
+      "type": "decision",
+      "topic": "homepage-program-copy-now-uses-a-constrained-invited-talks-posters-template-with-coffee-breaks-and-a-lunch-break-only",
+      "title": "Homepage Program copy now uses a constrained invited-talks/posters template with coffee breaks and a lunch break only.",
+      "status": "proposed",
+      "importance": "normal",
+      "summary": "Inferred from ResultPacket memory_worthy entry: Homepage Program copy now uses a constrained invited-talks/posters template with coffee breaks and a lunch break only.",
+      "rationale": [
+        "Captured from a ResultPacket memory_worthy entry pending curation."
+      ],
+      "source_refs": [
+        ".control-tower/packets/inbox/scribe-update-program-template-docs-result.json"
+      ],
+      "inferred": true,
+      "created_at": "2026-04-13T20:07:42Z",
+      "created_by": "scribe"
+    },
+    "dec_inferred_ECA141C2-7E41-41FE-B2B0-AAB75BC79DDF_1_durable-product-docs-and-operational-state-were-realigned-on-2026-04-13-to-match-the-current-program-wording-in-index-html": {
+      "id": "dec_inferred_ECA141C2-7E41-41FE-B2B0-AAB75BC79DDF_1_durable-product-docs-and-operational-state-were-realigned-on-2026-04-13-to-match-the-current-program-wording-in-index-html",
+      "type": "decision",
+      "topic": "durable-product-docs-and-operational-state-were-realigned-on-2026-04-13-to-match-the-current-program-wording-in-index-html",
+      "title": "Durable product docs and operational state were realigned on 2026-04-13 to match the current Program wording in `index.html`.",
+      "status": "proposed",
+      "importance": "normal",
+      "summary": "Inferred from ResultPacket memory_worthy entry: Durable product docs and operational state were realigned on 2026-04-13 to match the current Program wording in `index.html`.",
+      "rationale": [
+        "Captured from a ResultPacket memory_worthy entry pending curation."
+      ],
+      "source_refs": [
+        ".control-tower/packets/inbox/scribe-update-program-template-docs-result.json"
+      ],
+      "inferred": true,
+      "created_at": "2026-04-13T20:07:42Z",
+      "created_by": "scribe"
+    },
+    "packet:841e7dbb-13a2-43dd-b163-924e41a98b2a": {
+      "id": "packet:841e7dbb-13a2-43dd-b163-924e41a98b2a",
+      "type": "packet",
+      "packet_id": "841e7dbb-13a2-43dd-b163-924e41a98b2a",
+      "packet_type": "task",
+      "title": "Update repo docs after Builder work",
+      "status": null,
+      "trace_id": "3c849b0e-8996-4cc3-a70f-802a36423642",
+      "from_agent": "tower",
+      "to_agent": "scribe",
+      "path": ".control-tower/packets/outbox/scribe-docs-followup-builder-20260413T200545Z.json",
+      "created_at": "2026-04-13T20:05:45Z"
+    },
+    "artifact:.control-tower/packets/outbox/scribe-docs-followup-builder-20260413T200545Z.json": {
+      "id": "artifact:.control-tower/packets/outbox/scribe-docs-followup-builder-20260413T200545Z.json",
+      "type": "artifact",
+      "ref": ".control-tower/packets/outbox/scribe-docs-followup-builder-20260413T200545Z.json",
+      "title": ".control-tower/packets/outbox/scribe-docs-followup-builder-20260413T200545Z.json",
+      "created_at": "2026-04-13T20:05:45Z"
+    },
+    "packet:a56913fe-3eba-4e18-a5b0-9c5cb67dc61c": {
+      "id": "packet:a56913fe-3eba-4e18-a5b0-9c5cb67dc61c",
+      "type": "packet",
+      "packet_id": "a56913fe-3eba-4e18-a5b0-9c5cb67dc61c",
+      "packet_type": "task",
+      "title": "Update docs for invited-talks Program template",
+      "status": null,
+      "trace_id": "2f86b764-f2f2-4488-ab43-50170409af5a",
+      "from_agent": "tower",
+      "to_agent": "scribe",
+      "path": ".control-tower/packets/outbox/scribe-update-program-template-docs.json",
+      "created_at": "2026-04-13T20:05:56Z"
+    },
+    "artifact:.control-tower/packets/outbox/scribe-update-program-template-docs.json": {
+      "id": "artifact:.control-tower/packets/outbox/scribe-update-program-template-docs.json",
+      "type": "artifact",
+      "ref": ".control-tower/packets/outbox/scribe-update-program-template-docs.json",
+      "title": ".control-tower/packets/outbox/scribe-update-program-template-docs.json",
+      "created_at": "2026-04-13T20:05:56Z"
+    },
+    "event:black-box:25": {
+      "id": "event:black-box:25",
+      "type": "event",
+      "event_type": "codex_session_imported",
+      "timestamp": "2026-04-13T20:06:05.665Z",
+      "payload": {
+        "event_type": "codex_session_imported",
+        "session_id": "019d8873-865e-7ab0-a54d-7abfe3d2c846",
+        "timestamp": "2026-04-13T20:06:05.665Z",
+        "source": "exec",
+        "originator": "codex_exec",
+        "transcript_path": ".control-tower/memory/l2/transcripts/019d8873-865e-7ab0-a54d-7abfe3d2c846.md"
+      }
+    },
+    "session:019d8875-5340-7200-9bc2-e3b4b5316acc": {
+      "id": "session:019d8875-5340-7200-9bc2-e3b4b5316acc",
+      "type": "session",
+      "session_id": "019d8875-5340-7200-9bc2-e3b4b5316acc",
+      "timestamp": "2026-04-13T20:08:03.651Z",
+      "source": "exec",
+      "originator": "codex_exec",
+      "transcript_path": ".control-tower/memory/l2/transcripts/019d8875-5340-7200-9bc2-e3b4b5316acc.md",
+      "session_path": ".control-tower/memory/l2/sessions/019d8875-5340-7200-9bc2-e3b4b5316acc.jsonl"
+    },
+    "packet:9d7308d4-4523-46e6-8fe5-2f914addaa02": {
+      "id": "packet:9d7308d4-4523-46e6-8fe5-2f914addaa02",
+      "type": "packet",
+      "packet_id": "9d7308d4-4523-46e6-8fe5-2f914addaa02",
+      "packet_type": "result",
+      "title": "Updated the homepage submissions navigation and section copy to use Call for Papers language with concise 4 to 6 page paper guidance, while preserving the existing single-page anchor structure.",
+      "status": "success",
+      "trace_id": "da925c49-f571-497a-9457-1c80506a492d",
+      "from_agent": "builder",
+      "to_agent": "tower",
+      "path": ".control-tower/packets/inbox/builder-8248f99b-a2a5-4e39-8c00-be1b93c7b0d1-result.json",
+      "created_at": "2026-04-13T20:08:38Z"
+    },
+    "artifact:.control-tower/packets/inbox/builder-8248f99b-a2a5-4e39-8c00-be1b93c7b0d1-result.json": {
+      "id": "artifact:.control-tower/packets/inbox/builder-8248f99b-a2a5-4e39-8c00-be1b93c7b0d1-result.json",
+      "type": "artifact",
+      "ref": ".control-tower/packets/inbox/builder-8248f99b-a2a5-4e39-8c00-be1b93c7b0d1-result.json",
+      "title": ".control-tower/packets/inbox/builder-8248f99b-a2a5-4e39-8c00-be1b93c7b0d1-result.json",
+      "created_at": "2026-04-13T20:08:38Z"
+    },
+    "packet:8248f99b-a2a5-4e39-8c00-be1b93c7b0d1": {
+      "id": "packet:8248f99b-a2a5-4e39-8c00-be1b93c7b0d1",
+      "type": "packet",
+      "packet_id": "8248f99b-a2a5-4e39-8c00-be1b93c7b0d1",
+      "packet_type": "task",
+      "title": "Rename submissions to call for papers",
+      "status": null,
+      "trace_id": "da925c49-f571-497a-9457-1c80506a492d",
+      "from_agent": "tower",
+      "to_agent": "builder",
+      "path": ".control-tower/packets/outbox/builder-call-for-papers-content.json",
+      "created_at": "2026-04-13T20:07:59Z"
+    },
+    "artifact:.control-tower/packets/outbox/builder-call-for-papers-content.json": {
+      "id": "artifact:.control-tower/packets/outbox/builder-call-for-papers-content.json",
+      "type": "artifact",
+      "ref": ".control-tower/packets/outbox/builder-call-for-papers-content.json",
+      "title": ".control-tower/packets/outbox/builder-call-for-papers-content.json",
+      "created_at": "2026-04-13T20:07:59Z"
+    },
+    "event:black-box:26": {
+      "id": "event:black-box:26",
+      "type": "event",
+      "event_type": "codex_session_imported",
+      "timestamp": "2026-04-13T20:08:03.651Z",
+      "payload": {
+        "event_type": "codex_session_imported",
+        "session_id": "019d8875-5340-7200-9bc2-e3b4b5316acc",
+        "timestamp": "2026-04-13T20:08:03.651Z",
+        "source": "exec",
+        "originator": "codex_exec",
+        "transcript_path": ".control-tower/memory/l2/transcripts/019d8875-5340-7200-9bc2-e3b4b5316acc.md"
+      }
     }
   }
 }

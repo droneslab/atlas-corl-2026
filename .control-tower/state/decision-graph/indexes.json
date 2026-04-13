@@ -1,6 +1,13 @@
 {
   "active_decisions": [],
   "inferred_decisions": [
+    "dec_inferred_ECA141C2-7E41-41FE-B2B0-AAB75BC79DDF_0_homepage-program-copy-now-uses-a-constrained-invited-talks-posters-template-with-coffee-breaks-and-a-lunch-break-only",
+    "dec_inferred_ECA141C2-7E41-41FE-B2B0-AAB75BC79DDF_1_durable-product-docs-and-operational-state-were-realigned-on-2026-04-13-to-match-the-current-program-wording-in-index-html",
+    "dec_inferred_FEF00BBA-3B77-4009-8429-0B285533A0F4_0_homepage-hero-is-again-a-css-only-gradient-banner-panel-in-assets-main-css-and-no-longer-depends-on-a-repository-banner-image-asset",
+    "dec_inferred_FEF00BBA-3B77-4009-8429-0B285533A0F4_1_homepage-ia-now-uses-program-instead-of-schedule-and-the-program-section-contains-a-generic-full-day-agenda-while-exact-timing-and-speakers-remain-unconfirmed",
+    "dec_inferred_a88bac98-2a8b-417a-8ff5-5514903ac2ee_0_homepage-hero-now-depends-on-the-repository-asset-assets-atlas-banner-png-plus-gradient-overlays-in-assets-main-css-for-text-legibility-across-desktop-and-mobile-layouts",
+    "dec_inferred_a88bac98-2a8b-417a-8ff5-5514903ac2ee_1_current-live-homepage-state-static-single-page-site-with-confirmed-hero-date-logistics-and-organizer-contacts-but-schedule-and-submissions-remain-placeholder-content",
+    "dec_inferred_0615beef-ed54-4d1a-b0b5-dccac69cc565_0_commit-566753e-on-main-captures-the-current-atlas-workshop-homepage-docs-agents-instructions-and-control-tower-state-and-is-pushed-to-origin-main",
     "dec_inferred_E6575247-E6B2-49E8-831D-4DCAF39DD098_0_homepage-ia-now-consists-of-overview-scope-schedule-submissions-and-contact-sections-motivation-and-differentiation-are-no-longer-part-of-the-public-site-spec",
     "dec_inferred_0d5326c2-8721-4db9-af6c-dc12ad4b47a2_0_single-page-anchor-navigation-is-an-intentional-product-level-deviation-from-the-upstream-conference-template-and-should-not-be-reverted-without-a-docs-spec-change",
     "dec_inferred_0d5326c2-8721-4db9-af6c-dc12ad4b47a2_1_the-highest-value-template-alignment-work-is-banner-title-restoration-navigation-and-text-rhythm-cleanup-are-secondary"
@@ -18,9 +25,11 @@
   ],
   "current_tasks": [],
   "recent_commits": [
+    "commit:566753ee7e616e1ad13d2d8dfb0357fdab59dc87",
     "commit:a6c84ed3d2b1e1094d1fc8fb173f886fe1c07c27"
   ],
   "unexplained_commits": [
+    "commit:566753ee7e616e1ad13d2d8dfb0357fdab59dc87",
     "commit:a6c84ed3d2b1e1094d1fc8fb173f886fe1c07c27"
   ],
   "session_links": {
@@ -30,9 +39,30 @@
       "packet:f99f0194-2bb8-41d6-a9cc-f622e2027723",
       "packet:81cfc53f-54f9-4e42-a884-b6a83d69d6d3",
       "packet:faeb7cd1-6dca-4d84-89ee-8d11bc2f7aba",
-      "packet:03b0738f-75e7-40a2-8ef8-282e7f84a284"
+      "packet:03b0738f-75e7-40a2-8ef8-282e7f84a284",
+      "packet:a21abc18-4c37-4af0-b3ef-7d0aa4410340",
+      "packet:96fb46c5-609f-4533-ba09-062c62281b2e",
+      "packet:849778a5-0b38-4864-9da3-650b552621e1",
+      "packet:73cc60e6-d961-4d49-b824-ef2d2f26e52e",
+      "packet:69e0458b-20e6-4da5-8dc4-7c10189dafcc",
+      "packet:f54d6599-333f-4790-a63e-872205299be8",
+      "packet:c97ecdb1-5e4e-47d5-ac01-9de511f58fa4",
+      "packet:17c05de0-3104-4e47-b02b-a3d6ac642987",
+      "packet:ce7d1d82-cb15-46d4-84e3-c900a5194388",
+      "packet:c40c8744-ff60-4b12-a6dd-7e0eb1aa68e7",
+      "packet:fa03cbb5-00e9-4d4b-8817-4069b3565387",
+      "packet:1c267cd8-a521-4a54-bae3-1bf4c94c0fe2",
+      "packet:c05e2bca-7b41-43a9-8d97-226d891d5273",
+      "packet:8495ccbf-0d87-4296-b34c-96ff6e61f96b",
+      "packet:5559fac4-2cb8-428d-96d8-6a37ea81d96b",
+      "packet:91c77263-cf82-4f77-85a1-048c8b0fef06",
+      "packet:d553c18d-1f67-4a29-929a-89fedb2c550e",
+      "packet:db62cbba-382b-422a-a509-681e4a8bd29a",
+      "packet:841e7dbb-13a2-43dd-b163-924e41a98b2a",
+      "packet:a56913fe-3eba-4e18-a5b0-9c5cb67dc61c",
+      "packet:8248f99b-a2a5-4e39-8c00-be1b93c7b0d1"
     ]
   },
-  "last_graph_sync": "2026-04-13T16:57:43Z",
+  "last_graph_sync": "2026-04-13T20:08:48Z",
   "current_branch": "main"
 }

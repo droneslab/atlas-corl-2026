@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "packet_type": "task",
+  "packet_id": "73cc60e6-d961-4d49-b824-ef2d2f26e52e",
+  "trace_id": "d1586c2c-44d4-4e52-8b81-977b81be97af",
+  "parent_packet_id": null,
+  "created_at": "2026-04-13T17:14:41Z",
+  "from_agent": "tower",
+  "to_agent": "builder",
+  "task_type": "implementation",
+  "priority": "high",
+  "project_id": "atlas-corl-2026",
+  "session_id": "019d87bf-6dad-7233-addd-de3fb099e0ae",
+  "title": "Add organizer contacts",
+  "objective": "Replace the homepage contact placeholder with confirmed organizer names and email addresses for Yash Turkar and Karthik Dantu.",
+  "instructions": [
+    "Edit the public homepage contact section in index.html.",
+    "Replace placeholder contact copy with Yash Turkar (yashturk@buffalo.edu) and Karthik Dantu (kdantu@buffalo.edu).",
+    "Keep the existing single-page structure and current section layout intact."
+  ],
+  "constraints": [
+    "Do not perform any git operations.",
+    "Limit implementation scope to the requested contact update unless a minimal formatting tweak is required for clarity."
+  ],
+  "inputs": {
+    "files": [
+      "/Users/yashturkar/Workspace/atlas-corl-2026/index.html"
+    ],
+    "artifacts": [],
+    "references": []
+  },
+  "expected_outputs": [
+    "Updated homepage contact section with the two organizer contacts."
+  ],
+  "definition_of_done": [
+    "index.html shows both organizer names and email addresses in the Contact section.",
+    "ResultPacket lists changed artifacts and any doc implications."
+  ],
+  "memory_context_refs": [],
+  "doc_context_refs": [
+    "/Users/yashturkar/Workspace/atlas-corl-2026/docs/product-specs/workshop-website.md"
+  ],
+  "time_budget": {
+    "soft_seconds": 900,
+    "hard_seconds": 3600
+  },
+  "requires_review": true,
+  "allow_partial": false,
+  "metadata": {}
+}

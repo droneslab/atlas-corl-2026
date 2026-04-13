@@ -1,0 +1,56 @@
+{
+  "schema_version": "1.0.0",
+  "packet_type": "task",
+  "packet_id": "f54d6599-333f-4790-a63e-872205299be8",
+  "trace_id": "d4022461-3afb-4518-8431-a178c247c005",
+  "parent_packet_id": null,
+  "created_at": "2026-04-13T19:44:59Z",
+  "from_agent": "tower",
+  "to_agent": "builder",
+  "task_type": "implementation",
+  "priority": "high",
+  "project_id": "atlas-corl-2026",
+  "session_id": "019d87bf-6dad-7233-addd-de3fb099e0ae",
+  "title": "Add homepage banner image",
+  "objective": "Copy the provided banner image into the repository and update the homepage to use it as the banner background while preserving the current ATLAS text overlay and responsive behavior.",
+  "instructions": [
+    "Copy /Users/yashturkar/Downloads/Gemini_Generated_Image_jznpqxjznpqxjznp (1).png into the repo as a stable banner asset under assets/.",
+    "Update index.html and/or assets/main.css so the homepage banner uses that image rather than a CSS-only panel.",
+    "Keep the current ATLAS title/date overlay legible on top of the image and preserve the existing single-page structure.",
+    "Maintain reasonable responsive behavior for the banner on narrower screens."
+  ],
+  "constraints": [
+    "Do not perform any git operations.",
+    "Limit scope to the banner asset integration and only the minimum supporting HTML/CSS changes required."
+  ],
+  "inputs": {
+    "files": [
+      "/Users/yashturkar/Workspace/atlas-corl-2026/index.html",
+      "/Users/yashturkar/Workspace/atlas-corl-2026/assets/main.css"
+    ],
+    "artifacts": [
+      "/Users/yashturkar/Downloads/Gemini_Generated_Image_jznpqxjznpqxjznp (1).png"
+    ],
+    "references": []
+  },
+  "expected_outputs": [
+    "Banner image copied into assets and homepage updated to render it."
+  ],
+  "definition_of_done": [
+    "A stable banner image file exists under assets/.",
+    "Homepage banner renders using the provided image with readable overlay text.",
+    "ResultPacket lists changed files and any doc implications."
+  ],
+  "memory_context_refs": [],
+  "doc_context_refs": [
+    "/Users/yashturkar/Workspace/atlas-corl-2026/docs/design-docs/site-architecture.md",
+    "/Users/yashturkar/Workspace/atlas-corl-2026/docs/product-specs/workshop-website.md"
+  ],
+  "time_budget": {
+    "soft_seconds": 900,
+    "hard_seconds": 3600
+  },
+  "requires_review": true,
+  "allow_partial": false,
+  "metadata": {}
+}

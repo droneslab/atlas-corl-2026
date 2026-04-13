@@ -1,0 +1,55 @@
+{
+  "schema_version": "1.0.0",
+  "packet_type": "task",
+  "packet_id": "ce7d1d82-cb15-46d4-84e3-c900a5194388",
+  "trace_id": "3b1c3d40-abf2-47f0-8c6a-07390d0559b2",
+  "parent_packet_id": null,
+  "created_at": "2026-04-13T19:48:46Z",
+  "from_agent": "tower",
+  "to_agent": "builder",
+  "task_type": "implementation",
+  "priority": "high",
+  "project_id": "atlas-corl-2026",
+  "session_id": "019d87bf-6dad-7233-addd-de3fb099e0ae",
+  "title": "Reduce banner image cropping",
+  "objective": "Adjust the homepage banner so substantially more of the provided banner image is visible, avoiding the current aggressive crop while keeping the ATLAS text overlay readable.",
+  "instructions": [
+    "Edit the banner presentation in assets/main.css and index.html only if HTML changes are truly needed.",
+    "Prefer a presentation that shows most or all of assets/atlas-banner.png rather than cropping it with cover behavior.",
+    "It is acceptable to make the banner taller or to use contained/letterboxed presentation if that preserves the image better.",
+    "Keep the ATLAS title and date text readable on top of the image and preserve responsive behavior."
+  ],
+  "constraints": [
+    "Do not perform any git operations.",
+    "Limit scope to the banner crop/presentation fix and minimum supporting changes only."
+  ],
+  "inputs": {
+    "files": [
+      "/Users/yashturkar/Workspace/atlas-corl-2026/assets/main.css",
+      "/Users/yashturkar/Workspace/atlas-corl-2026/index.html"
+    ],
+    "artifacts": [
+      "/Users/yashturkar/Workspace/atlas-corl-2026/assets/atlas-banner.png"
+    ],
+    "references": []
+  },
+  "expected_outputs": [
+    "Homepage banner shows substantially more of the full image with improved crop behavior."
+  ],
+  "definition_of_done": [
+    "Banner no longer relies on the current aggressive crop behavior.",
+    "Overlay text remains readable across desktop and mobile widths.",
+    "ResultPacket lists changed artifacts and any doc implications."
+  ],
+  "memory_context_refs": [],
+  "doc_context_refs": [
+    "/Users/yashturkar/Workspace/atlas-corl-2026/docs/design-docs/site-architecture.md"
+  ],
+  "time_budget": {
+    "soft_seconds": 900,
+    "hard_seconds": 3600
+  },
+  "requires_review": true,
+  "allow_partial": false,
+  "metadata": {}
+}

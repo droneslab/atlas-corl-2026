@@ -239,6 +239,716 @@
       "evidence_refs": [
         ".control-tower/packets/outbox/builder-banner-venue-placeholder-removal.json"
       ]
+    },
+    {
+      "id": "edge:packet-artifact:0615beef-ed54-4d1a-b0b5-dccac69cc565:control-tower-packets-inbox-git-master-a21abc18-4c37-4af0-b3ef-7d0aa4410340-result-json",
+      "type": "references",
+      "from": "packet:0615beef-ed54-4d1a-b0b5-dccac69cc565",
+      "to": "artifact:.control-tower/packets/inbox/git-master-a21abc18-4c37-4af0-b3ef-7d0aa4410340-result.json",
+      "created_at": "2026-04-13T16:59:44Z",
+      "evidence_refs": [
+        ".control-tower/packets/inbox/git-master-a21abc18-4c37-4af0-b3ef-7d0aa4410340-result.json"
+      ]
+    },
+    {
+      "id": "edge:decision-ref:dec_inferred_0615beef-ed54-4d1a-b0b5-dccac69cc565_0_commit-566753e-on-main-captures-the-current-atlas-workshop-homepage-docs-agents-instructions-and-control-tower-state-and-is-pushed-to-origin-main:control-tower-packets-inbox-git-master-a21abc18-4c37-4af0-b3ef-7d0aa4410340-result-json",
+      "type": "references",
+      "from": "dec_inferred_0615beef-ed54-4d1a-b0b5-dccac69cc565_0_commit-566753e-on-main-captures-the-current-atlas-workshop-homepage-docs-agents-instructions-and-control-tower-state-and-is-pushed-to-origin-main",
+      "to": "artifact:.control-tower/packets/inbox/git-master-a21abc18-4c37-4af0-b3ef-7d0aa4410340-result.json",
+      "created_at": "2026-04-13T16:59:58Z",
+      "evidence_refs": [
+        ".control-tower/packets/inbox/git-master-a21abc18-4c37-4af0-b3ef-7d0aa4410340-result.json"
+      ]
+    },
+    {
+      "id": "edge:decision-node:dec_inferred_0615beef-ed54-4d1a-b0b5-dccac69cc565_0_commit-566753e-on-main-captures-the-current-atlas-workshop-homepage-docs-agents-instructions-and-control-tower-state-and-is-pushed-to-origin-main:packet-0615beef-ed54-4d1a-b0b5-dccac69cc565",
+      "type": "references",
+      "from": "dec_inferred_0615beef-ed54-4d1a-b0b5-dccac69cc565_0_commit-566753e-on-main-captures-the-current-atlas-workshop-homepage-docs-agents-instructions-and-control-tower-state-and-is-pushed-to-origin-main",
+      "to": "packet:0615beef-ed54-4d1a-b0b5-dccac69cc565",
+      "created_at": "2026-04-13T16:59:58Z",
+      "evidence_refs": [
+        ".control-tower/packets/inbox/git-master-a21abc18-4c37-4af0-b3ef-7d0aa4410340-result.json"
+      ]
+    },
+    {
+      "id": "edge:packet-artifact:a21abc18-4c37-4af0-b3ef-7d0aa4410340:control-tower-packets-outbox-git-master-commit-push-everything-json",
+      "type": "references",
+      "from": "packet:a21abc18-4c37-4af0-b3ef-7d0aa4410340",
+      "to": "artifact:.control-tower/packets/outbox/git-master-commit-push-everything.json",
+      "created_at": "2026-04-13T16:59:04Z",
+      "evidence_refs": [
+        ".control-tower/packets/outbox/git-master-commit-push-everything.json"
+      ]
+    },
+    {
+      "id": "edge:packet-session:a21abc18-4c37-4af0-b3ef-7d0aa4410340:019d87bf-6dad-7233-addd-de3fb099e0ae",
+      "type": "discussed_in",
+      "from": "packet:a21abc18-4c37-4af0-b3ef-7d0aa4410340",
+      "to": "session:019d87bf-6dad-7233-addd-de3fb099e0ae",
+      "created_at": "2026-04-13T16:59:04Z",
+      "evidence_refs": [
+        ".control-tower/packets/outbox/git-master-commit-push-everything.json"
+      ]
+    },
+    {
+      "id": "edge:packet-artifact:96fb46c5-609f-4533-ba09-062c62281b2e:control-tower-packets-outbox-scribe-docs-followup-builder-20260413t165743z-json",
+      "type": "references",
+      "from": "packet:96fb46c5-609f-4533-ba09-062c62281b2e",
+      "to": "artifact:.control-tower/packets/outbox/scribe-docs-followup-builder-20260413T165743Z.json",
+      "created_at": "2026-04-13T16:57:43Z",
+      "evidence_refs": [
+        ".control-tower/packets/outbox/scribe-docs-followup-builder-20260413T165743Z.json"
+      ]
+    },
+    {
+      "id": "edge:packet-session:96fb46c5-609f-4533-ba09-062c62281b2e:019d87bf-6dad-7233-addd-de3fb099e0ae",
+      "type": "discussed_in",
+      "from": "packet:96fb46c5-609f-4533-ba09-062c62281b2e",
+      "to": "session:019d87bf-6dad-7233-addd-de3fb099e0ae",
+      "created_at": "2026-04-13T16:57:43Z",
+      "evidence_refs": [
+        ".control-tower/packets/outbox/scribe-docs-followup-builder-20260413T165743Z.json"
+      ]
+    },
+    {
+      "id": "edge:commit-session:566753ee7e616e1ad13d2d8dfb0357fdab59dc87:019d87c8-5828-7d43-a7b2-55e334d1bd86",
+      "type": "caused_by",
+      "from": "commit:566753ee7e616e1ad13d2d8dfb0357fdab59dc87",
+      "to": "session:019d87c8-5828-7d43-a7b2-55e334d1bd86",
+      "created_at": "2026-04-13T09:59:25-07:00",
+      "evidence_refs": [
+        "/Users/yashturkar/Workspace/atlas-corl-2026/.control-tower/memory/l2/transcripts/019d87c8-5828-7d43-a7b2-55e334d1bd86.md"
+      ]
+    },
+    {
+      "id": "edge:packet-artifact:849778a5-0b38-4864-9da3-650b552621e1:control-tower-packets-outbox-scribe-docs-followup-git-master-20260413t165958z-json",
+      "type": "references",
+      "from": "packet:849778a5-0b38-4864-9da3-650b552621e1",
+      "to": "artifact:.control-tower/packets/outbox/scribe-docs-followup-git-master-20260413T165958Z.json",
+      "created_at": "2026-04-13T16:59:58Z",
+      "evidence_refs": [
+        ".control-tower/packets/outbox/scribe-docs-followup-git-master-20260413T165958Z.json"
+      ]
+    },
+    {
+      "id": "edge:packet-session:849778a5-0b38-4864-9da3-650b552621e1:019d87bf-6dad-7233-addd-de3fb099e0ae",
+      "type": "discussed_in",
+      "from": "packet:849778a5-0b38-4864-9da3-650b552621e1",
+      "to": "session:019d87bf-6dad-7233-addd-de3fb099e0ae",
+      "created_at": "2026-04-13T16:59:58Z",
+      "evidence_refs": [
+        ".control-tower/packets/outbox/scribe-docs-followup-git-master-20260413T165958Z.json"
+      ]
+    },
+    {
+      "id": "edge:packet-artifact:503b02da-cc3e-49b0-a6a5-b3b53b5cda17:control-tower-packets-inbox-builder-add-organizer-contacts-result-json",
+      "type": "references",
+      "from": "packet:503b02da-cc3e-49b0-a6a5-b3b53b5cda17",
+      "to": "artifact:.control-tower/packets/inbox/builder-add-organizer-contacts-result.json",
+      "created_at": "2026-04-13T17:15:31Z",
+      "evidence_refs": [
+        ".control-tower/packets/inbox/builder-add-organizer-contacts-result.json"
+      ]
+    },
+    {
+      "id": "edge:packet-artifact:73cc60e6-d961-4d49-b824-ef2d2f26e52e:control-tower-packets-outbox-builder-add-organizer-contacts-json",
+      "type": "references",
+      "from": "packet:73cc60e6-d961-4d49-b824-ef2d2f26e52e",
+      "to": "artifact:.control-tower/packets/outbox/builder-add-organizer-contacts.json",
+      "created_at": "2026-04-13T17:14:41Z",
+      "evidence_refs": [
+        ".control-tower/packets/outbox/builder-add-organizer-contacts.json"
+      ]
+    },
+    {
+      "id": "edge:packet-session:73cc60e6-d961-4d49-b824-ef2d2f26e52e:019d87bf-6dad-7233-addd-de3fb099e0ae",
+      "type": "discussed_in",
+      "from": "packet:73cc60e6-d961-4d49-b824-ef2d2f26e52e",
+      "to": "session:019d87bf-6dad-7233-addd-de3fb099e0ae",
+      "created_at": "2026-04-13T17:14:41Z",
+      "evidence_refs": [
+        ".control-tower/packets/outbox/builder-add-organizer-contacts.json"
+      ]
+    },
+    {
+      "id": "edge:packet-artifact:9fe48148-c01f-4312-90ec-e9aea67f62b6:control-tower-packets-inbox-scribe-docs-followup-builder-20260413t171542z-result-json",
+      "type": "references",
+      "from": "packet:9fe48148-c01f-4312-90ec-e9aea67f62b6",
+      "to": "artifact:.control-tower/packets/inbox/scribe-docs-followup-builder-20260413T171542Z-result.json",
+      "created_at": "2026-04-13T17:16:32Z",
+      "evidence_refs": [
+        ".control-tower/packets/inbox/scribe-docs-followup-builder-20260413T171542Z-result.json"
+      ]
+    },
+    {
+      "id": "edge:packet-artifact:69e0458b-20e6-4da5-8dc4-7c10189dafcc:control-tower-packets-outbox-scribe-docs-followup-builder-20260413t171542z-json",
+      "type": "references",
+      "from": "packet:69e0458b-20e6-4da5-8dc4-7c10189dafcc",
+      "to": "artifact:.control-tower/packets/outbox/scribe-docs-followup-builder-20260413T171542Z.json",
+      "created_at": "2026-04-13T17:15:42Z",
+      "evidence_refs": [
+        ".control-tower/packets/outbox/scribe-docs-followup-builder-20260413T171542Z.json"
+      ]
+    },
+    {
+      "id": "edge:packet-session:69e0458b-20e6-4da5-8dc4-7c10189dafcc:019d87bf-6dad-7233-addd-de3fb099e0ae",
+      "type": "discussed_in",
+      "from": "packet:69e0458b-20e6-4da5-8dc4-7c10189dafcc",
+      "to": "session:019d87bf-6dad-7233-addd-de3fb099e0ae",
+      "created_at": "2026-04-13T17:15:42Z",
+      "evidence_refs": [
+        ".control-tower/packets/outbox/scribe-docs-followup-builder-20260413T171542Z.json"
+      ]
+    },
+    {
+      "id": "edge:packet-artifact:8aa9e98a-58ec-4440-903d-126d4ed79aeb:control-tower-packets-inbox-builder-add-homepage-banner-image-result-json",
+      "type": "references",
+      "from": "packet:8aa9e98a-58ec-4440-903d-126d4ed79aeb",
+      "to": "artifact:.control-tower/packets/inbox/builder-add-homepage-banner-image-result.json",
+      "created_at": "2026-04-13T19:47:30Z",
+      "evidence_refs": [
+        ".control-tower/packets/inbox/builder-add-homepage-banner-image-result.json"
+      ]
+    },
+    {
+      "id": "edge:packet-artifact:f54d6599-333f-4790-a63e-872205299be8:control-tower-packets-outbox-builder-add-homepage-banner-image-json",
+      "type": "references",
+      "from": "packet:f54d6599-333f-4790-a63e-872205299be8",
+      "to": "artifact:.control-tower/packets/outbox/builder-add-homepage-banner-image.json",
+      "created_at": "2026-04-13T19:44:59Z",
+      "evidence_refs": [
+        ".control-tower/packets/outbox/builder-add-homepage-banner-image.json"
+      ]
+    },
+    {
+      "id": "edge:packet-session:f54d6599-333f-4790-a63e-872205299be8:019d87bf-6dad-7233-addd-de3fb099e0ae",
+      "type": "discussed_in",
+      "from": "packet:f54d6599-333f-4790-a63e-872205299be8",
+      "to": "session:019d87bf-6dad-7233-addd-de3fb099e0ae",
+      "created_at": "2026-04-13T19:44:59Z",
+      "evidence_refs": [
+        ".control-tower/packets/outbox/builder-add-homepage-banner-image.json"
+      ]
+    },
+    {
+      "id": "edge:packet-artifact:a88bac98-2a8b-417a-8ff5-5514903ac2ee:control-tower-packets-inbox-scribe-docs-followup-builder-20260413t194700z-result-json",
+      "type": "references",
+      "from": "packet:a88bac98-2a8b-417a-8ff5-5514903ac2ee",
+      "to": "artifact:.control-tower/packets/inbox/scribe-docs-followup-builder-20260413T194700Z-result.json",
+      "created_at": "2026-04-13T19:47:51Z",
+      "evidence_refs": [
+        ".control-tower/packets/inbox/scribe-docs-followup-builder-20260413T194700Z-result.json"
+      ]
+    },
+    {
+      "id": "edge:decision-ref:dec_inferred_a88bac98-2a8b-417a-8ff5-5514903ac2ee_0_homepage-hero-now-depends-on-the-repository-asset-assets-atlas-banner-png-plus-gradient-overlays-in-assets-main-css-for-text-legibility-across-desktop-and-mobile-layouts:control-tower-packets-inbox-scribe-docs-followup-builder-20260413t194700z-result-json",
+      "type": "references",
+      "from": "dec_inferred_a88bac98-2a8b-417a-8ff5-5514903ac2ee_0_homepage-hero-now-depends-on-the-repository-asset-assets-atlas-banner-png-plus-gradient-overlays-in-assets-main-css-for-text-legibility-across-desktop-and-mobile-layouts",
+      "to": "artifact:.control-tower/packets/inbox/scribe-docs-followup-builder-20260413T194700Z-result.json",
+      "created_at": "2026-04-13T19:48:32Z",
+      "evidence_refs": [
+        ".control-tower/packets/inbox/scribe-docs-followup-builder-20260413T194700Z-result.json"
+      ]
+    },
+    {
+      "id": "edge:decision-node:dec_inferred_a88bac98-2a8b-417a-8ff5-5514903ac2ee_0_homepage-hero-now-depends-on-the-repository-asset-assets-atlas-banner-png-plus-gradient-overlays-in-assets-main-css-for-text-legibility-across-desktop-and-mobile-layouts:packet-a88bac98-2a8b-417a-8ff5-5514903ac2ee",
+      "type": "references",
+      "from": "dec_inferred_a88bac98-2a8b-417a-8ff5-5514903ac2ee_0_homepage-hero-now-depends-on-the-repository-asset-assets-atlas-banner-png-plus-gradient-overlays-in-assets-main-css-for-text-legibility-across-desktop-and-mobile-layouts",
+      "to": "packet:a88bac98-2a8b-417a-8ff5-5514903ac2ee",
+      "created_at": "2026-04-13T19:48:32Z",
+      "evidence_refs": [
+        ".control-tower/packets/inbox/scribe-docs-followup-builder-20260413T194700Z-result.json"
+      ]
+    },
+    {
+      "id": "edge:decision-ref:dec_inferred_a88bac98-2a8b-417a-8ff5-5514903ac2ee_1_current-live-homepage-state-static-single-page-site-with-confirmed-hero-date-logistics-and-organizer-contacts-but-schedule-and-submissions-remain-placeholder-content:control-tower-packets-inbox-scribe-docs-followup-builder-20260413t194700z-result-json",
+      "type": "references",
+      "from": "dec_inferred_a88bac98-2a8b-417a-8ff5-5514903ac2ee_1_current-live-homepage-state-static-single-page-site-with-confirmed-hero-date-logistics-and-organizer-contacts-but-schedule-and-submissions-remain-placeholder-content",
+      "to": "artifact:.control-tower/packets/inbox/scribe-docs-followup-builder-20260413T194700Z-result.json",
+      "created_at": "2026-04-13T19:48:32Z",
+      "evidence_refs": [
+        ".control-tower/packets/inbox/scribe-docs-followup-builder-20260413T194700Z-result.json"
+      ]
+    },
+    {
+      "id": "edge:decision-node:dec_inferred_a88bac98-2a8b-417a-8ff5-5514903ac2ee_1_current-live-homepage-state-static-single-page-site-with-confirmed-hero-date-logistics-and-organizer-contacts-but-schedule-and-submissions-remain-placeholder-content:packet-a88bac98-2a8b-417a-8ff5-5514903ac2ee",
+      "type": "references",
+      "from": "dec_inferred_a88bac98-2a8b-417a-8ff5-5514903ac2ee_1_current-live-homepage-state-static-single-page-site-with-confirmed-hero-date-logistics-and-organizer-contacts-but-schedule-and-submissions-remain-placeholder-content",
+      "to": "packet:a88bac98-2a8b-417a-8ff5-5514903ac2ee",
+      "created_at": "2026-04-13T19:48:32Z",
+      "evidence_refs": [
+        ".control-tower/packets/inbox/scribe-docs-followup-builder-20260413T194700Z-result.json"
+      ]
+    },
+    {
+      "id": "edge:packet-artifact:c97ecdb1-5e4e-47d5-ac01-9de511f58fa4:control-tower-packets-outbox-builder-generic-schedule-update-json",
+      "type": "references",
+      "from": "packet:c97ecdb1-5e4e-47d5-ac01-9de511f58fa4",
+      "to": "artifact:.control-tower/packets/outbox/builder-generic-schedule-update.json",
+      "created_at": "2026-04-13T19:47:43Z",
+      "evidence_refs": [
+        ".control-tower/packets/outbox/builder-generic-schedule-update.json"
+      ]
+    },
+    {
+      "id": "edge:packet-session:c97ecdb1-5e4e-47d5-ac01-9de511f58fa4:019d87bf-6dad-7233-addd-de3fb099e0ae",
+      "type": "discussed_in",
+      "from": "packet:c97ecdb1-5e4e-47d5-ac01-9de511f58fa4",
+      "to": "session:019d87bf-6dad-7233-addd-de3fb099e0ae",
+      "created_at": "2026-04-13T19:47:43Z",
+      "evidence_refs": [
+        ".control-tower/packets/outbox/builder-generic-schedule-update.json"
+      ]
+    },
+    {
+      "id": "edge:packet-artifact:17c05de0-3104-4e47-b02b-a3d6ac642987:control-tower-packets-outbox-scribe-docs-followup-builder-20260413t194700z-json",
+      "type": "references",
+      "from": "packet:17c05de0-3104-4e47-b02b-a3d6ac642987",
+      "to": "artifact:.control-tower/packets/outbox/scribe-docs-followup-builder-20260413T194700Z.json",
+      "created_at": "2026-04-13T19:47:00Z",
+      "evidence_refs": [
+        ".control-tower/packets/outbox/scribe-docs-followup-builder-20260413T194700Z.json"
+      ]
+    },
+    {
+      "id": "edge:packet-session:17c05de0-3104-4e47-b02b-a3d6ac642987:019d87bf-6dad-7233-addd-de3fb099e0ae",
+      "type": "discussed_in",
+      "from": "packet:17c05de0-3104-4e47-b02b-a3d6ac642987",
+      "to": "session:019d87bf-6dad-7233-addd-de3fb099e0ae",
+      "created_at": "2026-04-13T19:47:00Z",
+      "evidence_refs": [
+        ".control-tower/packets/outbox/scribe-docs-followup-builder-20260413T194700Z.json"
+      ]
+    },
+    {
+      "id": "edge:packet-artifact:f78388aa-b339-4d7a-9816-a7172e324510:control-tower-packets-inbox-builder-generic-schedule-update-result-json",
+      "type": "references",
+      "from": "packet:f78388aa-b339-4d7a-9816-a7172e324510",
+      "to": "artifact:.control-tower/packets/inbox/builder-generic-schedule-update-result.json",
+      "created_at": "2026-04-13T20:02:00Z",
+      "evidence_refs": [
+        ".control-tower/packets/inbox/builder-generic-schedule-update-result.json"
+      ]
+    },
+    {
+      "id": "edge:packet-artifact:ce7d1d82-cb15-46d4-84e3-c900a5194388:control-tower-packets-outbox-builder-reduce-banner-cropping-json",
+      "type": "references",
+      "from": "packet:ce7d1d82-cb15-46d4-84e3-c900a5194388",
+      "to": "artifact:.control-tower/packets/outbox/builder-reduce-banner-cropping.json",
+      "created_at": "2026-04-13T19:48:46Z",
+      "evidence_refs": [
+        ".control-tower/packets/outbox/builder-reduce-banner-cropping.json"
+      ]
+    },
+    {
+      "id": "edge:packet-session:ce7d1d82-cb15-46d4-84e3-c900a5194388:019d87bf-6dad-7233-addd-de3fb099e0ae",
+      "type": "discussed_in",
+      "from": "packet:ce7d1d82-cb15-46d4-84e3-c900a5194388",
+      "to": "session:019d87bf-6dad-7233-addd-de3fb099e0ae",
+      "created_at": "2026-04-13T19:48:46Z",
+      "evidence_refs": [
+        ".control-tower/packets/outbox/builder-reduce-banner-cropping.json"
+      ]
+    },
+    {
+      "id": "edge:packet-artifact:0de741ef-787f-4d9f-8b52-3faf52a7452d:control-tower-packets-inbox-builder-reduce-banner-cropping-result-json",
+      "type": "references",
+      "from": "packet:0de741ef-787f-4d9f-8b52-3faf52a7452d",
+      "to": "artifact:.control-tower/packets/inbox/builder-reduce-banner-cropping-result.json",
+      "created_at": "2026-04-13T19:56:30Z",
+      "evidence_refs": [
+        ".control-tower/packets/inbox/builder-reduce-banner-cropping-result.json"
+      ]
+    },
+    {
+      "id": "edge:packet-artifact:c40c8744-ff60-4b12-a6dd-7e0eb1aa68e7:control-tower-packets-outbox-scribe-docs-followup-builder-20260413t194906z-json",
+      "type": "references",
+      "from": "packet:c40c8744-ff60-4b12-a6dd-7e0eb1aa68e7",
+      "to": "artifact:.control-tower/packets/outbox/scribe-docs-followup-builder-20260413T194906Z.json",
+      "created_at": "2026-04-13T19:49:06Z",
+      "evidence_refs": [
+        ".control-tower/packets/outbox/scribe-docs-followup-builder-20260413T194906Z.json"
+      ]
+    },
+    {
+      "id": "edge:packet-session:c40c8744-ff60-4b12-a6dd-7e0eb1aa68e7:019d87bf-6dad-7233-addd-de3fb099e0ae",
+      "type": "discussed_in",
+      "from": "packet:c40c8744-ff60-4b12-a6dd-7e0eb1aa68e7",
+      "to": "session:019d87bf-6dad-7233-addd-de3fb099e0ae",
+      "created_at": "2026-04-13T19:49:06Z",
+      "evidence_refs": [
+        ".control-tower/packets/outbox/scribe-docs-followup-builder-20260413T194906Z.json"
+      ]
+    },
+    {
+      "id": "edge:packet-artifact:46737c86-0d0f-4244-89ab-dab34677de84:control-tower-packets-inbox-builder-revert-banner-image-result-json",
+      "type": "references",
+      "from": "packet:46737c86-0d0f-4244-89ab-dab34677de84",
+      "to": "artifact:.control-tower/packets/inbox/builder-revert-banner-image-result.json",
+      "created_at": "2026-04-13T19:57:29Z",
+      "evidence_refs": [
+        ".control-tower/packets/inbox/builder-revert-banner-image-result.json"
+      ]
+    },
+    {
+      "id": "edge:packet-artifact:fa03cbb5-00e9-4d4b-8817-4069b3565387:control-tower-packets-outbox-builder-rename-schedule-to-program-json",
+      "type": "references",
+      "from": "packet:fa03cbb5-00e9-4d4b-8817-4069b3565387",
+      "to": "artifact:.control-tower/packets/outbox/builder-rename-schedule-to-program.json",
+      "created_at": "2026-04-13T19:51:32Z",
+      "evidence_refs": [
+        ".control-tower/packets/outbox/builder-rename-schedule-to-program.json"
+      ]
+    },
+    {
+      "id": "edge:packet-session:fa03cbb5-00e9-4d4b-8817-4069b3565387:019d87bf-6dad-7233-addd-de3fb099e0ae",
+      "type": "discussed_in",
+      "from": "packet:fa03cbb5-00e9-4d4b-8817-4069b3565387",
+      "to": "session:019d87bf-6dad-7233-addd-de3fb099e0ae",
+      "created_at": "2026-04-13T19:51:32Z",
+      "evidence_refs": [
+        ".control-tower/packets/outbox/builder-rename-schedule-to-program.json"
+      ]
+    },
+    {
+      "id": "edge:packet-artifact:1c267cd8-a521-4a54-bae3-1bf4c94c0fe2:control-tower-packets-outbox-builder-revert-banner-image-json",
+      "type": "references",
+      "from": "packet:1c267cd8-a521-4a54-bae3-1bf4c94c0fe2",
+      "to": "artifact:.control-tower/packets/outbox/builder-revert-banner-image.json",
+      "created_at": "2026-04-13T19:51:08Z",
+      "evidence_refs": [
+        ".control-tower/packets/outbox/builder-revert-banner-image.json"
+      ]
+    },
+    {
+      "id": "edge:packet-session:1c267cd8-a521-4a54-bae3-1bf4c94c0fe2:019d87bf-6dad-7233-addd-de3fb099e0ae",
+      "type": "discussed_in",
+      "from": "packet:1c267cd8-a521-4a54-bae3-1bf4c94c0fe2",
+      "to": "session:019d87bf-6dad-7233-addd-de3fb099e0ae",
+      "created_at": "2026-04-13T19:51:08Z",
+      "evidence_refs": [
+        ".control-tower/packets/outbox/builder-revert-banner-image.json"
+      ]
+    },
+    {
+      "id": "edge:packet-artifact:c05e2bca-7b41-43a9-8d97-226d891d5273:control-tower-packets-outbox-scribe-docs-followup-builder-20260413t195050z-json",
+      "type": "references",
+      "from": "packet:c05e2bca-7b41-43a9-8d97-226d891d5273",
+      "to": "artifact:.control-tower/packets/outbox/scribe-docs-followup-builder-20260413T195050Z.json",
+      "created_at": "2026-04-13T19:50:50Z",
+      "evidence_refs": [
+        ".control-tower/packets/outbox/scribe-docs-followup-builder-20260413T195050Z.json"
+      ]
+    },
+    {
+      "id": "edge:packet-session:c05e2bca-7b41-43a9-8d97-226d891d5273:019d87bf-6dad-7233-addd-de3fb099e0ae",
+      "type": "discussed_in",
+      "from": "packet:c05e2bca-7b41-43a9-8d97-226d891d5273",
+      "to": "session:019d87bf-6dad-7233-addd-de3fb099e0ae",
+      "created_at": "2026-04-13T19:50:50Z",
+      "evidence_refs": [
+        ".control-tower/packets/outbox/scribe-docs-followup-builder-20260413T195050Z.json"
+      ]
+    },
+    {
+      "id": "edge:packet-artifact:6f281f3c-32c7-4882-8499-0279a69c807b:control-tower-packets-inbox-builder-revert-banner-image-result-json",
+      "type": "references",
+      "from": "packet:6f281f3c-32c7-4882-8499-0279a69c807b",
+      "to": "artifact:.control-tower/packets/inbox/builder-revert-banner-image-result.json",
+      "created_at": "2026-04-13T20:02:30Z",
+      "evidence_refs": [
+        ".control-tower/packets/inbox/builder-revert-banner-image-result.json"
+      ]
+    },
+    {
+      "id": "edge:packet-artifact:8495ccbf-0d87-4296-b34c-96ff6e61f96b:control-tower-packets-outbox-scribe-docs-followup-builder-20260413t195743z-json",
+      "type": "references",
+      "from": "packet:8495ccbf-0d87-4296-b34c-96ff6e61f96b",
+      "to": "artifact:.control-tower/packets/outbox/scribe-docs-followup-builder-20260413T195743Z.json",
+      "created_at": "2026-04-13T19:57:43Z",
+      "evidence_refs": [
+        ".control-tower/packets/outbox/scribe-docs-followup-builder-20260413T195743Z.json"
+      ]
+    },
+    {
+      "id": "edge:packet-session:8495ccbf-0d87-4296-b34c-96ff6e61f96b:019d87bf-6dad-7233-addd-de3fb099e0ae",
+      "type": "discussed_in",
+      "from": "packet:8495ccbf-0d87-4296-b34c-96ff6e61f96b",
+      "to": "session:019d87bf-6dad-7233-addd-de3fb099e0ae",
+      "created_at": "2026-04-13T19:57:43Z",
+      "evidence_refs": [
+        ".control-tower/packets/outbox/scribe-docs-followup-builder-20260413T195743Z.json"
+      ]
+    },
+    {
+      "id": "edge:packet-artifact:f8f90952-9964-401a-9951-b49da02c37c1:control-tower-packets-inbox-builder-rename-schedule-to-program-result-json",
+      "type": "references",
+      "from": "packet:f8f90952-9964-401a-9951-b49da02c37c1",
+      "to": "artifact:.control-tower/packets/inbox/builder-rename-schedule-to-program-result.json",
+      "created_at": "2026-04-13T19:58:57Z",
+      "evidence_refs": [
+        ".control-tower/packets/inbox/builder-rename-schedule-to-program-result.json"
+      ]
+    },
+    {
+      "id": "edge:packet-artifact:5559fac4-2cb8-428d-96d8-6a37ea81d96b:control-tower-packets-outbox-scribe-docs-followup-builder-20260413t195841z-json",
+      "type": "references",
+      "from": "packet:5559fac4-2cb8-428d-96d8-6a37ea81d96b",
+      "to": "artifact:.control-tower/packets/outbox/scribe-docs-followup-builder-20260413T195841Z.json",
+      "created_at": "2026-04-13T19:58:41Z",
+      "evidence_refs": [
+        ".control-tower/packets/outbox/scribe-docs-followup-builder-20260413T195841Z.json"
+      ]
+    },
+    {
+      "id": "edge:packet-session:5559fac4-2cb8-428d-96d8-6a37ea81d96b:019d87bf-6dad-7233-addd-de3fb099e0ae",
+      "type": "discussed_in",
+      "from": "packet:5559fac4-2cb8-428d-96d8-6a37ea81d96b",
+      "to": "session:019d87bf-6dad-7233-addd-de3fb099e0ae",
+      "created_at": "2026-04-13T19:58:41Z",
+      "evidence_refs": [
+        ".control-tower/packets/outbox/scribe-docs-followup-builder-20260413T195841Z.json"
+      ]
+    },
+    {
+      "id": "edge:packet-artifact:FEF00BBA-3B77-4009-8429-0B285533A0F4:control-tower-packets-inbox-scribe-reconcile-program-and-banner-revert-result-json",
+      "type": "references",
+      "from": "packet:FEF00BBA-3B77-4009-8429-0B285533A0F4",
+      "to": "artifact:.control-tower/packets/inbox/scribe-reconcile-program-and-banner-revert-result.json",
+      "created_at": "2026-04-13T20:01:35Z",
+      "evidence_refs": [
+        ".control-tower/packets/inbox/scribe-reconcile-program-and-banner-revert-result.json"
+      ]
+    },
+    {
+      "id": "edge:decision-ref:dec_inferred_FEF00BBA-3B77-4009-8429-0B285533A0F4_0_homepage-hero-is-again-a-css-only-gradient-banner-panel-in-assets-main-css-and-no-longer-depends-on-a-repository-banner-image-asset:control-tower-packets-inbox-scribe-reconcile-program-and-banner-revert-result-json",
+      "type": "references",
+      "from": "dec_inferred_FEF00BBA-3B77-4009-8429-0B285533A0F4_0_homepage-hero-is-again-a-css-only-gradient-banner-panel-in-assets-main-css-and-no-longer-depends-on-a-repository-banner-image-asset",
+      "to": "artifact:.control-tower/packets/inbox/scribe-reconcile-program-and-banner-revert-result.json",
+      "created_at": "2026-04-13T20:01:49Z",
+      "evidence_refs": [
+        ".control-tower/packets/inbox/scribe-reconcile-program-and-banner-revert-result.json"
+      ]
+    },
+    {
+      "id": "edge:decision-node:dec_inferred_FEF00BBA-3B77-4009-8429-0B285533A0F4_0_homepage-hero-is-again-a-css-only-gradient-banner-panel-in-assets-main-css-and-no-longer-depends-on-a-repository-banner-image-asset:packet-fef00bba-3b77-4009-8429-0b285533a0f4",
+      "type": "references",
+      "from": "dec_inferred_FEF00BBA-3B77-4009-8429-0B285533A0F4_0_homepage-hero-is-again-a-css-only-gradient-banner-panel-in-assets-main-css-and-no-longer-depends-on-a-repository-banner-image-asset",
+      "to": "packet:FEF00BBA-3B77-4009-8429-0B285533A0F4",
+      "created_at": "2026-04-13T20:01:49Z",
+      "evidence_refs": [
+        ".control-tower/packets/inbox/scribe-reconcile-program-and-banner-revert-result.json"
+      ]
+    },
+    {
+      "id": "edge:decision-ref:dec_inferred_FEF00BBA-3B77-4009-8429-0B285533A0F4_1_homepage-ia-now-uses-program-instead-of-schedule-and-the-program-section-contains-a-generic-full-day-agenda-while-exact-timing-and-speakers-remain-unconfirmed:control-tower-packets-inbox-scribe-reconcile-program-and-banner-revert-result-json",
+      "type": "references",
+      "from": "dec_inferred_FEF00BBA-3B77-4009-8429-0B285533A0F4_1_homepage-ia-now-uses-program-instead-of-schedule-and-the-program-section-contains-a-generic-full-day-agenda-while-exact-timing-and-speakers-remain-unconfirmed",
+      "to": "artifact:.control-tower/packets/inbox/scribe-reconcile-program-and-banner-revert-result.json",
+      "created_at": "2026-04-13T20:01:49Z",
+      "evidence_refs": [
+        ".control-tower/packets/inbox/scribe-reconcile-program-and-banner-revert-result.json"
+      ]
+    },
+    {
+      "id": "edge:decision-node:dec_inferred_FEF00BBA-3B77-4009-8429-0B285533A0F4_1_homepage-ia-now-uses-program-instead-of-schedule-and-the-program-section-contains-a-generic-full-day-agenda-while-exact-timing-and-speakers-remain-unconfirmed:packet-fef00bba-3b77-4009-8429-0b285533a0f4",
+      "type": "references",
+      "from": "dec_inferred_FEF00BBA-3B77-4009-8429-0B285533A0F4_1_homepage-ia-now-uses-program-instead-of-schedule-and-the-program-section-contains-a-generic-full-day-agenda-while-exact-timing-and-speakers-remain-unconfirmed",
+      "to": "packet:FEF00BBA-3B77-4009-8429-0B285533A0F4",
+      "created_at": "2026-04-13T20:01:49Z",
+      "evidence_refs": [
+        ".control-tower/packets/inbox/scribe-reconcile-program-and-banner-revert-result.json"
+      ]
+    },
+    {
+      "id": "edge:packet-artifact:91c77263-cf82-4f77-85a1-048c8b0fef06:control-tower-packets-outbox-scribe-docs-followup-builder-20260413t195907z-json",
+      "type": "references",
+      "from": "packet:91c77263-cf82-4f77-85a1-048c8b0fef06",
+      "to": "artifact:.control-tower/packets/outbox/scribe-docs-followup-builder-20260413T195907Z.json",
+      "created_at": "2026-04-13T19:59:07Z",
+      "evidence_refs": [
+        ".control-tower/packets/outbox/scribe-docs-followup-builder-20260413T195907Z.json"
+      ]
+    },
+    {
+      "id": "edge:packet-session:91c77263-cf82-4f77-85a1-048c8b0fef06:019d87bf-6dad-7233-addd-de3fb099e0ae",
+      "type": "discussed_in",
+      "from": "packet:91c77263-cf82-4f77-85a1-048c8b0fef06",
+      "to": "session:019d87bf-6dad-7233-addd-de3fb099e0ae",
+      "created_at": "2026-04-13T19:59:07Z",
+      "evidence_refs": [
+        ".control-tower/packets/outbox/scribe-docs-followup-builder-20260413T195907Z.json"
+      ]
+    },
+    {
+      "id": "edge:packet-artifact:d553c18d-1f67-4a29-929a-89fedb2c550e:control-tower-packets-outbox-scribe-reconcile-program-and-banner-revert-json",
+      "type": "references",
+      "from": "packet:d553c18d-1f67-4a29-929a-89fedb2c550e",
+      "to": "artifact:.control-tower/packets/outbox/scribe-reconcile-program-and-banner-revert.json",
+      "created_at": "2026-04-13T19:59:27Z",
+      "evidence_refs": [
+        ".control-tower/packets/outbox/scribe-reconcile-program-and-banner-revert.json"
+      ]
+    },
+    {
+      "id": "edge:packet-session:d553c18d-1f67-4a29-929a-89fedb2c550e:019d87bf-6dad-7233-addd-de3fb099e0ae",
+      "type": "discussed_in",
+      "from": "packet:d553c18d-1f67-4a29-929a-89fedb2c550e",
+      "to": "session:019d87bf-6dad-7233-addd-de3fb099e0ae",
+      "created_at": "2026-04-13T19:59:27Z",
+      "evidence_refs": [
+        ".control-tower/packets/outbox/scribe-reconcile-program-and-banner-revert.json"
+      ]
+    },
+    {
+      "id": "edge:packet-artifact:a805b760-53cd-44da-95fc-0e847d599320:control-tower-packets-inbox-builder-refine-program-template-result-json",
+      "type": "references",
+      "from": "packet:a805b760-53cd-44da-95fc-0e847d599320",
+      "to": "artifact:.control-tower/packets/inbox/builder-refine-program-template-result.json",
+      "created_at": "2026-04-13T20:05:34Z",
+      "evidence_refs": [
+        ".control-tower/packets/inbox/builder-refine-program-template-result.json"
+      ]
+    },
+    {
+      "id": "edge:packet-artifact:db62cbba-382b-422a-a509-681e4a8bd29a:control-tower-packets-outbox-builder-refine-program-template-json",
+      "type": "references",
+      "from": "packet:db62cbba-382b-422a-a509-681e4a8bd29a",
+      "to": "artifact:.control-tower/packets/outbox/builder-refine-program-template.json",
+      "created_at": "2026-04-13T20:04:43Z",
+      "evidence_refs": [
+        ".control-tower/packets/outbox/builder-refine-program-template.json"
+      ]
+    },
+    {
+      "id": "edge:packet-session:db62cbba-382b-422a-a509-681e4a8bd29a:019d87bf-6dad-7233-addd-de3fb099e0ae",
+      "type": "discussed_in",
+      "from": "packet:db62cbba-382b-422a-a509-681e4a8bd29a",
+      "to": "session:019d87bf-6dad-7233-addd-de3fb099e0ae",
+      "created_at": "2026-04-13T20:04:43Z",
+      "evidence_refs": [
+        ".control-tower/packets/outbox/builder-refine-program-template.json"
+      ]
+    },
+    {
+      "id": "edge:packet-artifact:ECA141C2-7E41-41FE-B2B0-AAB75BC79DDF:control-tower-packets-inbox-scribe-update-program-template-docs-result-json",
+      "type": "references",
+      "from": "packet:ECA141C2-7E41-41FE-B2B0-AAB75BC79DDF",
+      "to": "artifact:.control-tower/packets/inbox/scribe-update-program-template-docs-result.json",
+      "created_at": "2026-04-13T20:07:22Z",
+      "evidence_refs": [
+        ".control-tower/packets/inbox/scribe-update-program-template-docs-result.json"
+      ]
+    },
+    {
+      "id": "edge:decision-ref:dec_inferred_ECA141C2-7E41-41FE-B2B0-AAB75BC79DDF_0_homepage-program-copy-now-uses-a-constrained-invited-talks-posters-template-with-coffee-breaks-and-a-lunch-break-only:control-tower-packets-inbox-scribe-update-program-template-docs-result-json",
+      "type": "references",
+      "from": "dec_inferred_ECA141C2-7E41-41FE-B2B0-AAB75BC79DDF_0_homepage-program-copy-now-uses-a-constrained-invited-talks-posters-template-with-coffee-breaks-and-a-lunch-break-only",
+      "to": "artifact:.control-tower/packets/inbox/scribe-update-program-template-docs-result.json",
+      "created_at": "2026-04-13T20:07:42Z",
+      "evidence_refs": [
+        ".control-tower/packets/inbox/scribe-update-program-template-docs-result.json"
+      ]
+    },
+    {
+      "id": "edge:decision-node:dec_inferred_ECA141C2-7E41-41FE-B2B0-AAB75BC79DDF_0_homepage-program-copy-now-uses-a-constrained-invited-talks-posters-template-with-coffee-breaks-and-a-lunch-break-only:packet-eca141c2-7e41-41fe-b2b0-aab75bc79ddf",
+      "type": "references",
+      "from": "dec_inferred_ECA141C2-7E41-41FE-B2B0-AAB75BC79DDF_0_homepage-program-copy-now-uses-a-constrained-invited-talks-posters-template-with-coffee-breaks-and-a-lunch-break-only",
+      "to": "packet:ECA141C2-7E41-41FE-B2B0-AAB75BC79DDF",
+      "created_at": "2026-04-13T20:07:42Z",
+      "evidence_refs": [
+        ".control-tower/packets/inbox/scribe-update-program-template-docs-result.json"
+      ]
+    },
+    {
+      "id": "edge:decision-ref:dec_inferred_ECA141C2-7E41-41FE-B2B0-AAB75BC79DDF_1_durable-product-docs-and-operational-state-were-realigned-on-2026-04-13-to-match-the-current-program-wording-in-index-html:control-tower-packets-inbox-scribe-update-program-template-docs-result-json",
+      "type": "references",
+      "from": "dec_inferred_ECA141C2-7E41-41FE-B2B0-AAB75BC79DDF_1_durable-product-docs-and-operational-state-were-realigned-on-2026-04-13-to-match-the-current-program-wording-in-index-html",
+      "to": "artifact:.control-tower/packets/inbox/scribe-update-program-template-docs-result.json",
+      "created_at": "2026-04-13T20:07:42Z",
+      "evidence_refs": [
+        ".control-tower/packets/inbox/scribe-update-program-template-docs-result.json"
+      ]
+    },
+    {
+      "id": "edge:decision-node:dec_inferred_ECA141C2-7E41-41FE-B2B0-AAB75BC79DDF_1_durable-product-docs-and-operational-state-were-realigned-on-2026-04-13-to-match-the-current-program-wording-in-index-html:packet-eca141c2-7e41-41fe-b2b0-aab75bc79ddf",
+      "type": "references",
+      "from": "dec_inferred_ECA141C2-7E41-41FE-B2B0-AAB75BC79DDF_1_durable-product-docs-and-operational-state-were-realigned-on-2026-04-13-to-match-the-current-program-wording-in-index-html",
+      "to": "packet:ECA141C2-7E41-41FE-B2B0-AAB75BC79DDF",
+      "created_at": "2026-04-13T20:07:42Z",
+      "evidence_refs": [
+        ".control-tower/packets/inbox/scribe-update-program-template-docs-result.json"
+      ]
+    },
+    {
+      "id": "edge:packet-artifact:841e7dbb-13a2-43dd-b163-924e41a98b2a:control-tower-packets-outbox-scribe-docs-followup-builder-20260413t200545z-json",
+      "type": "references",
+      "from": "packet:841e7dbb-13a2-43dd-b163-924e41a98b2a",
+      "to": "artifact:.control-tower/packets/outbox/scribe-docs-followup-builder-20260413T200545Z.json",
+      "created_at": "2026-04-13T20:05:45Z",
+      "evidence_refs": [
+        ".control-tower/packets/outbox/scribe-docs-followup-builder-20260413T200545Z.json"
+      ]
+    },
+    {
+      "id": "edge:packet-session:841e7dbb-13a2-43dd-b163-924e41a98b2a:019d87bf-6dad-7233-addd-de3fb099e0ae",
+      "type": "discussed_in",
+      "from": "packet:841e7dbb-13a2-43dd-b163-924e41a98b2a",
+      "to": "session:019d87bf-6dad-7233-addd-de3fb099e0ae",
+      "created_at": "2026-04-13T20:05:45Z",
+      "evidence_refs": [
+        ".control-tower/packets/outbox/scribe-docs-followup-builder-20260413T200545Z.json"
+      ]
+    },
+    {
+      "id": "edge:packet-artifact:a56913fe-3eba-4e18-a5b0-9c5cb67dc61c:control-tower-packets-outbox-scribe-update-program-template-docs-json",
+      "type": "references",
+      "from": "packet:a56913fe-3eba-4e18-a5b0-9c5cb67dc61c",
+      "to": "artifact:.control-tower/packets/outbox/scribe-update-program-template-docs.json",
+      "created_at": "2026-04-13T20:05:56Z",
+      "evidence_refs": [
+        ".control-tower/packets/outbox/scribe-update-program-template-docs.json"
+      ]
+    },
+    {
+      "id": "edge:packet-session:a56913fe-3eba-4e18-a5b0-9c5cb67dc61c:019d87bf-6dad-7233-addd-de3fb099e0ae",
+      "type": "discussed_in",
+      "from": "packet:a56913fe-3eba-4e18-a5b0-9c5cb67dc61c",
+      "to": "session:019d87bf-6dad-7233-addd-de3fb099e0ae",
+      "created_at": "2026-04-13T20:05:56Z",
+      "evidence_refs": [
+        ".control-tower/packets/outbox/scribe-update-program-template-docs.json"
+      ]
+    },
+    {
+      "id": "edge:packet-artifact:9d7308d4-4523-46e6-8fe5-2f914addaa02:control-tower-packets-inbox-builder-8248f99b-a2a5-4e39-8c00-be1b93c7b0d1-result-json",
+      "type": "references",
+      "from": "packet:9d7308d4-4523-46e6-8fe5-2f914addaa02",
+      "to": "artifact:.control-tower/packets/inbox/builder-8248f99b-a2a5-4e39-8c00-be1b93c7b0d1-result.json",
+      "created_at": "2026-04-13T20:08:38Z",
+      "evidence_refs": [
+        ".control-tower/packets/inbox/builder-8248f99b-a2a5-4e39-8c00-be1b93c7b0d1-result.json"
+      ]
+    },
+    {
+      "id": "edge:packet-artifact:8248f99b-a2a5-4e39-8c00-be1b93c7b0d1:control-tower-packets-outbox-builder-call-for-papers-content-json",
+      "type": "references",
+      "from": "packet:8248f99b-a2a5-4e39-8c00-be1b93c7b0d1",
+      "to": "artifact:.control-tower/packets/outbox/builder-call-for-papers-content.json",
+      "created_at": "2026-04-13T20:07:59Z",
+      "evidence_refs": [
+        ".control-tower/packets/outbox/builder-call-for-papers-content.json"
+      ]
+    },
+    {
+      "id": "edge:packet-session:8248f99b-a2a5-4e39-8c00-be1b93c7b0d1:019d87bf-6dad-7233-addd-de3fb099e0ae",
+      "type": "discussed_in",
+      "from": "packet:8248f99b-a2a5-4e39-8c00-be1b93c7b0d1",
+      "to": "session:019d87bf-6dad-7233-addd-de3fb099e0ae",
+      "created_at": "2026-04-13T20:07:59Z",
+      "evidence_refs": [
+        ".control-tower/packets/outbox/builder-call-for-papers-content.json"
+      ]
     }
   ]
 }

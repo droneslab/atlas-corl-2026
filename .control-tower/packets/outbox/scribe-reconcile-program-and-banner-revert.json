@@ -1,0 +1,55 @@
+{
+  "schema_version": "1.0.0",
+  "packet_type": "task",
+  "packet_id": "d553c18d-1f67-4a29-929a-89fedb2c550e",
+  "trace_id": "8276fbcc-b22e-4b4b-a384-5850a99f2d31",
+  "parent_packet_id": null,
+  "created_at": "2026-04-13T19:59:27Z",
+  "from_agent": "tower",
+  "to_agent": "scribe",
+  "task_type": "documentation",
+  "priority": "high",
+  "project_id": "atlas-corl-2026",
+  "session_id": "019d87bf-6dad-7233-addd-de3fb099e0ae",
+  "title": "Reconcile docs after banner revert and Program rename",
+  "objective": "Update durable docs and operational state so they match the restored CSS-only banner and the homepage Program section with generic agenda content.",
+  "instructions": [
+    "Review the referenced Builder result packets and the current homepage/CSS state before editing docs.",
+    "Update docs/product-specs/workshop-website.md to reflect the Program section, generic agenda content, and current non-image banner state.",
+    "Update docs/design-docs/site-architecture.md to remove the atlas-banner asset description and document the restored CSS-only banner treatment.",
+    "Update .control-tower/docs/state/current-status.md if it still claims the homepage uses a repository banner image or Schedule placeholder wording."
+  ],
+  "constraints": [
+    "Treat docs/ as durable source of truth and .control-tower/docs/state as operational memory.",
+    "Do not modify product source code."
+  ],
+  "inputs": {
+    "files": [
+      "/Users/yashturkar/Workspace/atlas-corl-2026/index.html",
+      "/Users/yashturkar/Workspace/atlas-corl-2026/assets/main.css"
+    ],
+    "artifacts": [],
+    "references": [
+      "/Users/yashturkar/Workspace/atlas-corl-2026/.control-tower/packets/inbox/builder-revert-banner-image-result.json",
+      "/Users/yashturkar/Workspace/atlas-corl-2026/.control-tower/packets/inbox/builder-generic-schedule-update-result.json",
+      "/Users/yashturkar/Workspace/atlas-corl-2026/.control-tower/packets/inbox/builder-rename-schedule-to-program-result.json"
+    ]
+  },
+  "expected_outputs": [
+    "Docs and operational status updated to match the current homepage."
+  ],
+  "definition_of_done": [
+    "Durable docs no longer mention the removed banner image asset.",
+    "Durable docs reflect Program rather than Schedule and describe the generic agenda accurately.",
+    "Operational status no longer mentions the removed banner image implementation."
+  ],
+  "memory_context_refs": [],
+  "doc_context_refs": [],
+  "time_budget": {
+    "soft_seconds": 900,
+    "hard_seconds": 3600
+  },
+  "requires_review": true,
+  "allow_partial": false,
+  "metadata": {}
+}
