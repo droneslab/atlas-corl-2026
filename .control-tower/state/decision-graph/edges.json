@@ -1,0 +1,244 @@
+{
+  "edges": [
+    {
+      "id": "edge:packet-artifact:1460f51b-63d5-49a5-9d68-2fd3dc4052ab:control-tower-packets-inbox-scout-homepage-gap-result-json",
+      "type": "references",
+      "from": "packet:1460f51b-63d5-49a5-9d68-2fd3dc4052ab",
+      "to": "artifact:.control-tower/packets/inbox/scout-homepage-gap-result.json",
+      "created_at": "2026-04-13T16:51:36Z",
+      "evidence_refs": [
+        ".control-tower/packets/inbox/scout-homepage-gap-result.json"
+      ]
+    },
+    {
+      "id": "edge:packet-artifact:ea3e085b-a74e-4471-bdf0-bd4d488e0fd0:control-tower-packets-outbox-scout-homepage-gap-json",
+      "type": "references",
+      "from": "packet:ea3e085b-a74e-4471-bdf0-bd4d488e0fd0",
+      "to": "artifact:.control-tower/packets/outbox/scout-homepage-gap.json",
+      "created_at": "2026-04-13T16:50:21Z",
+      "evidence_refs": [
+        ".control-tower/packets/outbox/scout-homepage-gap.json"
+      ]
+    },
+    {
+      "id": "edge:packet-session:ea3e085b-a74e-4471-bdf0-bd4d488e0fd0:019d87bf-6dad-7233-addd-de3fb099e0ae",
+      "type": "discussed_in",
+      "from": "packet:ea3e085b-a74e-4471-bdf0-bd4d488e0fd0",
+      "to": "session:019d87bf-6dad-7233-addd-de3fb099e0ae",
+      "created_at": "2026-04-13T16:50:21Z",
+      "evidence_refs": [
+        ".control-tower/packets/outbox/scout-homepage-gap.json"
+      ]
+    },
+    {
+      "id": "edge:packet-artifact:0d5326c2-8721-4db9-af6c-dc12ad4b47a2:control-tower-packets-inbox-scout-ea3e085b-a74e-4471-bdf0-bd4d488e0fd0-result-json",
+      "type": "references",
+      "from": "packet:0d5326c2-8721-4db9-af6c-dc12ad4b47a2",
+      "to": "artifact:.control-tower/packets/inbox/scout-ea3e085b-a74e-4471-bdf0-bd4d488e0fd0-result.json",
+      "created_at": "2026-04-13T16:52:52Z",
+      "evidence_refs": [
+        ".control-tower/packets/inbox/scout-ea3e085b-a74e-4471-bdf0-bd4d488e0fd0-result.json"
+      ]
+    },
+    {
+      "id": "edge:decision-ref:dec_inferred_0d5326c2-8721-4db9-af6c-dc12ad4b47a2_0_single-page-anchor-navigation-is-an-intentional-product-level-deviation-from-the-upstream-conference-template-and-should-not-be-reverted-without-a-docs-spec-change:control-tower-packets-inbox-scout-ea3e085b-a74e-4471-bdf0-bd4d488e0fd0-result-json",
+      "type": "references",
+      "from": "dec_inferred_0d5326c2-8721-4db9-af6c-dc12ad4b47a2_0_single-page-anchor-navigation-is-an-intentional-product-level-deviation-from-the-upstream-conference-template-and-should-not-be-reverted-without-a-docs-spec-change",
+      "to": "artifact:.control-tower/packets/inbox/scout-ea3e085b-a74e-4471-bdf0-bd4d488e0fd0-result.json",
+      "created_at": "2026-04-13T16:53:38Z",
+      "evidence_refs": [
+        ".control-tower/packets/inbox/scout-ea3e085b-a74e-4471-bdf0-bd4d488e0fd0-result.json"
+      ]
+    },
+    {
+      "id": "edge:decision-node:dec_inferred_0d5326c2-8721-4db9-af6c-dc12ad4b47a2_0_single-page-anchor-navigation-is-an-intentional-product-level-deviation-from-the-upstream-conference-template-and-should-not-be-reverted-without-a-docs-spec-change:packet-0d5326c2-8721-4db9-af6c-dc12ad4b47a2",
+      "type": "references",
+      "from": "dec_inferred_0d5326c2-8721-4db9-af6c-dc12ad4b47a2_0_single-page-anchor-navigation-is-an-intentional-product-level-deviation-from-the-upstream-conference-template-and-should-not-be-reverted-without-a-docs-spec-change",
+      "to": "packet:0d5326c2-8721-4db9-af6c-dc12ad4b47a2",
+      "created_at": "2026-04-13T16:53:38Z",
+      "evidence_refs": [
+        ".control-tower/packets/inbox/scout-ea3e085b-a74e-4471-bdf0-bd4d488e0fd0-result.json"
+      ]
+    },
+    {
+      "id": "edge:decision-ref:dec_inferred_0d5326c2-8721-4db9-af6c-dc12ad4b47a2_1_the-highest-value-template-alignment-work-is-banner-title-restoration-navigation-and-text-rhythm-cleanup-are-secondary:control-tower-packets-inbox-scout-ea3e085b-a74e-4471-bdf0-bd4d488e0fd0-result-json",
+      "type": "references",
+      "from": "dec_inferred_0d5326c2-8721-4db9-af6c-dc12ad4b47a2_1_the-highest-value-template-alignment-work-is-banner-title-restoration-navigation-and-text-rhythm-cleanup-are-secondary",
+      "to": "artifact:.control-tower/packets/inbox/scout-ea3e085b-a74e-4471-bdf0-bd4d488e0fd0-result.json",
+      "created_at": "2026-04-13T16:53:38Z",
+      "evidence_refs": [
+        ".control-tower/packets/inbox/scout-ea3e085b-a74e-4471-bdf0-bd4d488e0fd0-result.json"
+      ]
+    },
+    {
+      "id": "edge:decision-node:dec_inferred_0d5326c2-8721-4db9-af6c-dc12ad4b47a2_1_the-highest-value-template-alignment-work-is-banner-title-restoration-navigation-and-text-rhythm-cleanup-are-secondary:packet-0d5326c2-8721-4db9-af6c-dc12ad4b47a2",
+      "type": "references",
+      "from": "dec_inferred_0d5326c2-8721-4db9-af6c-dc12ad4b47a2_1_the-highest-value-template-alignment-work-is-banner-title-restoration-navigation-and-text-rhythm-cleanup-are-secondary",
+      "to": "packet:0d5326c2-8721-4db9-af6c-dc12ad4b47a2",
+      "created_at": "2026-04-13T16:53:38Z",
+      "evidence_refs": [
+        ".control-tower/packets/inbox/scout-ea3e085b-a74e-4471-bdf0-bd4d488e0fd0-result.json"
+      ]
+    },
+    {
+      "id": "edge:packet-artifact:debced85-2b6f-40a3-a364-c2b9fb117e3e:control-tower-packets-inbox-builder-f99f0194-2bb8-41d6-a9cc-f622e2027723-result-json",
+      "type": "references",
+      "from": "packet:debced85-2b6f-40a3-a364-c2b9fb117e3e",
+      "to": "artifact:.control-tower/packets/inbox/builder-f99f0194-2bb8-41d6-a9cc-f622e2027723-result.json",
+      "created_at": "2026-04-13T16:55:13Z",
+      "evidence_refs": [
+        ".control-tower/packets/inbox/builder-f99f0194-2bb8-41d6-a9cc-f622e2027723-result.json"
+      ]
+    },
+    {
+      "id": "edge:packet-artifact:45fc9815-d457-4bdb-bde8-f3d604ce1726:control-tower-packets-outbox-builder-homepage-date-update-json",
+      "type": "references",
+      "from": "packet:45fc9815-d457-4bdb-bde8-f3d604ce1726",
+      "to": "artifact:.control-tower/packets/outbox/builder-homepage-date-update.json",
+      "created_at": "2026-04-13T16:55:04Z",
+      "evidence_refs": [
+        ".control-tower/packets/outbox/builder-homepage-date-update.json"
+      ]
+    },
+    {
+      "id": "edge:packet-session:45fc9815-d457-4bdb-bde8-f3d604ce1726:019d87bf-6dad-7233-addd-de3fb099e0ae",
+      "type": "discussed_in",
+      "from": "packet:45fc9815-d457-4bdb-bde8-f3d604ce1726",
+      "to": "session:019d87bf-6dad-7233-addd-de3fb099e0ae",
+      "created_at": "2026-04-13T16:55:04Z",
+      "evidence_refs": [
+        ".control-tower/packets/outbox/builder-homepage-date-update.json"
+      ]
+    },
+    {
+      "id": "edge:packet-artifact:f99f0194-2bb8-41d6-a9cc-f622e2027723:control-tower-packets-outbox-builder-homepage-section-restructure-json",
+      "type": "references",
+      "from": "packet:f99f0194-2bb8-41d6-a9cc-f622e2027723",
+      "to": "artifact:.control-tower/packets/outbox/builder-homepage-section-restructure.json",
+      "created_at": "2026-04-13T16:54:07Z",
+      "evidence_refs": [
+        ".control-tower/packets/outbox/builder-homepage-section-restructure.json"
+      ]
+    },
+    {
+      "id": "edge:packet-session:f99f0194-2bb8-41d6-a9cc-f622e2027723:019d87bf-6dad-7233-addd-de3fb099e0ae",
+      "type": "discussed_in",
+      "from": "packet:f99f0194-2bb8-41d6-a9cc-f622e2027723",
+      "to": "session:019d87bf-6dad-7233-addd-de3fb099e0ae",
+      "created_at": "2026-04-13T16:54:07Z",
+      "evidence_refs": [
+        ".control-tower/packets/outbox/builder-homepage-section-restructure.json"
+      ]
+    },
+    {
+      "id": "edge:packet-artifact:57f9120f-44ce-4174-98c4-62dfe0f74ef5:control-tower-packets-inbox-builder-45fc9815-d457-4bdb-bde8-f3d604ce1726-result-json",
+      "type": "references",
+      "from": "packet:57f9120f-44ce-4174-98c4-62dfe0f74ef5",
+      "to": "artifact:.control-tower/packets/inbox/builder-45fc9815-d457-4bdb-bde8-f3d604ce1726-result.json",
+      "created_at": "2026-04-13T16:56:30Z",
+      "evidence_refs": [
+        ".control-tower/packets/inbox/builder-45fc9815-d457-4bdb-bde8-f3d604ce1726-result.json"
+      ]
+    },
+    {
+      "id": "edge:packet-artifact:81cfc53f-54f9-4e42-a884-b6a83d69d6d3:control-tower-packets-outbox-scribe-docs-followup-builder-20260413t165528z-json",
+      "type": "references",
+      "from": "packet:81cfc53f-54f9-4e42-a884-b6a83d69d6d3",
+      "to": "artifact:.control-tower/packets/outbox/scribe-docs-followup-builder-20260413T165528Z.json",
+      "created_at": "2026-04-13T16:55:28Z",
+      "evidence_refs": [
+        ".control-tower/packets/outbox/scribe-docs-followup-builder-20260413T165528Z.json"
+      ]
+    },
+    {
+      "id": "edge:packet-session:81cfc53f-54f9-4e42-a884-b6a83d69d6d3:019d87bf-6dad-7233-addd-de3fb099e0ae",
+      "type": "discussed_in",
+      "from": "packet:81cfc53f-54f9-4e42-a884-b6a83d69d6d3",
+      "to": "session:019d87bf-6dad-7233-addd-de3fb099e0ae",
+      "created_at": "2026-04-13T16:55:28Z",
+      "evidence_refs": [
+        ".control-tower/packets/outbox/scribe-docs-followup-builder-20260413T165528Z.json"
+      ]
+    },
+    {
+      "id": "edge:packet-artifact:E6575247-E6B2-49E8-831D-4DCAF39DD098:control-tower-packets-inbox-scribe-81cfc53f-54f9-4e42-a884-b6a83d69d6d3-result-json",
+      "type": "references",
+      "from": "packet:E6575247-E6B2-49E8-831D-4DCAF39DD098",
+      "to": "artifact:.control-tower/packets/inbox/scribe-81cfc53f-54f9-4e42-a884-b6a83d69d6d3-result.json",
+      "created_at": "2026-04-13T16:56:47Z",
+      "evidence_refs": [
+        ".control-tower/packets/inbox/scribe-81cfc53f-54f9-4e42-a884-b6a83d69d6d3-result.json"
+      ]
+    },
+    {
+      "id": "edge:decision-ref:dec_inferred_E6575247-E6B2-49E8-831D-4DCAF39DD098_0_homepage-ia-now-consists-of-overview-scope-schedule-submissions-and-contact-sections-motivation-and-differentiation-are-no-longer-part-of-the-public-site-spec:control-tower-packets-inbox-scribe-81cfc53f-54f9-4e42-a884-b6a83d69d6d3-result-json",
+      "type": "references",
+      "from": "dec_inferred_E6575247-E6B2-49E8-831D-4DCAF39DD098_0_homepage-ia-now-consists-of-overview-scope-schedule-submissions-and-contact-sections-motivation-and-differentiation-are-no-longer-part-of-the-public-site-spec",
+      "to": "artifact:.control-tower/packets/inbox/scribe-81cfc53f-54f9-4e42-a884-b6a83d69d6d3-result.json",
+      "created_at": "2026-04-13T16:56:58Z",
+      "evidence_refs": [
+        ".control-tower/packets/inbox/scribe-81cfc53f-54f9-4e42-a884-b6a83d69d6d3-result.json"
+      ]
+    },
+    {
+      "id": "edge:decision-node:dec_inferred_E6575247-E6B2-49E8-831D-4DCAF39DD098_0_homepage-ia-now-consists-of-overview-scope-schedule-submissions-and-contact-sections-motivation-and-differentiation-are-no-longer-part-of-the-public-site-spec:packet-e6575247-e6b2-49e8-831d-4dcaf39dd098",
+      "type": "references",
+      "from": "dec_inferred_E6575247-E6B2-49E8-831D-4DCAF39DD098_0_homepage-ia-now-consists-of-overview-scope-schedule-submissions-and-contact-sections-motivation-and-differentiation-are-no-longer-part-of-the-public-site-spec",
+      "to": "packet:E6575247-E6B2-49E8-831D-4DCAF39DD098",
+      "created_at": "2026-04-13T16:56:58Z",
+      "evidence_refs": [
+        ".control-tower/packets/inbox/scribe-81cfc53f-54f9-4e42-a884-b6a83d69d6d3-result.json"
+      ]
+    },
+    {
+      "id": "edge:packet-artifact:faeb7cd1-6dca-4d84-89ee-8d11bc2f7aba:control-tower-packets-outbox-scribe-docs-followup-builder-20260413t165544z-json",
+      "type": "references",
+      "from": "packet:faeb7cd1-6dca-4d84-89ee-8d11bc2f7aba",
+      "to": "artifact:.control-tower/packets/outbox/scribe-docs-followup-builder-20260413T165544Z.json",
+      "created_at": "2026-04-13T16:55:44Z",
+      "evidence_refs": [
+        ".control-tower/packets/outbox/scribe-docs-followup-builder-20260413T165544Z.json"
+      ]
+    },
+    {
+      "id": "edge:packet-session:faeb7cd1-6dca-4d84-89ee-8d11bc2f7aba:019d87bf-6dad-7233-addd-de3fb099e0ae",
+      "type": "discussed_in",
+      "from": "packet:faeb7cd1-6dca-4d84-89ee-8d11bc2f7aba",
+      "to": "session:019d87bf-6dad-7233-addd-de3fb099e0ae",
+      "created_at": "2026-04-13T16:55:44Z",
+      "evidence_refs": [
+        ".control-tower/packets/outbox/scribe-docs-followup-builder-20260413T165544Z.json"
+      ]
+    },
+    {
+      "id": "edge:packet-artifact:03b0738f-75e7-40a2-8ef8-282e7f84a284-result:control-tower-packets-inbox-builder-03b0738f-75e7-40a2-8ef8-282e7f84a284-result-json",
+      "type": "references",
+      "from": "packet:03b0738f-75e7-40a2-8ef8-282e7f84a284-result",
+      "to": "artifact:.control-tower/packets/inbox/builder-03b0738f-75e7-40a2-8ef8-282e7f84a284-result.json",
+      "created_at": "2026-04-13T16:57:33Z",
+      "evidence_refs": [
+        ".control-tower/packets/inbox/builder-03b0738f-75e7-40a2-8ef8-282e7f84a284-result.json"
+      ]
+    },
+    {
+      "id": "edge:packet-artifact:03b0738f-75e7-40a2-8ef8-282e7f84a284:control-tower-packets-outbox-builder-banner-venue-placeholder-removal-json",
+      "type": "references",
+      "from": "packet:03b0738f-75e7-40a2-8ef8-282e7f84a284",
+      "to": "artifact:.control-tower/packets/outbox/builder-banner-venue-placeholder-removal.json",
+      "created_at": "2026-04-13T16:57:07Z",
+      "evidence_refs": [
+        ".control-tower/packets/outbox/builder-banner-venue-placeholder-removal.json"
+      ]
+    },
+    {
+      "id": "edge:packet-session:03b0738f-75e7-40a2-8ef8-282e7f84a284:019d87bf-6dad-7233-addd-de3fb099e0ae",
+      "type": "discussed_in",
+      "from": "packet:03b0738f-75e7-40a2-8ef8-282e7f84a284",
+      "to": "session:019d87bf-6dad-7233-addd-de3fb099e0ae",
+      "created_at": "2026-04-13T16:57:07Z",
+      "evidence_refs": [
+        ".control-tower/packets/outbox/builder-banner-venue-placeholder-removal.json"
+      ]
+    }
+  ]
+}

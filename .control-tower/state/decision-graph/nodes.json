@@ -1,0 +1,618 @@
+{
+  "nodes": {
+    "event:black-box:0": {
+      "id": "event:black-box:0",
+      "type": "event",
+      "event_type": "bootstrap_initialized",
+      "timestamp": null,
+      "payload": {
+        "event_type": "bootstrap_initialized"
+      }
+    },
+    "question:which-repo-conventions-should-scribe-treat-as-canonical": {
+      "id": "question:which-repo-conventions-should-scribe-treat-as-canonical",
+      "type": "question",
+      "title": "Which repo conventions should Scribe treat as canonical?",
+      "status": "open",
+      "source_ref": ".control-tower/docs/state/open-questions.md"
+    },
+    "question:which-files-or-paths-should-builder-avoid-by-default": {
+      "id": "question:which-files-or-paths-should-builder-avoid-by-default",
+      "type": "question",
+      "title": "Which files or paths should Builder avoid by default?",
+      "status": "open",
+      "source_ref": ".control-tower/docs/state/open-questions.md"
+    },
+    "question:what-git-workflow-should-git-master-assume-for-this-project": {
+      "id": "question:what-git-workflow-should-git-master-assume-for-this-project",
+      "type": "question",
+      "title": "What Git workflow should Git-master assume for this project?",
+      "status": "open",
+      "source_ref": ".control-tower/docs/state/open-questions.md"
+    },
+    "risk:tower-role-leakage-into-direct-implementation-if-delegation-discipline-is-not-maintained": {
+      "id": "risk:tower-role-leakage-into-direct-implementation-if-delegation-discipline-is-not-maintained",
+      "type": "risk",
+      "title": "Tower role leakage into direct implementation if delegation discipline is not maintained.",
+      "status": "open",
+      "source_ref": ".control-tower/docs/state/known-risks.md"
+    },
+    "risk:memory-drift-if-imported-sessions-are-not-curated-into-docs-and-working-summaries": {
+      "id": "risk:memory-drift-if-imported-sessions-are-not-curated-into-docs-and-working-summaries",
+      "type": "risk",
+      "title": "Memory drift if imported sessions are not curated into docs and working summaries.",
+      "status": "open",
+      "source_ref": ".control-tower/docs/state/known-risks.md"
+    },
+    "risk:session-ambiguity-if-tower-sessions-are-not-resumed-through-tower-resume": {
+      "id": "risk:session-ambiguity-if-tower-sessions-are-not-resumed-through-tower-resume",
+      "type": "risk",
+      "title": "Session ambiguity if Tower sessions are not resumed through `tower resume`.",
+      "status": "open",
+      "source_ref": ".control-tower/docs/state/known-risks.md"
+    },
+    "commit:a6c84ed3d2b1e1094d1fc8fb173f886fe1c07c27": {
+      "id": "commit:a6c84ed3d2b1e1094d1fc8fb173f886fe1c07c27",
+      "type": "commit",
+      "sha": "a6c84ed3d2b1e1094d1fc8fb173f886fe1c07c27",
+      "parents": [],
+      "authored_at": "2026-04-13T09:37:51-07:00",
+      "subject": "Initial commit",
+      "files": []
+    },
+    "session:019d87b5-8d1a-76a2-a218-113ce6edb266": {
+      "id": "session:019d87b5-8d1a-76a2-a218-113ce6edb266",
+      "type": "session",
+      "session_id": "019d87b5-8d1a-76a2-a218-113ce6edb266",
+      "timestamp": "2026-04-13T16:38:35.550Z",
+      "source": "cli",
+      "originator": "codex_cli_rs",
+      "transcript_path": ".control-tower/memory/l2/transcripts/019d87b5-8d1a-76a2-a218-113ce6edb266.md",
+      "session_path": ".control-tower/memory/l2/sessions/019d87b5-8d1a-76a2-a218-113ce6edb266.jsonl"
+    },
+    "event:black-box:1": {
+      "id": "event:black-box:1",
+      "type": "event",
+      "event_type": "codex_session_imported",
+      "timestamp": "2026-04-13T16:38:35.550Z",
+      "payload": {
+        "event_type": "codex_session_imported",
+        "session_id": "019d87b5-8d1a-76a2-a218-113ce6edb266",
+        "timestamp": "2026-04-13T16:38:35.550Z",
+        "source": "cli",
+        "originator": "codex_cli_rs",
+        "transcript_path": ".control-tower/memory/l2/transcripts/019d87b5-8d1a-76a2-a218-113ce6edb266.md"
+      }
+    },
+    "session:019d87b5-aa0d-7041-8993-ffed815110c0": {
+      "id": "session:019d87b5-aa0d-7041-8993-ffed815110c0",
+      "type": "session",
+      "session_id": "019d87b5-aa0d-7041-8993-ffed815110c0",
+      "timestamp": "2026-04-13T16:38:42.960Z",
+      "source": "cli",
+      "originator": "codex_cli_rs",
+      "transcript_path": ".control-tower/memory/l2/transcripts/019d87b5-aa0d-7041-8993-ffed815110c0.md",
+      "session_path": ".control-tower/memory/l2/sessions/019d87b5-aa0d-7041-8993-ffed815110c0.jsonl"
+    },
+    "session:019d87bf-6dad-7233-addd-de3fb099e0ae": {
+      "id": "session:019d87bf-6dad-7233-addd-de3fb099e0ae",
+      "type": "session",
+      "session_id": "019d87bf-6dad-7233-addd-de3fb099e0ae",
+      "timestamp": "2026-04-13T16:49:22.863Z",
+      "source": {
+        "subagent": {
+          "thread_spawn": {
+            "parent_thread_id": "019d87b5-aa0d-7041-8993-ffed815110c0",
+            "depth": 1,
+            "agent_path": null,
+            "agent_nickname": "Newton",
+            "agent_role": "explorer"
+          }
+        }
+      },
+      "originator": "codex_cli_rs",
+      "transcript_path": ".control-tower/memory/l2/transcripts/019d87bf-6dad-7233-addd-de3fb099e0ae.md",
+      "session_path": ".control-tower/memory/l2/sessions/019d87bf-6dad-7233-addd-de3fb099e0ae.jsonl"
+    },
+    "event:black-box:2": {
+      "id": "event:black-box:2",
+      "type": "event",
+      "event_type": "codex_session_imported",
+      "timestamp": "2026-04-13T16:38:42.960Z",
+      "payload": {
+        "event_type": "codex_session_imported",
+        "session_id": "019d87b5-aa0d-7041-8993-ffed815110c0",
+        "timestamp": "2026-04-13T16:38:42.960Z",
+        "source": "cli",
+        "originator": "codex_cli_rs",
+        "transcript_path": ".control-tower/memory/l2/transcripts/019d87b5-aa0d-7041-8993-ffed815110c0.md"
+      }
+    },
+    "event:black-box:3": {
+      "id": "event:black-box:3",
+      "type": "event",
+      "event_type": "codex_session_imported",
+      "timestamp": "2026-04-13T16:49:22.863Z",
+      "payload": {
+        "event_type": "codex_session_imported",
+        "session_id": "019d87bf-6dad-7233-addd-de3fb099e0ae",
+        "timestamp": "2026-04-13T16:49:22.863Z",
+        "source": {
+          "subagent": {
+            "thread_spawn": {
+              "parent_thread_id": "019d87b5-aa0d-7041-8993-ffed815110c0",
+              "depth": 1,
+              "agent_path": null,
+              "agent_nickname": "Newton",
+              "agent_role": "explorer"
+            }
+          }
+        },
+        "originator": "codex_cli_rs",
+        "transcript_path": ".control-tower/memory/l2/transcripts/019d87bf-6dad-7233-addd-de3fb099e0ae.md"
+      }
+    },
+    "session:019d87bf-a47d-7e31-9850-3386cd6c40ed": {
+      "id": "session:019d87bf-a47d-7e31-9850-3386cd6c40ed",
+      "type": "session",
+      "session_id": "019d87bf-a47d-7e31-9850-3386cd6c40ed",
+      "timestamp": "2026-04-13T16:49:36.895Z",
+      "source": "cli",
+      "originator": "codex_cli_rs",
+      "transcript_path": ".control-tower/memory/l2/transcripts/019d87bf-a47d-7e31-9850-3386cd6c40ed.md",
+      "session_path": ".control-tower/memory/l2/sessions/019d87bf-a47d-7e31-9850-3386cd6c40ed.jsonl"
+    },
+    "session:019d87c0-5e8b-7a41-b430-73b13a9b59ca": {
+      "id": "session:019d87c0-5e8b-7a41-b430-73b13a9b59ca",
+      "type": "session",
+      "session_id": "019d87c0-5e8b-7a41-b430-73b13a9b59ca",
+      "timestamp": "2026-04-13T16:50:24.524Z",
+      "source": "exec",
+      "originator": "codex_exec",
+      "transcript_path": ".control-tower/memory/l2/transcripts/019d87c0-5e8b-7a41-b430-73b13a9b59ca.md",
+      "session_path": ".control-tower/memory/l2/sessions/019d87c0-5e8b-7a41-b430-73b13a9b59ca.jsonl"
+    },
+    "session:019d87c1-e1a5-7ec3-8b79-a189b80328e1": {
+      "id": "session:019d87c1-e1a5-7ec3-8b79-a189b80328e1",
+      "type": "session",
+      "session_id": "019d87c1-e1a5-7ec3-8b79-a189b80328e1",
+      "timestamp": "2026-04-13T16:52:03.622Z",
+      "source": "exec",
+      "originator": "codex_exec",
+      "transcript_path": ".control-tower/memory/l2/transcripts/019d87c1-e1a5-7ec3-8b79-a189b80328e1.md",
+      "session_path": ".control-tower/memory/l2/sessions/019d87c1-e1a5-7ec3-8b79-a189b80328e1.jsonl"
+    },
+    "packet:1460f51b-63d5-49a5-9d68-2fd3dc4052ab": {
+      "id": "packet:1460f51b-63d5-49a5-9d68-2fd3dc4052ab",
+      "type": "packet",
+      "packet_id": "1460f51b-63d5-49a5-9d68-2fd3dc4052ab",
+      "packet_type": "result",
+      "title": "Compared the current homepage against the upstream conference template and found that the largest alignment gaps are the hero/banner treatment, the navigation rhythm, and several homepage-only CSS customizations that replace the template\u2019s plain content flow with a more custom landing-page look. The minimum Builder change set is to restore the template\u2019s image-backed banner and navigation proportions, then keep the ATLAS copy while removing the custom callout styling rather than rewriting content.",
+      "status": "success",
+      "trace_id": "5e605306-2434-4e68-85dc-212d694420fd",
+      "from_agent": "scout",
+      "to_agent": "tower",
+      "path": ".control-tower/packets/inbox/scout-homepage-gap-result.json",
+      "created_at": "2026-04-13T16:51:36Z"
+    },
+    "artifact:.control-tower/packets/inbox/scout-homepage-gap-result.json": {
+      "id": "artifact:.control-tower/packets/inbox/scout-homepage-gap-result.json",
+      "type": "artifact",
+      "ref": ".control-tower/packets/inbox/scout-homepage-gap-result.json",
+      "title": ".control-tower/packets/inbox/scout-homepage-gap-result.json",
+      "created_at": "2026-04-13T16:51:36Z"
+    },
+    "packet:ea3e085b-a74e-4471-bdf0-bd4d488e0fd0": {
+      "id": "packet:ea3e085b-a74e-4471-bdf0-bd4d488e0fd0",
+      "type": "packet",
+      "packet_id": "ea3e085b-a74e-4471-bdf0-bd4d488e0fd0",
+      "packet_type": "task",
+      "title": "Homepage Template Gap Analysis",
+      "status": null,
+      "trace_id": "5e605306-2434-4e68-85dc-212d694420fd",
+      "from_agent": "tower",
+      "to_agent": "scout",
+      "path": ".control-tower/packets/outbox/scout-homepage-gap.json",
+      "created_at": "2026-04-13T16:50:21Z"
+    },
+    "artifact:.control-tower/packets/outbox/scout-homepage-gap.json": {
+      "id": "artifact:.control-tower/packets/outbox/scout-homepage-gap.json",
+      "type": "artifact",
+      "ref": ".control-tower/packets/outbox/scout-homepage-gap.json",
+      "title": ".control-tower/packets/outbox/scout-homepage-gap.json",
+      "created_at": "2026-04-13T16:50:21Z"
+    },
+    "event:black-box:4": {
+      "id": "event:black-box:4",
+      "type": "event",
+      "event_type": "codex_session_imported",
+      "timestamp": "2026-04-13T16:49:36.895Z",
+      "payload": {
+        "event_type": "codex_session_imported",
+        "session_id": "019d87bf-a47d-7e31-9850-3386cd6c40ed",
+        "timestamp": "2026-04-13T16:49:36.895Z",
+        "source": "cli",
+        "originator": "codex_cli_rs",
+        "transcript_path": ".control-tower/memory/l2/transcripts/019d87bf-a47d-7e31-9850-3386cd6c40ed.md"
+      }
+    },
+    "event:black-box:5": {
+      "id": "event:black-box:5",
+      "type": "event",
+      "event_type": "codex_session_imported",
+      "timestamp": "2026-04-13T16:50:24.524Z",
+      "payload": {
+        "event_type": "codex_session_imported",
+        "session_id": "019d87c0-5e8b-7a41-b430-73b13a9b59ca",
+        "timestamp": "2026-04-13T16:50:24.524Z",
+        "source": "exec",
+        "originator": "codex_exec",
+        "transcript_path": ".control-tower/memory/l2/transcripts/019d87c0-5e8b-7a41-b430-73b13a9b59ca.md"
+      }
+    },
+    "event:black-box:6": {
+      "id": "event:black-box:6",
+      "type": "event",
+      "event_type": "codex_session_imported",
+      "timestamp": "2026-04-13T16:52:03.622Z",
+      "payload": {
+        "event_type": "codex_session_imported",
+        "session_id": "019d87c1-e1a5-7ec3-8b79-a189b80328e1",
+        "timestamp": "2026-04-13T16:52:03.622Z",
+        "source": "exec",
+        "originator": "codex_exec",
+        "transcript_path": ".control-tower/memory/l2/transcripts/019d87c1-e1a5-7ec3-8b79-a189b80328e1.md"
+      }
+    },
+    "packet:0d5326c2-8721-4db9-af6c-dc12ad4b47a2": {
+      "id": "packet:0d5326c2-8721-4db9-af6c-dc12ad4b47a2",
+      "type": "packet",
+      "packet_id": "0d5326c2-8721-4db9-af6c-dc12ad4b47a2",
+      "packet_type": "result",
+      "title": "Current ATLAS homepage preserves the upstream template\u2019s fixed-width body, table-based navigation, and simple single-file delivery, but it materially diverges in three places: the banner system was replaced with a custom gradient panel and one-line title treatment, the homepage information architecture was converted from the template\u2019s page-route navigation into anchored in-page sections, and several custom content presentation styles were added (subtitle block, quote/question callouts, bulleted scope list). The minimum Builder change set to restore template alignment while preserving ATLAS content is to reintroduce the template banner/title composition and navigation proportions, while keeping the single-page sections and existing workshop copy.",
+      "status": "success",
+      "trace_id": "5e605306-2434-4e68-85dc-212d694420fd",
+      "from_agent": "scout",
+      "to_agent": "tower",
+      "path": ".control-tower/packets/inbox/scout-ea3e085b-a74e-4471-bdf0-bd4d488e0fd0-result.json",
+      "created_at": "2026-04-13T16:52:52Z"
+    },
+    "artifact:.control-tower/packets/inbox/scout-ea3e085b-a74e-4471-bdf0-bd4d488e0fd0-result.json": {
+      "id": "artifact:.control-tower/packets/inbox/scout-ea3e085b-a74e-4471-bdf0-bd4d488e0fd0-result.json",
+      "type": "artifact",
+      "ref": ".control-tower/packets/inbox/scout-ea3e085b-a74e-4471-bdf0-bd4d488e0fd0-result.json",
+      "title": ".control-tower/packets/inbox/scout-ea3e085b-a74e-4471-bdf0-bd4d488e0fd0-result.json",
+      "created_at": "2026-04-13T16:52:52Z"
+    },
+    "dec_inferred_0d5326c2-8721-4db9-af6c-dc12ad4b47a2_0_single-page-anchor-navigation-is-an-intentional-product-level-deviation-from-the-upstream-conference-template-and-should-not-be-reverted-without-a-docs-spec-change": {
+      "id": "dec_inferred_0d5326c2-8721-4db9-af6c-dc12ad4b47a2_0_single-page-anchor-navigation-is-an-intentional-product-level-deviation-from-the-upstream-conference-template-and-should-not-be-reverted-without-a-docs-spec-change",
+      "type": "decision",
+      "topic": "single-page-anchor-navigation-is-an-intentional-product-level-deviation-from-the-upstream-conference-template-and-should-not-be-reverted-without-a-docs-spec-change",
+      "title": "Single-page anchor navigation is an intentional product-level deviation from the upstream conference template and should not be reverted without a docs/spec change.",
+      "status": "proposed",
+      "importance": "normal",
+      "summary": "Inferred from ResultPacket memory_worthy entry: Single-page anchor navigation is an intentional product-level deviation from the upstream conference template and should not be reverted without a docs/spec change.",
+      "rationale": [
+        "Captured from a ResultPacket memory_worthy entry pending curation."
+      ],
+      "source_refs": [
+        ".control-tower/packets/inbox/scout-ea3e085b-a74e-4471-bdf0-bd4d488e0fd0-result.json"
+      ],
+      "inferred": true,
+      "created_at": "2026-04-13T16:53:38Z",
+      "created_by": "scout"
+    },
+    "dec_inferred_0d5326c2-8721-4db9-af6c-dc12ad4b47a2_1_the-highest-value-template-alignment-work-is-banner-title-restoration-navigation-and-text-rhythm-cleanup-are-secondary": {
+      "id": "dec_inferred_0d5326c2-8721-4db9-af6c-dc12ad4b47a2_1_the-highest-value-template-alignment-work-is-banner-title-restoration-navigation-and-text-rhythm-cleanup-are-secondary",
+      "type": "decision",
+      "topic": "the-highest-value-template-alignment-work-is-banner-title-restoration-navigation-and-text-rhythm-cleanup-are-secondary",
+      "title": "The highest-value template-alignment work is banner/title restoration; navigation and text-rhythm cleanup are secondary.",
+      "status": "proposed",
+      "importance": "normal",
+      "summary": "Inferred from ResultPacket memory_worthy entry: The highest-value template-alignment work is banner/title restoration; navigation and text-rhythm cleanup are secondary.",
+      "rationale": [
+        "Captured from a ResultPacket memory_worthy entry pending curation."
+      ],
+      "source_refs": [
+        ".control-tower/packets/inbox/scout-ea3e085b-a74e-4471-bdf0-bd4d488e0fd0-result.json"
+      ],
+      "inferred": true,
+      "created_at": "2026-04-13T16:53:38Z",
+      "created_by": "scout"
+    },
+    "session:019d87c3-df71-7690-a496-d894cf42ec9f": {
+      "id": "session:019d87c3-df71-7690-a496-d894cf42ec9f",
+      "type": "session",
+      "session_id": "019d87c3-df71-7690-a496-d894cf42ec9f",
+      "timestamp": "2026-04-13T16:54:14.130Z",
+      "source": "exec",
+      "originator": "codex_exec",
+      "transcript_path": ".control-tower/memory/l2/transcripts/019d87c3-df71-7690-a496-d894cf42ec9f.md",
+      "session_path": ".control-tower/memory/l2/sessions/019d87c3-df71-7690-a496-d894cf42ec9f.jsonl"
+    },
+    "session:019d87c4-ae78-7e20-b30d-4e788851d27f": {
+      "id": "session:019d87c4-ae78-7e20-b30d-4e788851d27f",
+      "type": "session",
+      "session_id": "019d87c4-ae78-7e20-b30d-4e788851d27f",
+      "timestamp": "2026-04-13T16:55:07.130Z",
+      "source": "exec",
+      "originator": "codex_exec",
+      "transcript_path": ".control-tower/memory/l2/transcripts/019d87c4-ae78-7e20-b30d-4e788851d27f.md",
+      "session_path": ".control-tower/memory/l2/sessions/019d87c4-ae78-7e20-b30d-4e788851d27f.jsonl"
+    },
+    "packet:debced85-2b6f-40a3-a364-c2b9fb117e3e": {
+      "id": "packet:debced85-2b6f-40a3-a364-c2b9fb117e3e",
+      "type": "packet",
+      "packet_id": "debced85-2b6f-40a3-a364-c2b9fb117e3e",
+      "packet_type": "result",
+      "title": "Updated the single-page homepage to remove the motivation and differentiation sections, add Schedule, Submissions, and Contact sections with placeholder copy, and align in-page navigation with the revised section set.",
+      "status": "success",
+      "trace_id": "4936739a-e902-4402-9222-e9001c86b812",
+      "from_agent": "builder",
+      "to_agent": "tower",
+      "path": ".control-tower/packets/inbox/builder-f99f0194-2bb8-41d6-a9cc-f622e2027723-result.json",
+      "created_at": "2026-04-13T16:55:13Z"
+    },
+    "artifact:.control-tower/packets/inbox/builder-f99f0194-2bb8-41d6-a9cc-f622e2027723-result.json": {
+      "id": "artifact:.control-tower/packets/inbox/builder-f99f0194-2bb8-41d6-a9cc-f622e2027723-result.json",
+      "type": "artifact",
+      "ref": ".control-tower/packets/inbox/builder-f99f0194-2bb8-41d6-a9cc-f622e2027723-result.json",
+      "title": ".control-tower/packets/inbox/builder-f99f0194-2bb8-41d6-a9cc-f622e2027723-result.json",
+      "created_at": "2026-04-13T16:55:13Z"
+    },
+    "packet:45fc9815-d457-4bdb-bde8-f3d604ce1726": {
+      "id": "packet:45fc9815-d457-4bdb-bde8-f3d604ce1726",
+      "type": "packet",
+      "packet_id": "45fc9815-d457-4bdb-bde8-f3d604ce1726",
+      "packet_type": "task",
+      "title": "Homepage Date Update",
+      "status": null,
+      "trace_id": "0fb9eaf5-29ad-4250-9fd9-1f3f8fee5c18",
+      "from_agent": "tower",
+      "to_agent": "builder",
+      "path": ".control-tower/packets/outbox/builder-homepage-date-update.json",
+      "created_at": "2026-04-13T16:55:04Z"
+    },
+    "artifact:.control-tower/packets/outbox/builder-homepage-date-update.json": {
+      "id": "artifact:.control-tower/packets/outbox/builder-homepage-date-update.json",
+      "type": "artifact",
+      "ref": ".control-tower/packets/outbox/builder-homepage-date-update.json",
+      "title": ".control-tower/packets/outbox/builder-homepage-date-update.json",
+      "created_at": "2026-04-13T16:55:04Z"
+    },
+    "packet:f99f0194-2bb8-41d6-a9cc-f622e2027723": {
+      "id": "packet:f99f0194-2bb8-41d6-a9cc-f622e2027723",
+      "type": "packet",
+      "packet_id": "f99f0194-2bb8-41d6-a9cc-f622e2027723",
+      "packet_type": "task",
+      "title": "Homepage Section Restructure",
+      "status": null,
+      "trace_id": "4936739a-e902-4402-9222-e9001c86b812",
+      "from_agent": "tower",
+      "to_agent": "builder",
+      "path": ".control-tower/packets/outbox/builder-homepage-section-restructure.json",
+      "created_at": "2026-04-13T16:54:07Z"
+    },
+    "artifact:.control-tower/packets/outbox/builder-homepage-section-restructure.json": {
+      "id": "artifact:.control-tower/packets/outbox/builder-homepage-section-restructure.json",
+      "type": "artifact",
+      "ref": ".control-tower/packets/outbox/builder-homepage-section-restructure.json",
+      "title": ".control-tower/packets/outbox/builder-homepage-section-restructure.json",
+      "created_at": "2026-04-13T16:54:07Z"
+    },
+    "event:black-box:7": {
+      "id": "event:black-box:7",
+      "type": "event",
+      "event_type": "codex_session_imported",
+      "timestamp": "2026-04-13T16:54:14.130Z",
+      "payload": {
+        "event_type": "codex_session_imported",
+        "session_id": "019d87c3-df71-7690-a496-d894cf42ec9f",
+        "timestamp": "2026-04-13T16:54:14.130Z",
+        "source": "exec",
+        "originator": "codex_exec",
+        "transcript_path": ".control-tower/memory/l2/transcripts/019d87c3-df71-7690-a496-d894cf42ec9f.md"
+      }
+    },
+    "event:black-box:8": {
+      "id": "event:black-box:8",
+      "type": "event",
+      "event_type": "codex_session_imported",
+      "timestamp": "2026-04-13T16:55:07.130Z",
+      "payload": {
+        "event_type": "codex_session_imported",
+        "session_id": "019d87c4-ae78-7e20-b30d-4e788851d27f",
+        "timestamp": "2026-04-13T16:55:07.130Z",
+        "source": "exec",
+        "originator": "codex_exec",
+        "transcript_path": ".control-tower/memory/l2/transcripts/019d87c4-ae78-7e20-b30d-4e788851d27f.md"
+      }
+    },
+    "packet:57f9120f-44ce-4174-98c4-62dfe0f74ef5": {
+      "id": "packet:57f9120f-44ce-4174-98c4-62dfe0f74ef5",
+      "type": "packet",
+      "packet_id": "57f9120f-44ce-4174-98c4-62dfe0f74ef5",
+      "packet_type": "result",
+      "title": "Updated the homepage banner logistics line in index.html to show the confirmed workshop date 'November 9, 2026' while keeping the venue as unconfirmed placeholder text.",
+      "status": "success",
+      "trace_id": "0fb9eaf5-29ad-4250-9fd9-1f3f8fee5c18",
+      "from_agent": "builder",
+      "to_agent": "tower",
+      "path": ".control-tower/packets/inbox/builder-45fc9815-d457-4bdb-bde8-f3d604ce1726-result.json",
+      "created_at": "2026-04-13T16:56:30Z"
+    },
+    "artifact:.control-tower/packets/inbox/builder-45fc9815-d457-4bdb-bde8-f3d604ce1726-result.json": {
+      "id": "artifact:.control-tower/packets/inbox/builder-45fc9815-d457-4bdb-bde8-f3d604ce1726-result.json",
+      "type": "artifact",
+      "ref": ".control-tower/packets/inbox/builder-45fc9815-d457-4bdb-bde8-f3d604ce1726-result.json",
+      "title": ".control-tower/packets/inbox/builder-45fc9815-d457-4bdb-bde8-f3d604ce1726-result.json",
+      "created_at": "2026-04-13T16:56:30Z"
+    },
+    "packet:81cfc53f-54f9-4e42-a884-b6a83d69d6d3": {
+      "id": "packet:81cfc53f-54f9-4e42-a884-b6a83d69d6d3",
+      "type": "packet",
+      "packet_id": "81cfc53f-54f9-4e42-a884-b6a83d69d6d3",
+      "packet_type": "task",
+      "title": "Update repo docs after Builder work",
+      "status": null,
+      "trace_id": "4936739a-e902-4402-9222-e9001c86b812",
+      "from_agent": "tower",
+      "to_agent": "scribe",
+      "path": ".control-tower/packets/outbox/scribe-docs-followup-builder-20260413T165528Z.json",
+      "created_at": "2026-04-13T16:55:28Z"
+    },
+    "artifact:.control-tower/packets/outbox/scribe-docs-followup-builder-20260413T165528Z.json": {
+      "id": "artifact:.control-tower/packets/outbox/scribe-docs-followup-builder-20260413T165528Z.json",
+      "type": "artifact",
+      "ref": ".control-tower/packets/outbox/scribe-docs-followup-builder-20260413T165528Z.json",
+      "title": ".control-tower/packets/outbox/scribe-docs-followup-builder-20260413T165528Z.json",
+      "created_at": "2026-04-13T16:55:28Z"
+    },
+    "session:019d87c5-75cd-77f2-95da-1a814269b679": {
+      "id": "session:019d87c5-75cd-77f2-95da-1a814269b679",
+      "type": "session",
+      "session_id": "019d87c5-75cd-77f2-95da-1a814269b679",
+      "timestamp": "2026-04-13T16:55:58.159Z",
+      "source": "exec",
+      "originator": "codex_exec",
+      "transcript_path": ".control-tower/memory/l2/transcripts/019d87c5-75cd-77f2-95da-1a814269b679.md",
+      "session_path": ".control-tower/memory/l2/sessions/019d87c5-75cd-77f2-95da-1a814269b679.jsonl"
+    },
+    "packet:E6575247-E6B2-49E8-831D-4DCAF39DD098": {
+      "id": "packet:E6575247-E6B2-49E8-831D-4DCAF39DD098",
+      "type": "packet",
+      "packet_id": "E6575247-E6B2-49E8-831D-4DCAF39DD098",
+      "packet_type": "result",
+      "title": "Updated the durable workshop website spec to match the current homepage information architecture after Builder removed the motivation and differentiation sections and added schedule, submissions, and contact placeholders.",
+      "status": "success",
+      "trace_id": "4936739a-e902-4402-9222-e9001c86b812",
+      "from_agent": "scribe",
+      "to_agent": "tower",
+      "path": ".control-tower/packets/inbox/scribe-81cfc53f-54f9-4e42-a884-b6a83d69d6d3-result.json",
+      "created_at": "2026-04-13T16:56:47Z"
+    },
+    "artifact:.control-tower/packets/inbox/scribe-81cfc53f-54f9-4e42-a884-b6a83d69d6d3-result.json": {
+      "id": "artifact:.control-tower/packets/inbox/scribe-81cfc53f-54f9-4e42-a884-b6a83d69d6d3-result.json",
+      "type": "artifact",
+      "ref": ".control-tower/packets/inbox/scribe-81cfc53f-54f9-4e42-a884-b6a83d69d6d3-result.json",
+      "title": ".control-tower/packets/inbox/scribe-81cfc53f-54f9-4e42-a884-b6a83d69d6d3-result.json",
+      "created_at": "2026-04-13T16:56:47Z"
+    },
+    "dec_inferred_E6575247-E6B2-49E8-831D-4DCAF39DD098_0_homepage-ia-now-consists-of-overview-scope-schedule-submissions-and-contact-sections-motivation-and-differentiation-are-no-longer-part-of-the-public-site-spec": {
+      "id": "dec_inferred_E6575247-E6B2-49E8-831D-4DCAF39DD098_0_homepage-ia-now-consists-of-overview-scope-schedule-submissions-and-contact-sections-motivation-and-differentiation-are-no-longer-part-of-the-public-site-spec",
+      "type": "decision",
+      "topic": "homepage-ia-now-consists-of-overview-scope-schedule-submissions-and-contact-sections-motivation-and-differentiation-are-no-longer-part-of-the-public-site-spec",
+      "title": "Homepage IA now consists of Overview, Scope, Schedule, Submissions, and Contact sections; motivation and differentiation are no longer part of the public site spec.",
+      "status": "proposed",
+      "importance": "normal",
+      "summary": "Inferred from ResultPacket memory_worthy entry: Homepage IA now consists of Overview, Scope, Schedule, Submissions, and Contact sections; motivation and differentiation are no longer part of the public site spec.",
+      "rationale": [
+        "Captured from a ResultPacket memory_worthy entry pending curation."
+      ],
+      "source_refs": [
+        ".control-tower/packets/inbox/scribe-81cfc53f-54f9-4e42-a884-b6a83d69d6d3-result.json"
+      ],
+      "inferred": true,
+      "created_at": "2026-04-13T16:56:58Z",
+      "created_by": "scribe"
+    },
+    "packet:faeb7cd1-6dca-4d84-89ee-8d11bc2f7aba": {
+      "id": "packet:faeb7cd1-6dca-4d84-89ee-8d11bc2f7aba",
+      "type": "packet",
+      "packet_id": "faeb7cd1-6dca-4d84-89ee-8d11bc2f7aba",
+      "packet_type": "task",
+      "title": "Update repo docs after Builder work",
+      "status": null,
+      "trace_id": "0fb9eaf5-29ad-4250-9fd9-1f3f8fee5c18",
+      "from_agent": "tower",
+      "to_agent": "scribe",
+      "path": ".control-tower/packets/outbox/scribe-docs-followup-builder-20260413T165544Z.json",
+      "created_at": "2026-04-13T16:55:44Z"
+    },
+    "artifact:.control-tower/packets/outbox/scribe-docs-followup-builder-20260413T165544Z.json": {
+      "id": "artifact:.control-tower/packets/outbox/scribe-docs-followup-builder-20260413T165544Z.json",
+      "type": "artifact",
+      "ref": ".control-tower/packets/outbox/scribe-docs-followup-builder-20260413T165544Z.json",
+      "title": ".control-tower/packets/outbox/scribe-docs-followup-builder-20260413T165544Z.json",
+      "created_at": "2026-04-13T16:55:44Z"
+    },
+    "event:black-box:9": {
+      "id": "event:black-box:9",
+      "type": "event",
+      "event_type": "codex_session_imported",
+      "timestamp": "2026-04-13T16:55:58.159Z",
+      "payload": {
+        "event_type": "codex_session_imported",
+        "session_id": "019d87c5-75cd-77f2-95da-1a814269b679",
+        "timestamp": "2026-04-13T16:55:58.159Z",
+        "source": "exec",
+        "originator": "codex_exec",
+        "transcript_path": ".control-tower/memory/l2/transcripts/019d87c5-75cd-77f2-95da-1a814269b679.md"
+      }
+    },
+    "session:019d87c6-99c4-7252-9371-22a7cb62c5dc": {
+      "id": "session:019d87c6-99c4-7252-9371-22a7cb62c5dc",
+      "type": "session",
+      "session_id": "019d87c6-99c4-7252-9371-22a7cb62c5dc",
+      "timestamp": "2026-04-13T16:57:12.901Z",
+      "source": "exec",
+      "originator": "codex_exec",
+      "transcript_path": ".control-tower/memory/l2/transcripts/019d87c6-99c4-7252-9371-22a7cb62c5dc.md",
+      "session_path": ".control-tower/memory/l2/sessions/019d87c6-99c4-7252-9371-22a7cb62c5dc.jsonl"
+    },
+    "packet:03b0738f-75e7-40a2-8ef8-282e7f84a284-result": {
+      "id": "packet:03b0738f-75e7-40a2-8ef8-282e7f84a284-result",
+      "type": "packet",
+      "packet_id": "03b0738f-75e7-40a2-8ef8-282e7f84a284-result",
+      "packet_type": "result",
+      "title": "Updated the homepage banner so the first line reads 'November 9, 2026' and the second line remains 'Conference on Robot Learning', removing the venue placeholder text.",
+      "status": "success",
+      "trace_id": "2c07575f-0bb0-48c0-a037-9b01bca17416",
+      "from_agent": "builder",
+      "to_agent": "tower",
+      "path": ".control-tower/packets/inbox/builder-03b0738f-75e7-40a2-8ef8-282e7f84a284-result.json",
+      "created_at": "2026-04-13T16:57:33Z"
+    },
+    "artifact:.control-tower/packets/inbox/builder-03b0738f-75e7-40a2-8ef8-282e7f84a284-result.json": {
+      "id": "artifact:.control-tower/packets/inbox/builder-03b0738f-75e7-40a2-8ef8-282e7f84a284-result.json",
+      "type": "artifact",
+      "ref": ".control-tower/packets/inbox/builder-03b0738f-75e7-40a2-8ef8-282e7f84a284-result.json",
+      "title": ".control-tower/packets/inbox/builder-03b0738f-75e7-40a2-8ef8-282e7f84a284-result.json",
+      "created_at": "2026-04-13T16:57:33Z"
+    },
+    "packet:03b0738f-75e7-40a2-8ef8-282e7f84a284": {
+      "id": "packet:03b0738f-75e7-40a2-8ef8-282e7f84a284",
+      "type": "packet",
+      "packet_id": "03b0738f-75e7-40a2-8ef8-282e7f84a284",
+      "packet_type": "task",
+      "title": "Banner Venue Placeholder Removal",
+      "status": null,
+      "trace_id": "2c07575f-0bb0-48c0-a037-9b01bca17416",
+      "from_agent": "tower",
+      "to_agent": "builder",
+      "path": ".control-tower/packets/outbox/builder-banner-venue-placeholder-removal.json",
+      "created_at": "2026-04-13T16:57:07Z"
+    },
+    "artifact:.control-tower/packets/outbox/builder-banner-venue-placeholder-removal.json": {
+      "id": "artifact:.control-tower/packets/outbox/builder-banner-venue-placeholder-removal.json",
+      "type": "artifact",
+      "ref": ".control-tower/packets/outbox/builder-banner-venue-placeholder-removal.json",
+      "title": ".control-tower/packets/outbox/builder-banner-venue-placeholder-removal.json",
+      "created_at": "2026-04-13T16:57:07Z"
+    },
+    "event:black-box:10": {
+      "id": "event:black-box:10",
+      "type": "event",
+      "event_type": "codex_session_imported",
+      "timestamp": "2026-04-13T16:57:12.901Z",
+      "payload": {
+        "event_type": "codex_session_imported",
+        "session_id": "019d87c6-99c4-7252-9371-22a7cb62c5dc",
+        "timestamp": "2026-04-13T16:57:12.901Z",
+        "source": "exec",
+        "originator": "codex_exec",
+        "transcript_path": ".control-tower/memory/l2/transcripts/019d87c6-99c4-7252-9371-22a7cb62c5dc.md"
+      }
+    }
+  }
+}

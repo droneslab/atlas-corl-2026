@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "packet_type": "task",
+  "packet_id": "03b0738f-75e7-40a2-8ef8-282e7f84a284",
+  "trace_id": "2c07575f-0bb0-48c0-a037-9b01bca17416",
+  "parent_packet_id": null,
+  "created_at": "2026-04-13T16:57:07Z",
+  "from_agent": "tower",
+  "to_agent": "builder",
+  "task_type": "implementation",
+  "priority": "high",
+  "project_id": "atlas-corl-2026",
+  "session_id": "019d87bf-6dad-7233-addd-de3fb099e0ae",
+  "title": "Banner Venue Placeholder Removal",
+  "objective": "Simplify the homepage banner logistics line so it shows only the confirmed date on the first line and keeps 'Conference on Robot Learning' on the second line.",
+  "instructions": [
+    "Edit index.html so the banner first line reads 'November 9, 2026' and no longer includes 'and venue to be announced'.",
+    "Keep the second line as 'Conference on Robot Learning'."
+  ],
+  "constraints": [
+    "Do not perform Git operations.",
+    "Do not change any other homepage copy unless required for this exact banner text fix."
+  ],
+  "inputs": {
+    "files": [
+      "/Users/yashturkar/Workspace/atlas-corl-2026/index.html"
+    ],
+    "artifacts": [],
+    "references": []
+  },
+  "expected_outputs": [
+    "Updated banner text in index.html."
+  ],
+  "definition_of_done": [
+    "The banner shows 'November 9, 2026' on the first line and 'Conference on Robot Learning' on the second line with no venue placeholder wording."
+  ],
+  "memory_context_refs": [
+    ".control-tower/memory/l0.md",
+    ".control-tower/memory/l1.md"
+  ],
+  "doc_context_refs": [
+    "docs/product-specs/workshop-website.md"
+  ],
+  "time_budget": {
+    "soft_seconds": 120,
+    "hard_seconds": 300
+  },
+  "requires_review": true,
+  "allow_partial": false,
+  "metadata": {}
+}

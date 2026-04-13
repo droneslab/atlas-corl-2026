@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.0.0",
+  "packet_type": "task",
+  "packet_id": "a21abc18-4c37-4af0-b3ef-7d0aa4410340",
+  "trace_id": "e2f5fa48-90bc-4198-8271-1140df7677a4",
+  "parent_packet_id": null,
+  "created_at": "2026-04-13T16:59:04Z",
+  "from_agent": "tower",
+  "to_agent": "git-master",
+  "task_type": "git",
+  "priority": "high",
+  "project_id": "atlas-corl-2026",
+  "session_id": "019d87bf-6dad-7233-addd-de3fb099e0ae",
+  "title": "Commit And Push Current Worktree",
+  "objective": "Stage all current repository changes, create a single commit covering the current ATLAS workshop site and docs state, and push the current branch to origin.",
+  "instructions": [
+    "Inspect the current worktree and include all current changes in the commit scope because the user explicitly asked to commit everything.",
+    "Create a clear commit message reflecting the homepage, docs, and control-tower state currently present in the repository.",
+    "Push the current branch to origin without rewriting history."
+  ],
+  "constraints": [
+    "Do not force push or rewrite history.",
+    "Do not modify product code except Git-adjacent metadata if strictly necessary for the commit flow."
+  ],
+  "inputs": {
+    "files": [
+      "index.html",
+      "assets/main.css",
+      "docs/product-specs/workshop-website.md",
+      ".control-tower/"
+    ],
+    "artifacts": [],
+    "references": []
+  },
+  "expected_outputs": [
+    "A pushed commit on the current branch with commit SHA and a summary of what was included."
+  ],
+  "definition_of_done": [
+    "All current changes are committed and the current branch is pushed to origin."
+  ],
+  "memory_context_refs": [
+    ".control-tower/memory/l0.md",
+    ".control-tower/memory/l1.md"
+  ],
+  "doc_context_refs": [],
+  "time_budget": {
+    "soft_seconds": 240,
+    "hard_seconds": 900
+  },
+  "requires_review": true,
+  "allow_partial": false,
+  "metadata": {}
+}

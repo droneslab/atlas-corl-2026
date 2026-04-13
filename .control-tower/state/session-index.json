@@ -1,0 +1,134 @@
+{
+  "sessions": {
+    "019d87b5-8d1a-76a2-a218-113ce6edb266": {
+      "session_id": "019d87b5-8d1a-76a2-a218-113ce6edb266",
+      "timestamp": "2026-04-13T16:38:35.550Z",
+      "source_path": "/Users/yashturkar/.codex/sessions/2026/04/13/rollout-2026-04-13T09-38-35-019d87b5-8d1a-76a2-a218-113ce6edb266.jsonl",
+      "cached_copy": "/Users/yashturkar/Workspace/atlas-corl-2026/.control-tower/memory/l2/sessions/019d87b5-8d1a-76a2-a218-113ce6edb266.jsonl",
+      "transcript_path": "/Users/yashturkar/Workspace/atlas-corl-2026/.control-tower/memory/l2/transcripts/019d87b5-8d1a-76a2-a218-113ce6edb266.md",
+      "cwd": "/Users/yashturkar/Workspace/atlas-corl-2026",
+      "originator": "codex_cli_rs",
+      "source": "cli",
+      "user_message_count": 1,
+      "agent_message_count": 0
+    },
+    "019d87b5-aa0d-7041-8993-ffed815110c0": {
+      "session_id": "019d87b5-aa0d-7041-8993-ffed815110c0",
+      "timestamp": "2026-04-13T16:38:42.960Z",
+      "source_path": "/Users/yashturkar/.codex/sessions/2026/04/13/rollout-2026-04-13T09-38-42-019d87b5-aa0d-7041-8993-ffed815110c0.jsonl",
+      "cached_copy": "/Users/yashturkar/Workspace/atlas-corl-2026/.control-tower/memory/l2/sessions/019d87b5-aa0d-7041-8993-ffed815110c0.jsonl",
+      "transcript_path": "/Users/yashturkar/Workspace/atlas-corl-2026/.control-tower/memory/l2/transcripts/019d87b5-aa0d-7041-8993-ffed815110c0.md",
+      "cwd": "/Users/yashturkar/Workspace/atlas-corl-2026",
+      "originator": "codex_cli_rs",
+      "source": "cli",
+      "user_message_count": 4,
+      "agent_message_count": 14
+    },
+    "019d87bf-6dad-7233-addd-de3fb099e0ae": {
+      "session_id": "019d87bf-6dad-7233-addd-de3fb099e0ae",
+      "timestamp": "2026-04-13T16:49:22.863Z",
+      "source_path": "/Users/yashturkar/.codex/sessions/2026/04/13/rollout-2026-04-13T09-49-22-019d87bf-6dad-7233-addd-de3fb099e0ae.jsonl",
+      "cached_copy": "/Users/yashturkar/Workspace/atlas-corl-2026/.control-tower/memory/l2/sessions/019d87bf-6dad-7233-addd-de3fb099e0ae.jsonl",
+      "transcript_path": "/Users/yashturkar/Workspace/atlas-corl-2026/.control-tower/memory/l2/transcripts/019d87bf-6dad-7233-addd-de3fb099e0ae.md",
+      "cwd": "/Users/yashturkar/Workspace/atlas-corl-2026",
+      "originator": "codex_cli_rs",
+      "source": {
+        "subagent": {
+          "thread_spawn": {
+            "parent_thread_id": "019d87b5-aa0d-7041-8993-ffed815110c0",
+            "depth": 1,
+            "agent_path": null,
+            "agent_nickname": "Newton",
+            "agent_role": "explorer"
+          }
+        }
+      },
+      "user_message_count": 5,
+      "agent_message_count": 13
+    },
+    "019d87bf-a47d-7e31-9850-3386cd6c40ed": {
+      "session_id": "019d87bf-a47d-7e31-9850-3386cd6c40ed",
+      "timestamp": "2026-04-13T16:49:36.895Z",
+      "source_path": "/Users/yashturkar/.codex/sessions/2026/04/13/rollout-2026-04-13T09-49-36-019d87bf-a47d-7e31-9850-3386cd6c40ed.jsonl",
+      "cached_copy": "/Users/yashturkar/Workspace/atlas-corl-2026/.control-tower/memory/l2/sessions/019d87bf-a47d-7e31-9850-3386cd6c40ed.jsonl",
+      "transcript_path": "/Users/yashturkar/Workspace/atlas-corl-2026/.control-tower/memory/l2/transcripts/019d87bf-a47d-7e31-9850-3386cd6c40ed.md",
+      "cwd": "/Users/yashturkar/Workspace/atlas-corl-2026",
+      "originator": "codex_cli_rs",
+      "source": "cli",
+      "user_message_count": 1,
+      "agent_message_count": 9
+    },
+    "019d87c0-5e8b-7a41-b430-73b13a9b59ca": {
+      "session_id": "019d87c0-5e8b-7a41-b430-73b13a9b59ca",
+      "timestamp": "2026-04-13T16:50:24.524Z",
+      "source_path": "/Users/yashturkar/.codex/sessions/2026/04/13/rollout-2026-04-13T09-50-24-019d87c0-5e8b-7a41-b430-73b13a9b59ca.jsonl",
+      "cached_copy": "/Users/yashturkar/Workspace/atlas-corl-2026/.control-tower/memory/l2/sessions/019d87c0-5e8b-7a41-b430-73b13a9b59ca.jsonl",
+      "transcript_path": "/Users/yashturkar/Workspace/atlas-corl-2026/.control-tower/memory/l2/transcripts/019d87c0-5e8b-7a41-b430-73b13a9b59ca.md",
+      "cwd": "/Users/yashturkar/Workspace/atlas-corl-2026",
+      "originator": "codex_exec",
+      "source": "exec",
+      "user_message_count": 1,
+      "agent_message_count": 1
+    },
+    "019d87c1-e1a5-7ec3-8b79-a189b80328e1": {
+      "session_id": "019d87c1-e1a5-7ec3-8b79-a189b80328e1",
+      "timestamp": "2026-04-13T16:52:03.622Z",
+      "source_path": "/Users/yashturkar/.codex/sessions/2026/04/13/rollout-2026-04-13T09-52-03-019d87c1-e1a5-7ec3-8b79-a189b80328e1.jsonl",
+      "cached_copy": "/Users/yashturkar/Workspace/atlas-corl-2026/.control-tower/memory/l2/sessions/019d87c1-e1a5-7ec3-8b79-a189b80328e1.jsonl",
+      "transcript_path": "/Users/yashturkar/Workspace/atlas-corl-2026/.control-tower/memory/l2/transcripts/019d87c1-e1a5-7ec3-8b79-a189b80328e1.md",
+      "cwd": "/Users/yashturkar/Workspace/atlas-corl-2026",
+      "originator": "codex_exec",
+      "source": "exec",
+      "user_message_count": 1,
+      "agent_message_count": 0
+    },
+    "019d87c3-df71-7690-a496-d894cf42ec9f": {
+      "session_id": "019d87c3-df71-7690-a496-d894cf42ec9f",
+      "timestamp": "2026-04-13T16:54:14.130Z",
+      "source_path": "/Users/yashturkar/.codex/sessions/2026/04/13/rollout-2026-04-13T09-54-14-019d87c3-df71-7690-a496-d894cf42ec9f.jsonl",
+      "cached_copy": "/Users/yashturkar/Workspace/atlas-corl-2026/.control-tower/memory/l2/sessions/019d87c3-df71-7690-a496-d894cf42ec9f.jsonl",
+      "transcript_path": "/Users/yashturkar/Workspace/atlas-corl-2026/.control-tower/memory/l2/transcripts/019d87c3-df71-7690-a496-d894cf42ec9f.md",
+      "cwd": "/Users/yashturkar/Workspace/atlas-corl-2026",
+      "originator": "codex_exec",
+      "source": "exec",
+      "user_message_count": 1,
+      "agent_message_count": 1
+    },
+    "019d87c4-ae78-7e20-b30d-4e788851d27f": {
+      "session_id": "019d87c4-ae78-7e20-b30d-4e788851d27f",
+      "timestamp": "2026-04-13T16:55:07.130Z",
+      "source_path": "/Users/yashturkar/.codex/sessions/2026/04/13/rollout-2026-04-13T09-55-07-019d87c4-ae78-7e20-b30d-4e788851d27f.jsonl",
+      "cached_copy": "/Users/yashturkar/Workspace/atlas-corl-2026/.control-tower/memory/l2/sessions/019d87c4-ae78-7e20-b30d-4e788851d27f.jsonl",
+      "transcript_path": "/Users/yashturkar/Workspace/atlas-corl-2026/.control-tower/memory/l2/transcripts/019d87c4-ae78-7e20-b30d-4e788851d27f.md",
+      "cwd": "/Users/yashturkar/Workspace/atlas-corl-2026",
+      "originator": "codex_exec",
+      "source": "exec",
+      "user_message_count": 1,
+      "agent_message_count": 0
+    },
+    "019d87c5-75cd-77f2-95da-1a814269b679": {
+      "session_id": "019d87c5-75cd-77f2-95da-1a814269b679",
+      "timestamp": "2026-04-13T16:55:58.159Z",
+      "source_path": "/Users/yashturkar/.codex/sessions/2026/04/13/rollout-2026-04-13T09-55-58-019d87c5-75cd-77f2-95da-1a814269b679.jsonl",
+      "cached_copy": "/Users/yashturkar/Workspace/atlas-corl-2026/.control-tower/memory/l2/sessions/019d87c5-75cd-77f2-95da-1a814269b679.jsonl",
+      "transcript_path": "/Users/yashturkar/Workspace/atlas-corl-2026/.control-tower/memory/l2/transcripts/019d87c5-75cd-77f2-95da-1a814269b679.md",
+      "cwd": "/Users/yashturkar/Workspace/atlas-corl-2026",
+      "originator": "codex_exec",
+      "source": "exec",
+      "user_message_count": 1,
+      "agent_message_count": 1
+    },
+    "019d87c6-99c4-7252-9371-22a7cb62c5dc": {
+      "session_id": "019d87c6-99c4-7252-9371-22a7cb62c5dc",
+      "timestamp": "2026-04-13T16:57:12.901Z",
+      "source_path": "/Users/yashturkar/.codex/sessions/2026/04/13/rollout-2026-04-13T09-57-12-019d87c6-99c4-7252-9371-22a7cb62c5dc.jsonl",
+      "cached_copy": "/Users/yashturkar/Workspace/atlas-corl-2026/.control-tower/memory/l2/sessions/019d87c6-99c4-7252-9371-22a7cb62c5dc.jsonl",
+      "transcript_path": "/Users/yashturkar/Workspace/atlas-corl-2026/.control-tower/memory/l2/transcripts/019d87c6-99c4-7252-9371-22a7cb62c5dc.md",
+      "cwd": "/Users/yashturkar/Workspace/atlas-corl-2026",
+      "originator": "codex_exec",
+      "source": "exec",
+      "user_message_count": 1,
+      "agent_message_count": 1
+    }
+  }
+}

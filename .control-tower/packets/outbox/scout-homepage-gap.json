@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "packet_type": "task",
+  "packet_id": "ea3e085b-a74e-4471-bdf0-bd4d488e0fd0",
+  "trace_id": "5e605306-2434-4e68-85dc-212d694420fd",
+  "parent_packet_id": null,
+  "created_at": "2026-04-13T16:50:21Z",
+  "from_agent": "tower",
+  "to_agent": "scout",
+  "task_type": "research",
+  "priority": "high",
+  "project_id": "atlas-corl-2026",
+  "session_id": "019d87bf-6dad-7233-addd-de3fb099e0ae",
+  "title": "Homepage Template Gap Analysis",
+  "objective": "Compare the current homepage and stylesheet against the upstream conference-website-template and identify the structural and styling deviations that matter most before further implementation.",
+  "instructions": [
+    "Compare /Users/yashturkar/Workspace/atlas-corl-2026/index.html against /tmp/conference-website-template/index.html.",
+    "Compare /Users/yashturkar/Workspace/atlas-corl-2026/assets/main.css against /tmp/conference-website-template/assets/main.css.",
+    "Focus on structure, layout system, navigation pattern, banner treatment, and any customizations that materially diverge from the upstream template aesthetic or information architecture.",
+    "Recommend the minimum Builder change set needed to restore template alignment while preserving the ATLAS workshop content already written."
+  ],
+  "constraints": [
+    "Do not edit files.",
+    "Do not speculate beyond what is visible in the compared files."
+  ],
+  "inputs": {
+    "files": [
+      "/Users/yashturkar/Workspace/atlas-corl-2026/index.html",
+      "/Users/yashturkar/Workspace/atlas-corl-2026/assets/main.css",
+      "/tmp/conference-website-template/index.html",
+      "/tmp/conference-website-template/assets/main.css"
+    ],
+    "artifacts": [],
+    "references": []
+  },
+  "expected_outputs": [
+    "A prioritized gap analysis with explicit references to the current and upstream files.",
+    "A recommended minimum Builder follow-up plan."
+  ],
+  "definition_of_done": [
+    "ResultPacket clearly identifies the highest-signal deviations and a concrete next implementation handoff."
+  ],
+  "memory_context_refs": [
+    ".control-tower/memory/l0.md",
+    ".control-tower/memory/l1.md"
+  ],
+  "doc_context_refs": [
+    "docs/product-specs/workshop-website.md",
+    "docs/design-docs/site-architecture.md"
+  ],
+  "time_budget": {
+    "soft_seconds": 180,
+    "hard_seconds": 420
+  },
+  "requires_review": true,
+  "allow_partial": false,
+  "metadata": {}
+}

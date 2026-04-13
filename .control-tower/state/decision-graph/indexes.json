@@ -1,0 +1,38 @@
+{
+  "active_decisions": [],
+  "inferred_decisions": [
+    "dec_inferred_E6575247-E6B2-49E8-831D-4DCAF39DD098_0_homepage-ia-now-consists-of-overview-scope-schedule-submissions-and-contact-sections-motivation-and-differentiation-are-no-longer-part-of-the-public-site-spec",
+    "dec_inferred_0d5326c2-8721-4db9-af6c-dc12ad4b47a2_0_single-page-anchor-navigation-is-an-intentional-product-level-deviation-from-the-upstream-conference-template-and-should-not-be-reverted-without-a-docs-spec-change",
+    "dec_inferred_0d5326c2-8721-4db9-af6c-dc12ad4b47a2_1_the-highest-value-template-alignment-work-is-banner-title-restoration-navigation-and-text-rhythm-cleanup-are-secondary"
+  ],
+  "superseded_decisions": [],
+  "open_questions": [
+    "question:what-git-workflow-should-git-master-assume-for-this-project",
+    "question:which-files-or-paths-should-builder-avoid-by-default",
+    "question:which-repo-conventions-should-scribe-treat-as-canonical"
+  ],
+  "known_risks": [
+    "risk:memory-drift-if-imported-sessions-are-not-curated-into-docs-and-working-summaries",
+    "risk:session-ambiguity-if-tower-sessions-are-not-resumed-through-tower-resume",
+    "risk:tower-role-leakage-into-direct-implementation-if-delegation-discipline-is-not-maintained"
+  ],
+  "current_tasks": [],
+  "recent_commits": [
+    "commit:a6c84ed3d2b1e1094d1fc8fb173f886fe1c07c27"
+  ],
+  "unexplained_commits": [
+    "commit:a6c84ed3d2b1e1094d1fc8fb173f886fe1c07c27"
+  ],
+  "session_links": {
+    "session:019d87bf-6dad-7233-addd-de3fb099e0ae": [
+      "packet:ea3e085b-a74e-4471-bdf0-bd4d488e0fd0",
+      "packet:45fc9815-d457-4bdb-bde8-f3d604ce1726",
+      "packet:f99f0194-2bb8-41d6-a9cc-f622e2027723",
+      "packet:81cfc53f-54f9-4e42-a884-b6a83d69d6d3",
+      "packet:faeb7cd1-6dca-4d84-89ee-8d11bc2f7aba",
+      "packet:03b0738f-75e7-40a2-8ef8-282e7f84a284"
+    ]
+  },
+  "last_graph_sync": "2026-04-13T16:57:43Z",
+  "current_branch": "main"
+}
