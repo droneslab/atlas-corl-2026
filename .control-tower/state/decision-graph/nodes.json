@@ -1827,6 +1827,99 @@
         "originator": "codex_exec",
         "transcript_path": ".control-tower/memory/l2/transcripts/019d8875-5340-7200-9bc2-e3b4b5316acc.md"
       }
+    },
+    "session:019d8876-1501-7243-aa50-cd2240917f4f": {
+      "id": "session:019d8876-1501-7243-aa50-cd2240917f4f",
+      "type": "session",
+      "session_id": "019d8876-1501-7243-aa50-cd2240917f4f",
+      "timestamp": "2026-04-13T20:08:53.252Z",
+      "source": "exec",
+      "originator": "codex_exec",
+      "transcript_path": ".control-tower/memory/l2/transcripts/019d8876-1501-7243-aa50-cd2240917f4f.md",
+      "session_path": ".control-tower/memory/l2/sessions/019d8876-1501-7243-aa50-cd2240917f4f.jsonl"
+    },
+    "packet:71a601a7-c15a-4d2b-b037-69d59c79b8fb": {
+      "id": "packet:71a601a7-c15a-4d2b-b037-69d59c79b8fb",
+      "type": "packet",
+      "packet_id": "71a601a7-c15a-4d2b-b037-69d59c79b8fb",
+      "packet_type": "task",
+      "title": "Update repo docs after Builder work",
+      "status": null,
+      "trace_id": "da925c49-f571-497a-9457-1c80506a492d",
+      "from_agent": "tower",
+      "to_agent": "scribe",
+      "path": ".control-tower/packets/outbox/scribe-docs-followup-builder-20260413T200848Z.json",
+      "created_at": "2026-04-13T20:08:48Z"
+    },
+    "artifact:.control-tower/packets/outbox/scribe-docs-followup-builder-20260413T200848Z.json": {
+      "id": "artifact:.control-tower/packets/outbox/scribe-docs-followup-builder-20260413T200848Z.json",
+      "type": "artifact",
+      "ref": ".control-tower/packets/outbox/scribe-docs-followup-builder-20260413T200848Z.json",
+      "title": ".control-tower/packets/outbox/scribe-docs-followup-builder-20260413T200848Z.json",
+      "created_at": "2026-04-13T20:08:48Z"
+    },
+    "event:black-box:27": {
+      "id": "event:black-box:27",
+      "type": "event",
+      "event_type": "codex_session_imported",
+      "timestamp": "2026-04-13T20:08:53.252Z",
+      "payload": {
+        "event_type": "codex_session_imported",
+        "session_id": "019d8876-1501-7243-aa50-cd2240917f4f",
+        "timestamp": "2026-04-13T20:08:53.252Z",
+        "source": "exec",
+        "originator": "codex_exec",
+        "transcript_path": ".control-tower/memory/l2/transcripts/019d8876-1501-7243-aa50-cd2240917f4f.md"
+      }
+    },
+    "commit:85dbe09bca363ac940844009590ed147e3eb8302": {
+      "id": "commit:85dbe09bca363ac940844009590ed147e3eb8302",
+      "type": "commit",
+      "sha": "85dbe09bca363ac940844009590ed147e3eb8302",
+      "parents": [
+        "566753ee7e616e1ad13d2d8dfb0357fdab59dc87"
+      ],
+      "authored_at": "2026-04-13T13:10:13-07:00",
+      "subject": "feat: Add documentation and task packets for banner image revert and program updates",
+      "files": []
+    },
+    "packet:0edd6cfb-64bd-4432-a0c7-16fd88c24134": {
+      "id": "packet:0edd6cfb-64bd-4432-a0c7-16fd88c24134",
+      "type": "packet",
+      "packet_id": "0edd6cfb-64bd-4432-a0c7-16fd88c24134",
+      "packet_type": "result",
+      "title": "Updated the durable workshop website spec and operational current-status notes so repo documentation matches the homepage\u2019s new Call for Papers language and current submission guidance.",
+      "status": "success",
+      "trace_id": "da925c49-f571-497a-9457-1c80506a492d",
+      "from_agent": "scribe",
+      "to_agent": "tower",
+      "path": ".control-tower/packets/inbox/scribe-71a601a7-c15a-4d2b-b037-69d59c79b8fb-result.json",
+      "created_at": "2026-04-13T20:10:34Z"
+    },
+    "artifact:.control-tower/packets/inbox/scribe-71a601a7-c15a-4d2b-b037-69d59c79b8fb-result.json": {
+      "id": "artifact:.control-tower/packets/inbox/scribe-71a601a7-c15a-4d2b-b037-69d59c79b8fb-result.json",
+      "type": "artifact",
+      "ref": ".control-tower/packets/inbox/scribe-71a601a7-c15a-4d2b-b037-69d59c79b8fb-result.json",
+      "title": ".control-tower/packets/inbox/scribe-71a601a7-c15a-4d2b-b037-69d59c79b8fb-result.json",
+      "created_at": "2026-04-13T20:10:34Z"
+    },
+    "dec_inferred_0edd6cfb-64bd-4432-a0c7-16fd88c24134_0_homepage-copy-now-uses-call-for-papers-language-and-invites-concise-4-to-6-page-papers-while-deadlines-and-submission-destination-links-remain-unconfirmed": {
+      "id": "dec_inferred_0edd6cfb-64bd-4432-a0c7-16fd88c24134_0_homepage-copy-now-uses-call-for-papers-language-and-invites-concise-4-to-6-page-papers-while-deadlines-and-submission-destination-links-remain-unconfirmed",
+      "type": "decision",
+      "topic": "homepage-copy-now-uses-call-for-papers-language-and-invites-concise-4-to-6-page-papers-while-deadlines-and-submission-destination-links-remain-unconfirmed",
+      "title": "Homepage copy now uses Call for Papers language and invites concise 4 to 6 page papers, while deadlines and submission destination links remain unconfirmed.",
+      "status": "proposed",
+      "importance": "normal",
+      "summary": "Inferred from ResultPacket memory_worthy entry: Homepage copy now uses Call for Papers language and invites concise 4 to 6 page papers, while deadlines and submission destination links remain unconfirmed.",
+      "rationale": [
+        "Captured from a ResultPacket memory_worthy entry pending curation."
+      ],
+      "source_refs": [
+        ".control-tower/packets/inbox/scribe-71a601a7-c15a-4d2b-b037-69d59c79b8fb-result.json"
+      ],
+      "inferred": true,
+      "created_at": "2026-04-13T20:10:52Z",
+      "created_by": "scribe"
     }
   }
 }

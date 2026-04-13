@@ -949,6 +949,66 @@
       "evidence_refs": [
         ".control-tower/packets/outbox/builder-call-for-papers-content.json"
       ]
+    },
+    {
+      "id": "edge:packet-artifact:71a601a7-c15a-4d2b-b037-69d59c79b8fb:control-tower-packets-outbox-scribe-docs-followup-builder-20260413t200848z-json",
+      "type": "references",
+      "from": "packet:71a601a7-c15a-4d2b-b037-69d59c79b8fb",
+      "to": "artifact:.control-tower/packets/outbox/scribe-docs-followup-builder-20260413T200848Z.json",
+      "created_at": "2026-04-13T20:08:48Z",
+      "evidence_refs": [
+        ".control-tower/packets/outbox/scribe-docs-followup-builder-20260413T200848Z.json"
+      ]
+    },
+    {
+      "id": "edge:packet-session:71a601a7-c15a-4d2b-b037-69d59c79b8fb:019d87bf-6dad-7233-addd-de3fb099e0ae",
+      "type": "discussed_in",
+      "from": "packet:71a601a7-c15a-4d2b-b037-69d59c79b8fb",
+      "to": "session:019d87bf-6dad-7233-addd-de3fb099e0ae",
+      "created_at": "2026-04-13T20:08:48Z",
+      "evidence_refs": [
+        ".control-tower/packets/outbox/scribe-docs-followup-builder-20260413T200848Z.json"
+      ]
+    },
+    {
+      "id": "edge:commit-session:85dbe09bca363ac940844009590ed147e3eb8302:019d8876-1501-7243-aa50-cd2240917f4f",
+      "type": "caused_by",
+      "from": "commit:85dbe09bca363ac940844009590ed147e3eb8302",
+      "to": "session:019d8876-1501-7243-aa50-cd2240917f4f",
+      "created_at": "2026-04-13T13:10:13-07:00",
+      "evidence_refs": [
+        "/Users/yashturkar/Workspace/atlas-corl-2026/.control-tower/memory/l2/transcripts/019d8876-1501-7243-aa50-cd2240917f4f.md"
+      ]
+    },
+    {
+      "id": "edge:packet-artifact:0edd6cfb-64bd-4432-a0c7-16fd88c24134:control-tower-packets-inbox-scribe-71a601a7-c15a-4d2b-b037-69d59c79b8fb-result-json",
+      "type": "references",
+      "from": "packet:0edd6cfb-64bd-4432-a0c7-16fd88c24134",
+      "to": "artifact:.control-tower/packets/inbox/scribe-71a601a7-c15a-4d2b-b037-69d59c79b8fb-result.json",
+      "created_at": "2026-04-13T20:10:34Z",
+      "evidence_refs": [
+        ".control-tower/packets/inbox/scribe-71a601a7-c15a-4d2b-b037-69d59c79b8fb-result.json"
+      ]
+    },
+    {
+      "id": "edge:decision-ref:dec_inferred_0edd6cfb-64bd-4432-a0c7-16fd88c24134_0_homepage-copy-now-uses-call-for-papers-language-and-invites-concise-4-to-6-page-papers-while-deadlines-and-submission-destination-links-remain-unconfirmed:control-tower-packets-inbox-scribe-71a601a7-c15a-4d2b-b037-69d59c79b8fb-result-json",
+      "type": "references",
+      "from": "dec_inferred_0edd6cfb-64bd-4432-a0c7-16fd88c24134_0_homepage-copy-now-uses-call-for-papers-language-and-invites-concise-4-to-6-page-papers-while-deadlines-and-submission-destination-links-remain-unconfirmed",
+      "to": "artifact:.control-tower/packets/inbox/scribe-71a601a7-c15a-4d2b-b037-69d59c79b8fb-result.json",
+      "created_at": "2026-04-13T20:10:52Z",
+      "evidence_refs": [
+        ".control-tower/packets/inbox/scribe-71a601a7-c15a-4d2b-b037-69d59c79b8fb-result.json"
+      ]
+    },
+    {
+      "id": "edge:decision-node:dec_inferred_0edd6cfb-64bd-4432-a0c7-16fd88c24134_0_homepage-copy-now-uses-call-for-papers-language-and-invites-concise-4-to-6-page-papers-while-deadlines-and-submission-destination-links-remain-unconfirmed:packet-0edd6cfb-64bd-4432-a0c7-16fd88c24134",
+      "type": "references",
+      "from": "dec_inferred_0edd6cfb-64bd-4432-a0c7-16fd88c24134_0_homepage-copy-now-uses-call-for-papers-language-and-invites-concise-4-to-6-page-papers-while-deadlines-and-submission-destination-links-remain-unconfirmed",
+      "to": "packet:0edd6cfb-64bd-4432-a0c7-16fd88c24134",
+      "created_at": "2026-04-13T20:10:52Z",
+      "evidence_refs": [
+        ".control-tower/packets/inbox/scribe-71a601a7-c15a-4d2b-b037-69d59c79b8fb-result.json"
+      ]
     }
   ]
 }

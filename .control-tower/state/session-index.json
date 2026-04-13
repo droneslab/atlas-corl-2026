@@ -321,6 +321,18 @@
       "source": "exec",
       "user_message_count": 1,
       "agent_message_count": 1
+    },
+    "019d8876-1501-7243-aa50-cd2240917f4f": {
+      "session_id": "019d8876-1501-7243-aa50-cd2240917f4f",
+      "timestamp": "2026-04-13T20:08:53.252Z",
+      "source_path": "/Users/yashturkar/.codex/sessions/2026/04/13/rollout-2026-04-13T13-08-53-019d8876-1501-7243-aa50-cd2240917f4f.jsonl",
+      "cached_copy": "/Users/yashturkar/Workspace/atlas-corl-2026/.control-tower/memory/l2/sessions/019d8876-1501-7243-aa50-cd2240917f4f.jsonl",
+      "transcript_path": "/Users/yashturkar/Workspace/atlas-corl-2026/.control-tower/memory/l2/transcripts/019d8876-1501-7243-aa50-cd2240917f4f.md",
+      "cwd": "/Users/yashturkar/Workspace/atlas-corl-2026",
+      "originator": "codex_exec",
+      "source": "exec",
+      "user_message_count": 1,
+      "agent_message_count": 0
     }
   }
 }

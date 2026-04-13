@@ -1,8 +1,8 @@
 {
   "git_branch": "main",
-  "last_sync_time": "2026-04-13T20:08:48Z",
+  "last_sync_time": "2026-04-13T20:10:52Z",
   "last_tower_session_id": "019d87bf-6dad-7233-addd-de3fb099e0ae",
-  "last_imported_session_id": null,
+  "last_imported_session_id": "019d8876-1501-7243-aa50-cd2240917f4f",
   "session_import_cutoff": "2026-04-13T16:38:13Z",
   "last_agent_sessions": {
     "scout": "019d87c1-e1a5-7ec3-8b79-a189b80328e1",

@@ -1,6 +1,7 @@
 {
   "active_decisions": [],
   "inferred_decisions": [
+    "dec_inferred_0edd6cfb-64bd-4432-a0c7-16fd88c24134_0_homepage-copy-now-uses-call-for-papers-language-and-invites-concise-4-to-6-page-papers-while-deadlines-and-submission-destination-links-remain-unconfirmed",
     "dec_inferred_ECA141C2-7E41-41FE-B2B0-AAB75BC79DDF_0_homepage-program-copy-now-uses-a-constrained-invited-talks-posters-template-with-coffee-breaks-and-a-lunch-break-only",
     "dec_inferred_ECA141C2-7E41-41FE-B2B0-AAB75BC79DDF_1_durable-product-docs-and-operational-state-were-realigned-on-2026-04-13-to-match-the-current-program-wording-in-index-html",
     "dec_inferred_FEF00BBA-3B77-4009-8429-0B285533A0F4_0_homepage-hero-is-again-a-css-only-gradient-banner-panel-in-assets-main-css-and-no-longer-depends-on-a-repository-banner-image-asset",
@@ -25,10 +26,12 @@
   ],
   "current_tasks": [],
   "recent_commits": [
+    "commit:85dbe09bca363ac940844009590ed147e3eb8302",
     "commit:566753ee7e616e1ad13d2d8dfb0357fdab59dc87",
     "commit:a6c84ed3d2b1e1094d1fc8fb173f886fe1c07c27"
   ],
   "unexplained_commits": [
+    "commit:85dbe09bca363ac940844009590ed147e3eb8302",
     "commit:566753ee7e616e1ad13d2d8dfb0357fdab59dc87",
     "commit:a6c84ed3d2b1e1094d1fc8fb173f886fe1c07c27"
   ],
@@ -60,9 +63,10 @@
       "packet:db62cbba-382b-422a-a509-681e4a8bd29a",
       "packet:841e7dbb-13a2-43dd-b163-924e41a98b2a",
       "packet:a56913fe-3eba-4e18-a5b0-9c5cb67dc61c",
-      "packet:8248f99b-a2a5-4e39-8c00-be1b93c7b0d1"
+      "packet:8248f99b-a2a5-4e39-8c00-be1b93c7b0d1",
+      "packet:71a601a7-c15a-4d2b-b037-69d59c79b8fb"
     ]
   },
-  "last_graph_sync": "2026-04-13T20:08:48Z",
+  "last_graph_sync": "2026-04-13T20:10:52Z",
   "current_branch": "main"
 }
