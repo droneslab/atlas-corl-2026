@@ -14,7 +14,7 @@ The first release is a static single-page site adapted from the structure of `mi
   - banner-level workshop logistics copy for November 9, 2026 and the Conference on Robot Learning
   - workshop title and expansion of the ATLAS acronym
   - overview and scope sections
-  - a Program section describing a full-day template centered on invited talks and poster sessions, with morning and afternoon coffee breaks and a midday lunch break
+  - a Program section with a placeholder schedule table from 09:20 to 16:25, including invited talk slots labeled `TBD` instead of speaker names
   - a Call for Papers section that invites concise 4 to 6 page papers aligned with the workshop themes
   - Call for Papers copy that stays high level and does not yet publish deadlines, formatting rules beyond page count, or submission destination links
   - contact section with organizer names and email addresses for Yash Turkar and Karthik Dantu

@@ -163,6 +163,35 @@ td.navigation {
     border-left: 4px solid #d8c27a;
 }
 
+.program-schedule {
+    width: 960px;
+    border-collapse: collapse;
+}
+
+.program-schedule td {
+    padding: 10px 14px;
+    font-size: 2.1em;
+    line-height: 1.35em;
+    color: #202020;
+}
+
+.program-schedule td:first-child {
+    width: 190px;
+    white-space: nowrap;
+}
+
+.program-schedule tr:nth-child(odd) td {
+    background-color: #ebebeb;
+}
+
+.program-schedule tr:nth-child(even) td {
+    background-color: #f4f4f4;
+}
+
+.program-schedule .program-divider td {
+    border-top: 2px solid #606060;
+}
+
 .question {
     font-weight: bold;
 }
@@ -201,7 +230,8 @@ footer {
     p,
     ul li,
     td.navigation,
-    .bottom-right {
+    .bottom-right,
+    .program-schedule td {
         font-size: 1.15em;
         line-height: 1.5em;
     }
@@ -213,5 +243,13 @@ footer {
 
     .bottom-right {
         padding: 0 24px 22px 24px;
+    }
+
+    .program-schedule {
+        width: 100%;
+    }
+
+    .program-schedule td:first-child {
+        width: 108px;
     }
 }
