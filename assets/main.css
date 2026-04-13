@@ -177,7 +177,7 @@ td.navigation {
 }
 
 .program-schedule td:first-child {
-    width: 190px;
+    min-width: 190px;
     white-space: nowrap;
 }
 
@@ -251,6 +251,6 @@ footer {
     }
 
     .program-schedule td:first-child {
-        width: 108px;
+        min-width: 108px;
     }
 }
