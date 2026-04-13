@@ -177,7 +177,7 @@ td.navigation {
 }
 
 .program-schedule td:first-child {
-    min-width: 190px;
+    min-width: 5.5ch;
     white-space: nowrap;
 }
 
@@ -189,7 +189,7 @@ td.navigation {
     background-color: #f4f4f4;
 }
 
-.program-schedule .program-divider td {
+.program-schedule .program-afternoon tr:first-child td {
     border-top: 2px solid #606060;
 }
 
@@ -251,6 +251,6 @@ footer {
     }
 
     .program-schedule td:first-child {
-        min-width: 108px;
+        min-width: 5ch;
     }
 }
