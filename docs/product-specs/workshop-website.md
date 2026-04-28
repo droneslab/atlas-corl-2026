@@ -17,8 +17,8 @@ The first release is a static single-page site adapted from the structure of `mi
   - a Program section with a placeholder schedule table from 09:20 to 16:25, including invited talk slots labeled `TBD` instead of speaker names
   - a Call for Papers section that invites concise 4 to 6 page papers aligned with the workshop themes
   - Call for Papers copy that stays high level and does not yet publish deadlines, formatting rules beyond page count, or submission destination links
-  - contact section with organizer names and email addresses for Yash Turkar and Karthik Dantu
-- Navigation is in-page anchor navigation with links for `Overview`, `Scope`, `Program`, `Call for Papers`, and `Contact`.
+  - an Organizers section with headshots for Yash Turkar, Karthik Dantu, and Sanjeev Koppal plus email addresses for Yash and Karthik
+- Navigation is in-page anchor navigation with links for `Overview`, `Scope`, `Program`, `Call for Papers`, and `Organizers`.
 - Shared styling is defined in `assets/main.css`.
 
 ## Content Rules
