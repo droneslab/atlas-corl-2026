@@ -194,7 +194,8 @@ td.navigation {
 }
 
 .organizer-grid {
-    width: 900px;
+    width: 100%;
+    max-width: 900px;
     margin: 24px auto;
     display: flex;
     flex-wrap: wrap;
@@ -226,6 +227,10 @@ td.navigation {
     display: block;
     margin-top: 6px;
     font-size: 0.95em;
+}
+
+.organizer-contact-muted {
+    color: #606060;
 }
 
 .question {
