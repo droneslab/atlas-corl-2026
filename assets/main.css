@@ -223,6 +223,12 @@ td.navigation {
     color: #813c54;
 }
 
+.organizer-affiliation {
+    margin-top: 4px;
+    color: #606060;
+    font-size: 0.95em;
+}
+
 .organizer-contact {
     display: block;
     margin-top: 6px;
