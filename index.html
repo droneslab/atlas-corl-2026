@@ -5,13 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta
         name="description"
-        content="ATLAS is a CoRL 2026 workshop on active perception, generative modeling, and computational imaging for robotics systems."
+        content="ATLAS is a CoRL 2026 workshop on active image formation and sensing policies for embodied robotics tasks."
     >
     <meta name="resource-type" content="document">
     <meta name="distribution" content="global">
     <meta
         name="keywords"
-        content="ATLAS, CoRL 2026, workshop, robotics, active perception, generative modeling, computational imaging"
+        content="ATLAS, CoRL 2026, workshop, robotics, active perception, active image formation, sensing control, computational imaging"
     >
     <title>ATLAS Workshop | CoRL 2026</title>
     <link rel="stylesheet" type="text/css" media="all" href="assets/main.css">
@@ -30,25 +30,15 @@
         </div>
     </div>
 
-    <table class="navigation" aria-label="Primary navigation">
-        <tr>
-            <td class="navigation">
-                <a class="current" href="#overview">Overview</a>
-            </td>
-            <td class="navigation">
-                <a href="#scope">Scope</a>
-            </td>
-            <td class="navigation">
-                <a href="#program">Program</a>
-            </td>
-            <td class="navigation">
-                <a href="#submissions">Call for Papers</a>
-            </td>
-            <td class="navigation">
-                <a href="#contact">Contact</a>
-            </td>
-        </tr>
-    </table>
+    <nav class="navigation" aria-label="Primary navigation">
+        <a class="current" href="#overview">Overview</a>
+        <a href="#scope">Scope</a>
+        <a href="#program">Program</a>
+        <a href="#speakers">Speakers</a>
+        <a href="#submissions">Call for Papers</a>
+        <a href="#organizers">Organizers</a>
+        <a href="#contact">Contact</a>
+    </nav>
 
     <main>
         <p class="subtitle-block">
@@ -74,55 +64,197 @@
         <section id="scope">
             <h2>Scope</h2>
             <p>
-                We aim to bring together researchers across robot learning, active perception, generative modelling,
-                computational photography, and computational imaging.
+                ATLAS is organized around these ideas:
             </p>
             <ul class="scope-list">
-                <li>Active image formation for robot perception and control</li>
-                <li>Exposure, gain, HDR, and illumination control</li>
-                <li>Flash, structured light, coded sensing, and adaptive acquisition</li>
-                <li>Multimodal sensing and active selection of sensing parameters</li>
-                <li>Relighting, rendering, and counterfactual observation models</li>
-                <li>World models for sensing choices and information gain</li>
-                <li>Task-grounded evaluation in navigation, SLAM, manipulation, exploration, and safety-critical settings</li>
-                <li>Hardware-software co-design for embodied perception</li>
+                <li>
+                    <strong>Controllable image formation for embodied tasks:</strong> adaptive exposure, gain, and HDR
+                    for VIO or SLAM; active illumination for grasping transparent or low-texture objects; coded, thermal,
+                    event, multispectral, or active sensing for dust, fog, underwater, nighttime, and high dynamic range scenes.
+                </li>
+                <li>
+                    <strong>Counterfactual models of sensing actions:</strong> generative or physics-aware models that predict
+                    what a robot would observe under alternate exposure, lighting, modality, viewpoint, or coded acquisition choices.
+                </li>
+                <li>
+                    <strong>Policies for choosing how to sense:</strong> learning and control methods that optimize sensing
+                    parameters for task success, uncertainty reduction, latency, energy, safety, or information gain.
+                </li>
+                <li>
+                    <strong>Task-grounded evaluation and artifacts:</strong> robot benchmarks, datasets, demos, failure analyses,
+                    and metrics connecting acquisition choices to navigation, SLAM, manipulation, exploration, or safety outcomes.
+                </li>
             </ul>
+            <p class="note">
+                Work on generic image enhancement, passive perception, broad foundation models, or generative imagery is in scope only
+                when it is tied to a robot sensing/control loop where the robot chooses how to acquire information.
+            </p>
         </section>
 
         <section id="program">
             <h2>Program</h2>
             <p>
-                The workshop is planned as a full-day program built around invited talks and poster sessions, with
-                coffee breaks in the morning and afternoon and a lunch break at midday.
+                ATLAS is planned as a focused half-day workshop with invited talks, contributed posters or lightning talks,
+                and discussion around challenge-driven questions.
             </p>
             <p class="quote">
-                Exact timing may still be refined, but the day will follow this invited-talks and posters template.
+                Exact timing, submission logistics, and final session structure will be updated once confirmed.
             </p>
+        </section>
+
+        <section id="speakers">
+            <h2>Invited Speakers</h2>
+            <div class="card-grid" role="list">
+                <article class="card speaker-card" role="listitem">
+                    <a
+                        class="card-media"
+                        href="https://profiles.rice.edu/faculty/ashok-veeraraghavan"
+                        target="_blank"
+                        rel="noreferrer"
+                        aria-label="Ashok Veeraraghavan profile"
+                    >
+                        <img
+                            src="https://profiles.rice.edu/sites/g/files/bxs3881/files/2022-11/Ashok-Veeraraghavan-600px.jpg"
+                            alt="Ashok Veeraraghavan"
+                            loading="lazy"
+                        >
+                    </a>
+                    <div class="card-body">
+                        <h3 class="card-title">
+                            <a href="https://profiles.rice.edu/faculty/ashok-veeraraghavan" target="_blank" rel="noreferrer">
+                                Ashok Veeraraghavan
+                            </a>
+                        </h3>
+                        <p class="card-subtitle">Rice University</p>
+                    </div>
+                </article>
+
+                <article class="card speaker-card" role="listitem">
+                    <a
+                        class="card-media"
+                        href="https://www.ri.cmu.edu/ri-faculty/srinivasa-g-narasimhan/"
+                        target="_blank"
+                        rel="noreferrer"
+                        aria-label="Srinivasa Narasimhan profile"
+                    >
+                        <img
+                            src="https://www.ri.cmu.edu/app/uploads/2016/12/srinivas-narasimhan-300x450.jpg"
+                            alt="Srinivasa Narasimhan"
+                            loading="lazy"
+                        >
+                    </a>
+                    <div class="card-body">
+                        <h3 class="card-title">
+                            <a href="https://www.ri.cmu.edu/ri-faculty/srinivasa-g-narasimhan/" target="_blank" rel="noreferrer">
+                                Srinivasa Narasimhan
+                            </a>
+                        </h3>
+                        <p class="card-subtitle">Carnegie Mellon University</p>
+                    </div>
+                </article>
+            </div>
         </section>
 
         <section id="submissions">
             <h2>Call for Papers</h2>
             <p>
-                We invite concise 4 to 6 page papers on research directions that fit the workshop scope.
+                We invite <strong>2-page extended abstracts, excluding references</strong>, on research directions that fit the workshop scope.
             </p>
             <p>
-                Contributions may cover new methods, systems, datasets, or evaluations in active perception,
-                generative modeling, and computational imaging for robotics.
+                Submissions may include early ideas, preliminary results, negative results, demos, challenge statements, datasets,
+                benchmarks, systems, evaluations, or position pieces.
             </p>
             <p>
-                Use the topics above as a guide for submissions that align with the workshop themes.
+                Contributions should make clear how sensing is treated as an action space for a robot, embodied agent, or task-grounded perception system.
             </p>
+            <p class="note">
+                Submission deadlines and the submission link will be added once finalized.
+            </p>
+        </section>
+
+        <section id="organizers">
+            <h2>Organizers</h2>
+            <div class="organizer-grid">
+                <figure class="organizer-card">
+                    <img
+                        class="organizer-photo"
+                        src="assets/img/yash_outdoor_crop.png"
+                        alt="Portrait of Yash Turkar"
+                    >
+                    <figcaption>
+                        <div class="organizer-name">Yash Turkar</div>
+                        <div class="organizer-affiliation">University at Buffalo</div>
+                    </figcaption>
+                </figure>
+                <figure class="organizer-card">
+                    <img
+                        class="organizer-photo"
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKnNfXlunGvfRjPQNzeMJx19pzs5g71vA8s-n0TK9gr5qRgaJb8w8DT2KoKWb7A2VapcNJ4gAoLSdc2TQJkxb5D7orR38uqQE6hNIVyg&amp;s=10"
+                        alt="Portrait of Karthik Dantu"
+                    >
+                    <figcaption>
+                        <div class="organizer-name">Karthik Dantu</div>
+                        <div class="organizer-affiliation">University at Buffalo</div>
+                    </figcaption>
+                </figure>
+                <figure class="organizer-card">
+                    <img
+                        class="organizer-photo organizer-photo-top"
+                        src="https://focus.ece.ufl.edu/assets/sanjeev-koppal.oOpLhoj5.jpg"
+                        alt="Portrait of Sanjeev Koppal"
+                    >
+                    <figcaption>
+                        <div class="organizer-name">Sanjeev Koppal</div>
+                        <div class="organizer-affiliation">University of Florida</div>
+                    </figcaption>
+                </figure>
+                <figure class="organizer-card">
+                    <img
+                        class="organizer-photo"
+                        src="https://avatars.githubusercontent.com/u/37369621?v=4"
+                        alt="Portrait of Francesco Crocetti"
+                    >
+                    <figcaption>
+                        <div class="organizer-name">
+                            <a href="https://www.unipg.it/personale/francesco.crocetti/en/" target="_blank" rel="noreferrer">Francesco Crocetti</a>
+                        </div>
+                        <div class="organizer-affiliation">University of Perugia</div>
+                    </figcaption>
+                </figure>
+                <figure class="organizer-card">
+                    <img
+                        class="organizer-photo"
+                        src="https://isar.unipg.it/wp-content/uploads/2022/04/dionigi.png"
+                        alt="Portrait of Alberto Dionigi"
+                    >
+                    <figcaption>
+                        <div class="organizer-name">
+                            <a href="https://isar.unipg.it/alberto-dionigi/" target="_blank" rel="noreferrer">Alberto Dionigi</a>
+                        </div>
+                        <div class="organizer-affiliation">University of Perugia</div>
+                    </figcaption>
+                </figure>
+                <figure class="organizer-card">
+                    <img
+                        class="organizer-photo"
+                        src="https://isar.unipg.it/wp-content/uploads/2022/04/costante.png"
+                        alt="Portrait of Gabriele Costante"
+                    >
+                    <figcaption>
+                        <div class="organizer-name">
+                            <a href="https://isar.unipg.it/gabriele-costante/" target="_blank" rel="noreferrer">Gabriele Costante</a>
+                        </div>
+                        <div class="organizer-affiliation">University of Perugia</div>
+                    </figcaption>
+                </figure>
+            </div>
         </section>
 
         <section id="contact">
             <h2>Contact</h2>
             <p>
-                Yash Turkar:
-                <a href="mailto:yashturk@buffalo.edu">yashturk@buffalo.edu</a>
-            </p>
-            <p>
-                Karthik Dantu:
-                <a href="mailto:kdantu@buffalo.edu">kdantu@buffalo.edu</a>
+                For questions about the workshop, contact
+                <a href="mailto:yashturk@buffalo.edu">yashturk@buffalo.edu</a>.
             </p>
         </section>
     </main>

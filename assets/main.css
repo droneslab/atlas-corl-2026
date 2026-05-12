@@ -2,6 +2,7 @@
 
 * {
     border: 0;
+    box-sizing: border-box;
     font: inherit;
     font-size: 1em;
     margin: 0;
@@ -145,16 +146,21 @@ td {
     font-family: "Roboto Slab", serif;
 }
 
-table.navigation {
+.navigation {
     width: 900px;
+    margin: 12px auto 24px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 18px;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.25em;
 }
 
-td.navigation {
-    font-size: 1.35em;
+.navigation a {
     white-space: nowrap;
-    width: 20%;
-    text-align: center;
-    vertical-align: middle;
+    padding: 6px 10px;
+    border-radius: 8px;
 }
 
 .quote,
@@ -171,6 +177,144 @@ footer {
     font-size: 0.875em;
     margin-top: 8em;
     text-align: center;
+}
+
+.note {
+    color: #6b6b6b;
+    font-size: 0.98em;
+}
+
+.card-grid {
+    width: 900px;
+    margin: 24px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 18px;
+}
+
+.card {
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.07);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+}
+
+.speaker-card {
+    display: grid;
+    grid-template-columns: 124px 1fr;
+    align-items: center;
+    gap: 16px;
+    padding: 14px;
+}
+
+.card-media {
+    display: block;
+    background: linear-gradient(135deg, rgba(82, 115, 158, 0.12), rgba(178, 19, 46, 0.10));
+}
+
+.speaker-card .card-media {
+    width: 124px;
+}
+
+.card-media img {
+    display: block;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 4 / 5;
+    object-fit: cover;
+}
+
+.speaker-card .card-media img {
+    height: 148px;
+}
+
+.card-body {
+    padding: 14px 16px 16px;
+}
+
+.speaker-card .card-body {
+    padding: 0;
+}
+
+.card-title {
+    margin: 0;
+    font-size: 1.25em;
+}
+
+.card-title a {
+    color: #813c54;
+}
+
+.card-title a:hover {
+    color: #b2132e;
+}
+
+.card-subtitle {
+    width: auto;
+    margin: 10px 0 0;
+    color: #505050;
+}
+
+.card p {
+    width: auto;
+    margin: 10px 0 0;
+}
+
+.organizer-grid {
+    margin: 24px auto;
+    width: 100%;
+    max-width: 900px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    justify-content: center;
+}
+
+.organizer-card {
+    flex: 1 1 260px;
+    max-width: 280px;
+    text-align: center;
+}
+
+.organizer-photo {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.organizer-photo-top {
+    object-position: center top;
+}
+
+.organizer-name {
+    margin-top: 12px;
+    font-family: "Roboto Slab", serif;
+    font-size: 1.2em;
+    color: #813c54;
+}
+
+.organizer-name a {
+    color: inherit;
+}
+
+.organizer-name a:hover {
+    color: #b2132e;
+}
+
+.organizer-affiliation {
+    margin-top: 4px;
+    color: #606060;
+    font-size: 0.95em;
+}
+
+.organizer-contact {
+    display: block;
+    margin-top: 6px;
+    font-size: 0.95em;
 }
 
 @media only screen and (max-width: 1100px) {
@@ -190,7 +334,8 @@ footer {
     p,
     .subtitle-block,
     ul,
-    table.navigation {
+    .navigation,
+    .card-grid {
         width: 100%;
     }
 
@@ -200,7 +345,7 @@ footer {
 
     p,
     ul li,
-    td.navigation,
+    .navigation,
     .bottom-right {
         font-size: 1.15em;
         line-height: 1.5em;
@@ -214,4 +359,29 @@ footer {
     .bottom-right {
         padding: 0 24px 22px 24px;
     }
+
+    .navigation {
+        justify-content: flex-start;
+    }
+
+    .organizer-grid {
+        width: 100%;
+    }
+
+    .speaker-card {
+        grid-template-columns: 96px 1fr;
+    }
+
+    .speaker-card .card-media {
+        width: 96px;
+    }
+
+    .speaker-card .card-media img {
+        height: 116px;
+    }
+
+    .organizer-photo {
+        height: 240px;
+    }
+
 }
