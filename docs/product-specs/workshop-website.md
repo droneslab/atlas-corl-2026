@@ -18,8 +18,9 @@ The first release is a static single-page site adapted from the structure of `mi
   - a Program section describing a focused half-day format with invited talks, contributed posters or lightning talks, and a placeholder note that timing and session structure are pending confirmation
   - an Invited Speakers section with compact speaker cards (small headshot + name + affiliation) that link to external official profile pages and use external hosted headshot images
   - a Call for Papers section inviting **2-page extended abstracts (excluding references)**, with a placeholder note that deadlines and submission link are pending confirmation
-  - an Organizers section using photo cards with names, affiliations, and mailto links when available
-- Navigation is in-page anchor navigation with links for `Overview`, `Scope`, `Program`, `Speakers`, `Call for Papers`, and `Organizers`.
+  - an Organizers section using photo cards with names and affiliations
+  - a Contact section with the shared Yash Turkar workshop contact email
+- Navigation is in-page anchor navigation with links for `Overview`, `Scope`, `Program`, `Speakers`, `Call for Papers`, `Organizers`, and `Contact`.
 - Shared styling is defined in `assets/main.css`.
 
 ## Content Rules
