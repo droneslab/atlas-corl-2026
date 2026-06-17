@@ -5,23 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta
         name="description"
-        content="ATLAS is a CoRL 2026 workshop on active sensing and learning for robot perception."
+        content="Active Sensing and Learning for Robot Perception is a CoRL 2026 workshop on active perception, adaptive sensing, computational imaging, generative AI, and robot learning."
     >
     <meta name="resource-type" content="document">
     <meta name="distribution" content="global">
     <meta
         name="keywords"
-        content="ATLAS, CoRL 2026, workshop, robotics, active sensing, active perception, robot perception, active image formation, sensing control, computational imaging"
+        content="CoRL 2026, workshop, robotics, active sensing, active perception, robot perception, active image formation, sensing control, computational imaging, generative AI"
     >
-    <title>ATLAS Workshop | CoRL 2026</title>
+    <title>Active Sensing and Learning for Robot Perception | CoRL 2026</title>
     <link rel="stylesheet" type="text/css" media="all" href="assets/main.css">
 </head>
 <body>
     <div class="banner">
         <div class="banner-panel">
             <div class="top-left">
-                <span class="title1">ATLAS</span>
-                <span class="banner-title">Active Sensing and Learning for Robot Perception</span>
+                <span class="title1">Active Sensing and Learning for Robot Perception</span>
             </div>
             <div class="bottom-right">
                 November 9, 2026<br>
@@ -34,7 +33,7 @@
         <a class="current" href="#overview">Overview</a>
         <a href="#scope">Scope</a>
         <a href="#program">Program</a>
-        <a href="#challenge">Challenge</a>
+        <a href="#benchmark">Benchmark</a>
         <a href="#speakers">Speakers</a>
         <a href="#submissions">Call for Papers</a>
         <a href="#organizers">Organizers</a>
@@ -45,27 +44,28 @@
         <section id="overview">
             <h2>Overview</h2>
             <p>
-                ATLAS aims to build a focused forum around active image formation, multimodal sensing control,
-                and learning-based perception for embodied systems.
+                Active Sensing and Learning for Robot Perception brings together researchers working on adaptive
+                sensing policies, task-grounded perception, controllable acquisition, multimodal robot sensing,
+                computational imaging, and robot learning.
             </p>
             <p class="quote">
-                Robots increasingly operate in challenging and unstructured environments where illumination,
-                degraded transmission media, motion blur, latency, and power constraints undermine standard
-                sensing pipelines. ATLAS frames these scenarios as robot learning problems: sensing is not merely
-                a perception front end, but an action space that robots can control.
+                Robots are increasingly deployed in complex real-world environments, where reliable operation depends
+                on both understanding the surroundings and choosing appropriate actions. This workshop focuses on
+                active perception: robots deliberately choosing sensing actions to improve their understanding of the
+                environment.
             </p>
             <p>
-                The workshop uses active image formation as a concrete example of the broader sensing-formation
-                problem. Image formation includes exposure, gain, aperture, illumination, coded capture, and sensor
-                readout; sensing formation extends the same idea to LiDAR, radar, tactile arrays, acoustic sensors,
-                event cameras, and multimodal sensor suites.
+                The workshop views active perception through three complementary areas: computational imaging,
+                generative AI, and embodied decision making. Across these areas, controllable acquisition is itself
+                a form of robot intelligence, shaping what information is captured, how it is captured, and what
+                ambiguities remain before downstream perception begins.
             </p>
         </section>
 
         <section id="scope">
             <h2>Scope</h2>
             <p>
-                ATLAS is organized around these ideas:
+                The workshop targets the following open research challenges:
             </p>
             <ul class="scope-list">
                 <li>
@@ -93,16 +93,17 @@
                 </li>
             </ul>
             <p class="note">
-                Work on generic image enhancement, passive perception, broad foundation models, or generative imagery is in scope only
-                when it is tied to a robot sensing/control loop where the robot chooses how to acquire information.
+                Contributions on image enhancement, passive perception, broad foundation models, or generative imagery
+                are welcome when explicitly grounded in a robot sensing or control loop where acquisition choices are
+                part of the system.
             </p>
         </section>
 
         <section id="program">
             <h2>Program</h2>
             <p>
-                ATLAS is planned as a focused half-day interactive workshop combining invited talks, a poster session,
-                lightning talks, a challenge component, and closing discussion.
+                The event is planned as a focused half-day interactive workshop combining invited talks, a poster
+                session, lightning talks, a benchmark component, and closing discussion.
             </p>
             <table class="program-table" aria-label="Workshop program schedule">
                 <thead>
@@ -142,16 +143,16 @@
                     </tr>
                     <tr>
                         <td>12:15-12:45</td>
-                        <td>Challenge awards and closing remarks</td>
+                        <td>Benchmark discussions and closing remarks</td>
                     </tr>
                 </tbody>
             </table>
         </section>
 
-        <section id="challenge">
-            <h2>Active Illumination Challenge</h2>
+        <section id="benchmark">
+            <h2>Active Illumination Benchmark</h2>
             <p>
-                The workshop will include an Active Illumination Challenge built around a photorealistic simulation
+                The workshop will introduce an Active Illumination Benchmark built around a photorealistic simulation
                 environment where a robot follows fixed, pre-programmed trajectories through challenging visual scenes.
             </p>
             <p>
@@ -161,8 +162,9 @@
                 visual measurements should be formed through illumination.
             </p>
             <p class="note">
-                Challenge submissions will be evaluated with a SLAM pipeline run by the organizers, with results
-                discussed during the workshop.
+                The benchmark will be released as an open community resource with fixed trajectories and an open
+                evaluation pipeline based on downstream SLAM performance, with results discussed collectively during
+                the workshop rather than treated as a ranked competition.
             </p>
         </section>
 
@@ -377,7 +379,7 @@
     </main>
 
     <footer>
-        ATLAS Workshop
+        Active Sensing and Learning for Robot Perception
         &nbsp;|&nbsp;
         Based on the structure of the
         <a target="_blank" rel="noreferrer" href="https://github.com/mikepierce/conference-website-template">conference-website-template</a>
