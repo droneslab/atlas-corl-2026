@@ -88,38 +88,64 @@ td {
     text-align: left;
 }
 
+.program-table {
+    width: 900px;
+    border-collapse: collapse;
+    background: #ffffff;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+}
+
+.program-table th,
+.program-table td {
+    padding: 12px 16px;
+    border-bottom: 1px solid #ececec;
+    vertical-align: top;
+}
+
+.program-table th {
+    color: #813c54;
+    font-family: "Roboto Slab", serif;
+}
+
+.program-table td:first-child,
+.program-table th:first-child {
+    width: 170px;
+    white-space: nowrap;
+}
+
+.program-table tbody tr:last-child td {
+    border-bottom: 0;
+}
+
 .banner {
     position: relative;
     font-family: "Roboto Slab", serif;
 }
 
 .banner-panel {
-    position: relative;
-    height: 260px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 300px;
+    padding: 36px;
     background:
         linear-gradient(135deg, rgba(178, 19, 46, 0.85), rgba(82, 115, 158, 0.9)),
         #52739e;
 }
 
 .top-left {
-    font-size: 5em;
+    font-size: 4.5em;
     color: #fafafa;
-    width: 100%;
-    position: absolute;
-    padding: 36px 36px 0;
-    top: 0;
     line-height: 1.05em;
 }
 
 .bottom-right {
-    font-size: 2em;
+    align-self: flex-end;
+    max-width: 620px;
+    font-size: 1.55em;
     color: #fafafa;
-    line-height: 1.4em;
-    padding: 0 32px 28px 0;
+    line-height: 1.3em;
     text-align: right;
-    position: absolute;
-    bottom: 0;
-    right: 0;
     text-shadow: 0 0 6px #000000;
 }
 
@@ -129,38 +155,32 @@ td {
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.25);
 }
 
-.year {
+.banner-title {
     display: block;
-    margin-top: 12px;
-    font-size: 0.38em;
-    font-weight: lighter;
-    color: #f3e7c8;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-}
-
-.subtitle-block {
-    width: 900px;
-    font-size: 1.3em;
-    color: #52739e;
-    font-family: "Roboto Slab", serif;
+    max-width: 760px;
+    margin-top: 8px;
+    color: #ffffff;
+    font-size: 0.34em;
+    line-height: 1.25em;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.28);
 }
 
 .navigation {
-    width: 900px;
+    width: 1000px;
     margin: 12px auto 24px;
     display: flex;
     flex-wrap: wrap;
-    gap: 10px 18px;
+    gap: 8px 10px;
     justify-content: center;
     align-items: center;
-    font-size: 1.25em;
+    font-size: 1.1em;
 }
 
 .navigation a {
     white-space: nowrap;
-    padding: 6px 10px;
+    padding: 6px 8px;
     border-radius: 8px;
+    text-align: center;
 }
 
 .quote,
@@ -188,8 +208,8 @@ footer {
     width: 900px;
     margin: 24px auto;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-    gap: 18px;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 24px;
 }
 
 .card {
@@ -204,7 +224,7 @@ footer {
 
 .speaker-card {
     display: grid;
-    grid-template-columns: 124px 1fr;
+    grid-template-columns: 116px minmax(0, 1fr);
     align-items: center;
     gap: 16px;
     padding: 14px;
@@ -216,7 +236,7 @@ footer {
 }
 
 .speaker-card .card-media {
-    width: 124px;
+    width: 116px;
 }
 
 .card-media img {
@@ -228,7 +248,7 @@ footer {
 }
 
 .speaker-card .card-media img {
-    height: 148px;
+    height: 138px;
 }
 
 .card-body {
@@ -242,6 +262,7 @@ footer {
 .card-title {
     margin: 0;
     font-size: 1.25em;
+    overflow-wrap: anywhere;
 }
 
 .card-title a {
@@ -332,11 +353,15 @@ footer {
     }
 
     p,
-    .subtitle-block,
     ul,
     .navigation,
-    .card-grid {
+    .card-grid,
+    .program-table {
         width: 100%;
+    }
+
+    .card-grid {
+        grid-template-columns: 1fr;
     }
 
     h2 {
@@ -353,15 +378,19 @@ footer {
 
     .top-left {
         font-size: 3.2em;
-        padding: 28px 24px 0;
     }
 
     .bottom-right {
-        padding: 0 24px 22px 24px;
+        max-width: 100%;
+        font-size: 1.15em;
     }
 
     .navigation {
-        justify-content: flex-start;
+        display: grid;
+        grid-template-columns: repeat(4, max-content);
+        column-gap: 24px;
+        row-gap: 8px;
+        justify-content: center;
     }
 
     .organizer-grid {
@@ -384,4 +413,10 @@ footer {
         height: 240px;
     }
 
+}
+
+@media only screen and (max-width: 620px) {
+    .navigation {
+        grid-template-columns: repeat(2, max-content);
+    }
 }

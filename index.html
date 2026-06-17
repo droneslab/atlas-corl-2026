@@ -5,13 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta
         name="description"
-        content="ATLAS is a CoRL 2026 workshop on active image formation and sensing policies for embodied robotics tasks."
+        content="ATLAS is a CoRL 2026 workshop on active sensing and learning for robot perception."
     >
     <meta name="resource-type" content="document">
     <meta name="distribution" content="global">
     <meta
         name="keywords"
-        content="ATLAS, CoRL 2026, workshop, robotics, active perception, active image formation, sensing control, computational imaging"
+        content="ATLAS, CoRL 2026, workshop, robotics, active sensing, active perception, robot perception, active image formation, sensing control, computational imaging"
     >
     <title>ATLAS Workshop | CoRL 2026</title>
     <link rel="stylesheet" type="text/css" media="all" href="assets/main.css">
@@ -21,11 +21,11 @@
         <div class="banner-panel">
             <div class="top-left">
                 <span class="title1">ATLAS</span>
-                <span class="year">CoRL 2026 Workshop</span>
+                <span class="banner-title">Active Sensing and Learning for Robot Perception</span>
             </div>
             <div class="bottom-right">
                 November 9, 2026<br>
-                Conference on Robot Learning
+                Conference on Robot Learning (CoRL)
             </div>
         </div>
     </div>
@@ -34,6 +34,7 @@
         <a class="current" href="#overview">Overview</a>
         <a href="#scope">Scope</a>
         <a href="#program">Program</a>
+        <a href="#challenge">Challenge</a>
         <a href="#speakers">Speakers</a>
         <a href="#submissions">Call for Papers</a>
         <a href="#organizers">Organizers</a>
@@ -41,23 +42,23 @@
     </nav>
 
     <main>
-        <p class="subtitle-block">
-            Active perception, generative modeLing, and computational imAging for robotics Systems.
-        </p>
-
         <section id="overview">
             <h2>Overview</h2>
             <p>
-                ATLAS aims to build a forum around active image formation, multimodal sensing control, and learning
-                methods that convert better observations into better embodied behavior.
+                ATLAS aims to build a focused forum around active image formation, multimodal sensing control,
+                and learning-based perception for embodied systems.
             </p>
             <p class="quote">
-                Active perception in robotics has traditionally emphasized viewpoint selection and sensor placement,
-                while computational photography has shown that image formation itself can be controlled through
-                exposure, illumination, coding, and other acquisition choices. This workshop asks how robot learning
-                and generative models can unify these ideas: enabling robots to predict counterfactual observations
-                under alternative sensing actions, optimize how data is acquired, and improve downstream performance
-                in navigation, SLAM, manipulation, and exploration.
+                Robots increasingly operate in challenging and unstructured environments where illumination,
+                degraded transmission media, motion blur, latency, and power constraints undermine standard
+                sensing pipelines. ATLAS frames these scenarios as robot learning problems: sensing is not merely
+                a perception front end, but an action space that robots can control.
+            </p>
+            <p>
+                The workshop uses active image formation as a concrete example of the broader sensing-formation
+                problem. Image formation includes exposure, gain, aperture, illumination, coded capture, and sensor
+                readout; sensing formation extends the same idea to LiDAR, radar, tactile arrays, acoustic sensors,
+                event cameras, and multimodal sensor suites.
             </p>
         </section>
 
@@ -68,13 +69,19 @@
             </p>
             <ul class="scope-list">
                 <li>
-                    <strong>Controllable image formation for embodied tasks:</strong> adaptive exposure, gain, and HDR
-                    for VIO or SLAM; active illumination for grasping transparent or low-texture objects; coded, thermal,
-                    event, multispectral, or active sensing for dust, fog, underwater, nighttime, and high dynamic range scenes.
+                    <strong>Active image formation for embodied tasks:</strong> adaptive exposure, gain, HDR,
+                    illumination intensity, illumination direction, optical coding, and sensor readout for VIO, SLAM,
+                    navigation, manipulation, and inspection.
                 </li>
                 <li>
-                    <strong>Counterfactual models of sensing actions:</strong> generative or physics-aware models that predict
-                    what a robot would observe under alternate exposure, lighting, modality, viewpoint, or coded acquisition choices.
+                    <strong>Active sensing formation beyond cameras:</strong> adaptive field-of-view control,
+                    scan allocation, zooming LiDAR, mmWave beamforming, acoustic probing, tactile exploration,
+                    event-camera triggering, and multimodal acquisition policies.
+                </li>
+                <li>
+                    <strong>Counterfactual models of image-formation and sensing actions:</strong> generative or
+                    physics-aware models that predict what a robot would observe under alternate exposure, gain,
+                    lighting, coded capture, scan density, radar beam pattern, waveform, modality, or viewpoint choices.
                 </li>
                 <li>
                     <strong>Policies for choosing how to sense:</strong> learning and control methods that optimize sensing
@@ -94,11 +101,68 @@
         <section id="program">
             <h2>Program</h2>
             <p>
-                ATLAS is planned as a focused half-day workshop with invited talks, contributed posters or lightning talks,
-                and discussion around challenge-driven questions.
+                ATLAS is planned as a focused half-day interactive workshop combining invited talks, a poster session,
+                lightning talks, a challenge component, and closing discussion.
             </p>
-            <p class="quote">
-                Exact timing, submission logistics, and final session structure will be updated once confirmed.
+            <table class="program-table" aria-label="Workshop program schedule">
+                <thead>
+                    <tr>
+                        <th>Time</th>
+                        <th>Activity</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>8:30-8:45</td>
+                        <td>Welcome remarks</td>
+                    </tr>
+                    <tr>
+                        <td>8:45-9:15</td>
+                        <td>Invited Talk 1</td>
+                    </tr>
+                    <tr>
+                        <td>9:15-9:45</td>
+                        <td>Invited Talk 2</td>
+                    </tr>
+                    <tr>
+                        <td>9:45-10:15</td>
+                        <td>Poster session</td>
+                    </tr>
+                    <tr>
+                        <td>10:15-10:45</td>
+                        <td>Invited Talk 3</td>
+                    </tr>
+                    <tr>
+                        <td>10:45-11:15</td>
+                        <td>Invited Talk 4</td>
+                    </tr>
+                    <tr>
+                        <td>11:15-12:15</td>
+                        <td>Lightning talks</td>
+                    </tr>
+                    <tr>
+                        <td>12:15-12:45</td>
+                        <td>Challenge awards and closing remarks</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="challenge">
+            <h2>Active Illumination Challenge</h2>
+            <p>
+                The workshop will include an Active Illumination Challenge built around a photorealistic simulation
+                environment where a robot follows fixed, pre-programmed trajectories through challenging visual scenes.
+            </p>
+            <p>
+                Participants will design algorithms that control a constrained robot-mounted light source, including
+                its intensity and direction, while the robot executes each trajectory. The setup isolates the sensing
+                control problem: participants cannot change the robot motion or perception backend, but can decide how
+                visual measurements should be formed through illumination.
+            </p>
+            <p class="note">
+                Challenge submissions will be evaluated with a SLAM pipeline run by the organizers, with results
+                discussed during the workshop.
             </p>
         </section>
 
@@ -108,24 +172,24 @@
                 <article class="card speaker-card" role="listitem">
                     <a
                         class="card-media"
-                        href="https://profiles.rice.edu/faculty/ashok-veeraraghavan"
+                        href="https://web.stanford.edu/~bohg/"
                         target="_blank"
                         rel="noreferrer"
-                        aria-label="Ashok Veeraraghavan profile"
+                        aria-label="Jeannette Bohg profile"
                     >
                         <img
-                            src="https://profiles.rice.edu/sites/g/files/bxs3881/files/2022-11/Ashok-Veeraraghavan-600px.jpg"
-                            alt="Ashok Veeraraghavan"
+                            src="https://web.stanford.edu/~bohg/img/portrait_square.png"
+                            alt="Jeannette Bohg"
                             loading="lazy"
                         >
                     </a>
                     <div class="card-body">
                         <h3 class="card-title">
-                            <a href="https://profiles.rice.edu/faculty/ashok-veeraraghavan" target="_blank" rel="noreferrer">
-                                Ashok Veeraraghavan
+                            <a href="https://web.stanford.edu/~bohg/" target="_blank" rel="noreferrer">
+                                Jeannette Bohg
                             </a>
                         </h3>
-                        <p class="card-subtitle">Rice University</p>
+                        <p class="card-subtitle">Stanford University</p>
                     </div>
                 </article>
 
@@ -150,6 +214,30 @@
                             </a>
                         </h3>
                         <p class="card-subtitle">Carnegie Mellon University</p>
+                    </div>
+                </article>
+
+                <article class="card speaker-card" role="listitem">
+                    <a
+                        class="card-media"
+                        href="https://profiles.rice.edu/faculty/ashok-veeraraghavan"
+                        target="_blank"
+                        rel="noreferrer"
+                        aria-label="Ashok Veeraraghavan profile"
+                    >
+                        <img
+                            src="https://profiles.rice.edu/sites/g/files/bxs3881/files/2022-11/Ashok-Veeraraghavan-600px.jpg"
+                            alt="Ashok Veeraraghavan"
+                            loading="lazy"
+                        >
+                    </a>
+                    <div class="card-body">
+                        <h3 class="card-title">
+                            <a href="https://profiles.rice.edu/faculty/ashok-veeraraghavan" target="_blank" rel="noreferrer">
+                                Ashok Veeraraghavan
+                            </a>
+                        </h3>
+                        <p class="card-subtitle">Rice University</p>
                     </div>
                 </article>
 
@@ -182,14 +270,19 @@
         <section id="submissions">
             <h2>Call for Papers</h2>
             <p>
-                We invite <strong>2-page extended abstracts, excluding references</strong>, on research directions that fit the workshop scope.
+                We invite <strong>1-2 page extended abstracts, excluding references</strong>, on research directions that fit the workshop scope.
             </p>
             <p>
-                Submissions may include early ideas, preliminary results, negative results, demos, challenge statements, datasets,
-                benchmarks, systems, evaluations, or position pieces.
+                Submissions may include completed research, preliminary results, position papers, datasets, benchmarks,
+                system demonstrations, negative results, or challenge statements.
             </p>
             <p>
-                Contributions should make clear how sensing is treated as an action space for a robot, embodied agent, or task-grounded perception system.
+                All submissions will be non-archival. Accepted papers will be presented as posters, and a subset will
+                be selected for lightning talks based on fit, reviewer feedback, and the workshop program.
+            </p>
+            <p>
+                Contributions should make clear how sensing is treated as an action space for a robot, embodied agent,
+                or task-grounded perception system.
             </p>
             <p class="note">
                 Submission deadlines and the submission link will be added once finalized.
